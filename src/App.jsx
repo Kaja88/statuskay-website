@@ -28,12 +28,10 @@ function App() {
                 loop
                 playsInline
             >
-
               <source
                   src={heroVideo}
                   type="video/mp4"
               />
-
             </video>
 
             <div className="hero__content container">
@@ -93,7 +91,7 @@ function App() {
                     href="#services"
                     className="button button-outline"
                 >
-                  {t("servicesSubtitle")}
+                  {t("ourServices")}
                 </a>
 
               </div>
@@ -128,12 +126,11 @@ function App() {
                 <article className="service-card">
 
                   <h3>
-                    Balayage
+                    {t("service1Title")}
                   </h3>
 
                   <p>
-                    Natural dimensional coloring with
-                    luxury finishing techniques.
+                    {t("service1Text")}
                   </p>
 
                 </article>
@@ -141,12 +138,11 @@ function App() {
                 <article className="service-card">
 
                   <h3>
-                    Blonding
+                    {t("service2Title")}
                   </h3>
 
                   <p>
-                    Premium blonde transformations
-                    tailored to your features.
+                    {t("service2Text")}
                   </p>
 
                 </article>
@@ -154,12 +150,11 @@ function App() {
                 <article className="service-card">
 
                   <h3>
-                    Extensions
+                    {t("service3Title")}
                   </h3>
 
                   <p>
-                    Seamless extension application for
-                    volume, length and styling freedom.
+                    {t("service3Text")}
                   </p>
 
                 </article>
