@@ -1,29 +1,28 @@
 import { useEffect, useState } from "react";
-
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
+
+import { routes } from "../../config/routes";
+
+import "./Navbar.css";
 
 function Navbar() {
 
-    const [scrolled, setScrolled] = useState(false);
+    const { i18n } = useTranslation();
 
-    const { i18n, t } = useTranslation();
+    const lang = i18n.language;
+
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
 
-        function handleScroll() {
-
-            if (window.scrollY > 40) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
-        }
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 40);
+        };
 
         window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
+        return () => window.removeEventListener("scroll", handleScroll);
 
     }, []);
 
@@ -31,54 +30,75 @@ function Navbar() {
 
         <header className={scrolled ? "navbar scrolled" : "navbar"}>
 
-            <div className="navbar__container">
+            <div className="container navbar__container">
 
                 {/* LOGO */}
 
-                <a
-                    href="/"
+                <NavLink
+                    to={`/${lang}`}
                     className="navbar__logo"
                 >
                     STATUS KAY
-                </a>
+                </NavLink>
 
-                {/* NAVIGATION */}
+                {/* MENU */}
 
-                <nav className="navbar__navigation">
+                <nav>
 
                     <ul className="navbar__menu">
 
                         <li>
-
-                            <a
-                                href="#about"
+                            <NavLink
+                                to={`/${lang}/${routes.about.path[lang]}`}
                                 className="navbar__link"
                             >
-                                {t("aboutSubtitle")}
-                            </a>
-
+                                {routes.about.label[lang]}
+                            </NavLink>
                         </li>
 
                         <li>
-
-                            <a
-                                href="#services"
+                            <NavLink
+                                to={`/${lang}/${routes.services.path[lang]}`}
                                 className="navbar__link"
                             >
-                                {t("servicesSubtitle")}
-                            </a>
-
+                                {routes.services.label[lang]}
+                            </NavLink>
                         </li>
 
                         <li>
-
-                            <a
-                                href="#contact"
+                            <NavLink
+                                to={`/${lang}/${routes.gallery.path[lang]}`}
                                 className="navbar__link"
                             >
-                                {t("contactSubtitle")}
-                            </a>
+                                {routes.gallery.label[lang]}
+                            </NavLink>
+                        </li>
 
+                        <li>
+                            <NavLink
+                                to={`/${lang}/${routes.blog.path[lang]}`}
+                                className="navbar__link"
+                            >
+                                {routes.blog.label[lang]}
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink
+                                to={`/${lang}/${routes.directions.path[lang]}`}
+                                className="navbar__link"
+                            >
+                                {routes.directions.label[lang]}
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink
+                                to={`/${lang}/${routes.contact.path[lang]}`}
+                                className="navbar__link"
+                            >
+                                {routes.contact.label[lang]}
+                            </NavLink>
                         </li>
 
                     </ul>
@@ -92,22 +112,32 @@ function Navbar() {
                     <button
                         onClick={() => i18n.changeLanguage("en")}
                     >
-                        EN
+                        🇬🇧
                     </button>
 
                     <button
                         onClick={() => i18n.changeLanguage("sl")}
                     >
-                        SL
+                        🇸🇮
                     </button>
 
                 </div>
+
+                {/* BOOK BUTTON */}
+
+                <NavLink
+                    to={`/${lang}/${routes.booking.path[lang]}`}
+                    className="button"
+                >
+                    {routes.booking.label[lang]}
+                </NavLink>
 
             </div>
 
         </header>
 
     );
+
 }
 
 export default Navbar;
