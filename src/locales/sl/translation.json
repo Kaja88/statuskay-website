@@ -1,11 +1,15 @@
 {
-  "heroSubtitle": "Luksuzna izkušnja za lase",
+  "heroSubtitle": "Salonska izkušnja",
   "discoverMore": "Odkrij več",
 
   "aboutSubtitle": "O nas",
   "aboutTitle": "Sodobna umetnost oblikovanja las v Ljubljani",
 
   "aboutText": "STATUS KAY združuje luksuzno salonsko estetiko, natančno oblikovanje pričesk in premium nego las v dovršeno izkušnjo.",
+
+  "readOurStory": "Preberi našo zgodbo",
+  "viewAllServices": "Vse storitve",
+  "bookNow": "Rezerviraj termin",
 
   "servicesSubtitle": "Storitve",
   "servicesTitle": "Prepoznavni tretmaji",
@@ -16,9 +20,197 @@
   "service2Title": "Blondiranje",
   "service2Text": "Premium blond preobrazbe prilagojene vašim potrebam.",
 
-  "service3Title": "Striženje",
-  "service3Text": "Za dame in gospode, uporabljamo natančne in precizne tehnike za poudarjanje potez vašega obraza",
+  "service3Title": "Žensko striženje",
+  "service3Text": "Ženska pričeska, oblikovana z natančnimi rezili, prilagojena obliki vašega obraza.",
 
   "contactSubtitle": "Kontakt",
-  "contactTitle": "Rezervirajte svoj termin"
+  "contactTitle": "Rezervirajte svoj termin",
+
+  "footerTagline": "Salonska izkušnja v samem srcu Ljubljane, ustvarjena na natančnosti, skrbi in sodobni umetnosti oblikovanja.",
+  "footerExplore": "Raziskujte",
+  "footerContact": "Kontakt",
+  "footerAddress": "Trg osvobodilne fronte 13, 1000 Ljubljana",
+  "footerRights": "Vse pravice pridržane.",
+
+  "aboutEyebrow": "Naša zgodba",
+  "aboutPageTitle": "Zgodba za STATUS KAY",
+  "aboutIntro": "STATUS KAY je nastal iz preproste ideje: salonska izkušnja, ki lase obravnava kot obrt, ne kot izdelek.",
+
+  "storyEyebrow": "Od prvega dne",
+  "storyTitle": "Natančnost, skrb, osebnost",
+  "storyText1": "Kar se je začelo kot majhen studio, odprt sredi korone v samem središču Ljubljane, je v skoraj desetih letih zraslo v enega izmed najbolj zaupanja vrednih studiev za barvanje in striženje v mestu — brez izgube osebnega pristopa, s katerim smo začeli.",
+  "storyText2": "Vsak obisk gradimo okoli prave konzultacije, iskrenega nasveta in tehnik, izpopolnjenih skozi leta dela z vsemi tipi las, tako da rezultat resnično ustreza vašemu vsakdanu, ne le fotografiji, ki ste jo prinesli s seboj.",
+
+  "meetEyebrow": "Spoznajte me",
+  "meetTitle": "Nekaj besed o meni",
+  "meetText1": "Frizerstvu se posvečam že vrsto let in ravno v tem poklicu sem našla popolno kombinacijo natančnosti in ustvarjalnosti. Po naravi sem izjemno natančna – vsak detajl, od odtenka do zadnjega pramena, mi veliko pomeni.",
+  "meetText2": "A najbolj me navdušuje delo z ljudmi: pogovori med termini so zame prav tako pomembni kot rezultat, ki ga vidite v ogledalu. Ko ne stojim za frizerskim stolom, me največkrat najdete na sprehodu s svojo psičko, ki mi je zvesta spremljevalka na prav vsakem koraku, med vrtičkanjem ali na kolesu.",
+
+  "valuesEyebrow": "Kaj nas vodi",
+  "valuesTitle": "Naše vrednote",
+
+  "value1Title": "Obrt",
+  "value1Text": "Vsako barvanje in striženje obravnavamo kot tehnično disciplino, ki jo nenehno izpopolnjujemo z izobraževanjem.",
+
+  "value2Title": "Skrb",
+  "value2Text": "Premium izdelki in tretmaji, ki ohranjajo kakovost las prav toliko, kot jih preobražajo.",
+
+  "value3Title": "Iskrenost",
+  "value3Text": "Realni nasveti pri vsaki konzultaciji — povemo vam, kaj bo za vaše lase zares delovalo.",
+
+  "servicesPageEyebrow": "Kaj počnemo",
+  "servicesPageTitle": "Storitve in tretmaji",
+  "servicesPageIntro": "Od subtilne dimenzije do popolne preobrazbe — vsaka storitev se začne s konzultacijo, da rezultat gradimo okoli vaših las, ne trenda.",
+
+  "service4Title": "Styling",
+  "service4Text": "Feniranje ter styling za dogodke in fotografiranja, dovršen po luksuznih salonskih standardih.",
+
+  "service5Title": "Korekcija barve",
+  "service5Text": "Skrbna korekcija neuspele barve, ki poleg odtenka obnovi tudi kakovost las.",
+
+  "service6Title": "Manikura",
+  "service6Text": "Urejanje nohtov brez laka, ali gelish/permanentni lak, zaključeno z enako natančnostjo kot naše storitve za lase.",
+
+  "service7Title": "Prameni",
+  "service7Text": "Klasični prameni s folijami za dimenzijo, od subtilnih do polnih.",
+
+  "service8Title": "Frizerstvo za moške",
+  "service8Text": "Precizni fade-i, oblikovanje brade in oldschool striženje s škarjicami, narejeno pravilno.",
+
+  "service9Title": "Toniranje",
+  "service9Text": "Toniranje po barvanju za nevtralizacijo neželenih tonov in popoln končni odtenek.",
+
+  "servicesNote": "Cene se razlikujejo glede na dolžino, gostoto las in izbrano tehniko — natančno ponudbo prejmete na konzultaciji.",
+  "servicesCta": "Rezerviraj konzultacijo",
+
+  "service1SeoTitle": "Balayage Ljubljana | STATUS KAY",
+  "service1SeoDescription": "Balayage barvanje las v Ljubljani – naravni prehodi barve in luksuzne tehnike zaključevanja v salonu STATUS KAY blizu železniške postaje.",
+  "service1LongText": "Balayage je tehnika prostoročnega barvanja, ki ustvari mehke, naravne prehode barve brez ostrih linij. V STATUS KAY vsak balayage prilagodimo vaši osnovni barvi, dolžini in strukturi las, tako da rezultat zgleda, kot bi ga podarilo sonce, ne salon. Cena vključuje posvetlitev in toniranje las, brez stylinga.",
+
+  "service2SeoTitle": "Blondiranje Ljubljana | STATUS KAY",
+  "service2SeoDescription": "Profesionalno blondiranje v Ljubljani – premium blond preobrazbe, prilagojene vaši polti in strukturi las, v salonu STATUS KAY.",
+  "service2LongText": "Blondiranje je ena najbolj zahtevnih tehnik barvanja, saj zahteva natančno oceno stanja las in pravi izbor nianse. Tehniko pogosto imenujemo tudi 'dvojni proces' (double process). V STATUS KAY najprej ocenimo vaše lase in skupaj določimo odtenek, ki bo laskal vaši polti, nato pa proces izpeljemo postopoma, da ohranimo kakovost las. Uporabljamo kakovostna belila z Wellaplex tehnologijo, ki med procesom ohranja vezi v lasu.",
+
+  "service3SeoTitle": "Žensko striženje Ljubljana | STATUS KAY",
+  "service3SeoDescription": "Žensko striženje v Ljubljani – precizni rezi, prilagojeni obliki obraza, v salonu STATUS KAY blizu centra.",
+  "service3LongText": "Dobro striženje je osnova vsake pričeske. V STATUS KAY ženske lase strižemo z natančnimi rezili, prilagojenimi obliki obraza, gostoti in strukturi las, tako da pričeska ohrani obliko tudi med posameznimi obiski salona.",
+
+  "service4SeoTitle": "Styling las Ljubljana | STATUS KAY",
+  "service4SeoDescription": "Feniranje in styling za posebne priložnosti v Ljubljani – dovršen videz za dogodke in fotografiranja v salonu STATUS KAY.",
+  "service4LongText": "Za posebne priložnosti, poroke ali fotografiranja ponujamo styling po meri – od klasičnega feniranja do bolj dovršenih pričesk. Termin prilagodimo dogodku in vašemu želenemu videzu.",
+
+  "service5SeoTitle": "Korekcija barve las Ljubljana | STATUS KAY",
+  "service5SeoDescription": "Korekcija neuspešnega barvanja las v Ljubljani – strokovna obnova barve in kakovosti las v salonu STATUS KAY.",
+  "service5LongText": "Če barvanje ni šlo po načrtih, smo tu, da to popravimo. Korekcija barve zahteva potrpežljivost in izkušnje – v STATUS KAY najprej ocenimo stanje las in nato postopoma obnovimo želeni odtenek, pri čemer je prednost vedno zdravje las.",
+
+  "service6SeoTitle": "Manikura Ljubljana | STATUS KAY",
+  "service6SeoDescription": "Manikura in nega nohtov v Ljubljani – klasična in gel izvedba v salonu STATUS KAY, lahko v istem terminu kot ureditev las.",
+  "service6LongText": "Manikura pri STATUS KAY je enako premišljena kot vsaka izmed naših storitev za lase – oblika in nega obnohtne kožice brez laka, ali z gelish/permanentnim lakom, vse v enem sproščenem terminu. Kombinirajte jo z rednim obiskom pri frizerju ali rezervirajte samostojno.",
+
+  "service7SeoTitle": "Prameni Ljubljana | STATUS KAY",
+  "service7SeoDescription": "Prameni las v Ljubljani – klasično barvanje s folijami za dimenzijo v salonu STATUS KAY.",
+  "service7LongText": "Prameni so klasična pot do svetlejših las z več dimenzije – posamezni prameni, zaviti v folijo in posvetljeni do želenega odtenka, od nekaj pramenov ob obrazu do cele glave. V STATUS KAY postavitev in intenzivnost prilagodimo temu, kako subtilen ali izrazit rezultat želite. Prameni so tudi odlična izbira za prve sivčke, saj jih naravno prekrijejo in zabrišejo.",
+
+  "service8SeoTitle": "Frizer za moške Ljubljana | STATUS KAY",
+  "service8SeoDescription": "Frizerske storitve za moške v Ljubljani – fade rezi, urejanje brade in moška nega v salonu STATUS KAY.",
+  "service8LongText": "Od čistih fade rezov do oblikovanja brade in oldschool striženja s škarjami, naša ponudba za moške pokriva pravo moško nego od konzultacije do zaključka. Redni gostje si rezervirajo stalni termin, da so med obiski vedno urejeni.",
+
+  "service9SeoTitle": "Toniranje Ljubljana | STATUS KAY",
+  "service9SeoDescription": "Toniranje las v Ljubljani – nevtralizacija neželenih tonov in fino uglaševanje barve v salonu STATUS KAY.",
+  "service9LongText": "Toniranje je zaključni korak po posvetlitvi ali pramenih – nežen premaz, ki nevtralizira rumene ali bakrene tone in poenoti barvo las v čist, enakomeren odtenek. Postopek je hiter, nezahteven in opazno osveži videz vaše barve.",
+
+  "serviceBackLink": "Vse storitve",
+  "serviceCtaTitle": "Rezerviraj termin",
+
+  "blogBackLink": "Vse objave",
+  "blogFaqTitle": "Pogosta vprašanja",
+
+  "blogEyebrow": "Dnevnik",
+  "blogTitle": "Iz studia",
+  "blogIntro": "Zapiski o negi las, barvnih trendih in dogajanju pri STATUS KAY.",
+
+  "directionsEyebrow": "Obiščite nas",
+  "directionsTitle": "Kako do nas",
+  "directionsIntro": "Nahajamo se v centru Ljubljane, le nekaj korakov od Prešernovega trga.",
+
+  "wayfindingHint": "Izberi smer, od koder prihajaš.",
+  "wayfindingMapsCta": "Odpri Navigacijo V Google Maps",
+  "wayfindingComingSoon": "Fotografije poti kmalu na voljo.",
+  "wayfindingNext": "Naprej",
+
+  "directionsAddressLabel": "Naslov",
+  "directionsAddressValue": "Trg osvobodilne fronte 13, 1000 Ljubljana",
+
+  "directionsHoursLabel": "Delovni čas",
+  "hoursByAppointment": "Po dogovoru",
+  "hoursGoogleNote": "Trenutni urnik najdete na Google Maps.",
+  "directionsAvailabilityCta": "Poglej proste termine",
+  "directionsSeeMapCta": "Poglej kako do nas",
+
+  "transportEyebrow": "Prevoz",
+  "transportTitle": "Parkiranje in prevoz",
+  "transportIntro": "Naša priporočila za parkiranje in prevoz do studia — koristno, če prihajate od drugod.",
+  "transportParkingTitle": "Parkiranje",
+  "transportSharingTitle": "Souporaba koles, skirojev in avtomobilov",
+  "transportTaxiTitle": "Taxi",
+  "transportBusTitle": "Mestni avtobus (LPP)",
+  "transportNote": "To so naša priporočila — predvsem koristno, če ste v Ljubljani prvič.",
+
+  "contactPageEyebrow": "Stopite v stik",
+  "contactPageTitle": "Kontaktirajte nas",
+  "contactPageIntro": "Vprašanja o storitvi, prejšnji barvi ali karkoli drugega — pošljite nam sporočilo in se vam bomo oglasili.",
+
+  "formNameLabel": "Ime",
+  "formEmailLabel": "E-pošta",
+  "formMessageLabel": "Sporočilo",
+  "formSubmit": "Pošlji sporočilo",
+
+  "contactInfoTitle": "Kontaktirajte nas neposredno",
+  "contactPhoneLabel": "Telefon",
+  "contactEmailLabel": "E-pošta",
+  "contactAddressLabel": "Studio",
+
+  "bookingEyebrow": "Rezervirajte termin",
+  "bookingPageTitle": "Rezervirajte svoj obisk",
+  "bookingIntro": "Spletne rezervacije še nimamo — a nas dosežete v manj kot minuti preko ene od spodnjih možnosti.",
+
+  "bookingCallTitle": "Pokličite studio",
+  "bookingCallText": "Najhitrejši način rezervacije — pomagamo vam izbrati pravo storitev in termin. Če ravno delamo, vam vrnemo klic, takoj ko utegnemo.",
+  "bookingCallCta": "Pokličite +386 41 510 780",
+
+  "bookingOnlineTitle": "Naroči se online",
+  "bookingOnlineText": "Rezervirajte termin kar prek spleta — izberite storitev in urnik, ki vam ustreza, brez čakanja na odgovor.",
+  "bookingOnlineCta": "Naroči se zdaj",
+
+  "bookingInstagramTitle": "Sporočilo na Instagramu",
+  "bookingInstagramText": "Raje preko sporočil? Pošljite nam svojo razpoložljivost, za ostalo poskrbimo mi.",
+  "bookingInstagramCta": "Odpri Instagram",
+
+  "notFoundTitle": "Stran ne obstaja",
+  "notFoundText": "Stran, ki jo iščete, ne obstaja ali je bila premaknjena.",
+  "notFoundCta": "Nazaj domov",
+
+  "formConsentLabel": "Strinjam se, da STATUS KAY uporabi zgornje podatke za odgovor na moje povpraševanje. Več v",
+  "formConsentLink": "politiki zasebnosti",
+
+  "privacyEyebrow": "Pravno",
+  "privacyPageTitle": "Politika zasebnosti",
+  "privacyUpdated": "Zadnja posodobitev: julij 2026",
+
+  "privacyIntroText": "Ta stran pojasnjuje, katere osebne podatke zbira spletna stran STATUS KAY, kako jih uporabljamo in kakšne pravice imate v zvezi z njimi.",
+
+  "privacyDataTitle": "Kateri podatki se zbirajo",
+  "privacyDataText": "Edini osebni podatki, ki jih zbiramo, so tisti, ki jih vnesete v kontaktni obrazec — ime, e-poštni naslov in sporočilo. Ta stran nima lastnega strežnika ali baze podatkov: ko oddate obrazec, se preprosto odpre vaš lastni e-poštni odjemalec s pripravljenim sporočilom, ki ga pošljete sami. Na naši strani se ne shrani nič.",
+
+  "privacyUseTitle": "Kako uporabljamo podatke",
+  "privacyUseText": "Podatke, ki nam jih pošljete po e-pošti, uporabimo izključno za odgovor na vaše povpraševanje. Ne uporabljamo jih za oglaševanje, jih ne prodajamo in ne delimo s tretjimi osebami.",
+
+  "privacyThirdPartyTitle": "Storitve tretjih oseb",
+  "privacyThirdPartyText": "Na strani Kako do nas je vgrajen zemljevid Google Maps, na strani Rezervacija pa povezava do Fresha za spletno rezervacijo. Obe storitvi delujeta po svoji lastni politiki zasebnosti, na katero nimamo vpliva.",
+
+  "privacyRightsTitle": "Vaše pravice",
+  "privacyRightsText": "Ker sporočilo, ki ga pošljete prek kontaktnega obrazca, gre neposredno iz vašega e-poštnega predala, imate nad njim polni nadzor — lahko ga kadarkoli izbrišete. Za vsa vprašanja glede zasebnosti nas kontaktirajte na spodnji e-naslov.",
+
+  "privacyContactTitle": "Kontakt za zasebnost",
+  "privacyContactText": "Za vsa vprašanja o tej politiki zasebnosti nam pišite na"
 }

@@ -1,11 +1,15 @@
 {
-  "heroSubtitle": "Luxury Hair Experience",
+  "heroSubtitle": "Salon Experience",
   "discoverMore": "Discover More",
 
   "aboutSubtitle": "About Us",
   "aboutTitle": "Modern Hair Artistry In Ljubljana",
 
   "aboutText": "STATUS KAY combines luxury salon aesthetics, precision styling and premium hair care into a refined client experience.",
+
+  "readOurStory": "Read Our Story",
+  "viewAllServices": "View All Services",
+  "bookNow": "Book Now",
 
   "servicesSubtitle": "Services",
   "servicesTitle": "Signature Treatments",
@@ -16,9 +20,197 @@
   "service2Title": "Blonding",
   "service2Text": "Premium blonde transformations tailored to your needs.",
 
-  "service3Title": "Haircuts",
-  "service3Text": "For ladies and gentlemen, best techniques to enhance your features",
+  "service3Title": "Women's Haircut",
+  "service3Text": "A women's hairstyle, cut with precision and shaped to your face.",
 
   "contactSubtitle": "Contact",
-  "contactTitle": "Book Your Appointment"
+  "contactTitle": "Book Your Appointment",
+
+  "footerTagline": "A salon experience in the heart of Ljubljana, crafted around precision, care and modern artistry.",
+  "footerExplore": "Explore",
+  "footerContact": "Contact",
+  "footerAddress": "Trg osvobodilne fronte 13, 1000 Ljubljana, Slovenia",
+  "footerRights": "All rights reserved.",
+
+  "aboutEyebrow": "Our Story",
+  "aboutPageTitle": "The STATUS KAY Story",
+  "aboutIntro": "STATUS KAY was founded on a simple idea: a salon experience that treats hair as a craft, not a commodity.",
+
+  "storyEyebrow": "Since Day One",
+  "storyTitle": "Precision, Care, Personality",
+  "storyText1": "What began as a small studio, opened in the middle of the Covid years in the heart of Ljubljana, has grown over almost a decade into one of the city's most trusted studios for colour and cut — without losing the personal attention that started it all.",
+  "storyText2": "Every visit is built around a real consultation, honest advice and techniques refined over years of working with all hair types, so what you leave with actually fits your life, not just the photo you brought in.",
+
+  "meetEyebrow": "Meet Me",
+  "meetTitle": "A Few Words About Me",
+  "meetText1": "I've been in hairdressing for many years, and it's exactly this craft that lets me combine precision with creativity. By nature, I'm extremely meticulous — every detail, from the shade to the very last strand, matters to me.",
+  "meetText2": "But what I love most is working with people: the conversations during an appointment mean just as much to me as the result you see in the mirror. When I'm not behind the chair, you'll usually find me on a walk with my dog — my loyal companion on every step — gardening, or out on my bike.",
+
+  "valuesEyebrow": "What Guides Us",
+  "valuesTitle": "Our Values",
+
+  "value1Title": "Craft",
+  "value1Text": "Every colour and cut is treated as a technical discipline, refined through continuous training.",
+
+  "value2Title": "Care",
+  "value2Text": "Premium, hair-first products and treatments that protect condition as much as they transform it.",
+
+  "value3Title": "Honesty",
+  "value3Text": "Realistic advice at every consultation — we tell you what will genuinely work for your hair.",
+
+  "servicesPageEyebrow": "What We Do",
+  "servicesPageTitle": "Services & Treatments",
+  "servicesPageIntro": "From subtle dimension to full transformation, every service starts with a consultation so the result is built around your hair, not a trend.",
+
+  "service4Title": "Styling",
+  "service4Text": "Blow-dry, event and editorial styling finished to a luxury salon standard.",
+
+  "service5Title": "Colour Correction",
+  "service5Text": "Careful correction for colour gone wrong, restoring condition alongside the shade.",
+
+  "service6Title": "Manicure",
+  "service6Text": "Nail shaping with no polish, or gelish/long-lasting polish, finished with the same precision as our hair services.",
+
+  "service7Title": "Highlights",
+  "service7Text": "Classic foil highlights for dimension and brightness, from subtle to full-head.",
+
+  "service8Title": "Barbering",
+  "service8Text": "Precise fades, beard shaping and old-school scissor cuts, done properly.",
+
+  "service9Title": "Toning",
+  "service9Text": "Post-colour toning to neutralise brassiness and perfect your final shade.",
+
+  "servicesNote": "Prices vary by hair length, density and the technique used — you'll get a precise quote at your consultation.",
+  "servicesCta": "Book A Consultation",
+
+  "service1SeoTitle": "Balayage Ljubljana | STATUS KAY",
+  "service1SeoDescription": "Balayage hair colouring in Ljubljana — soft, natural colour transitions and luxury finishing techniques at STATUS KAY, near the main train station.",
+  "service1LongText": "Balayage is a freehand colouring technique that creates soft, natural colour transitions without harsh lines. At STATUS KAY, every balayage is tailored to your base colour, length and hair texture, so the result looks sun-kissed rather than salon-made. The price includes lightening and toning; styling is not included.",
+
+  "service2SeoTitle": "Blonding Ljubljana | STATUS KAY",
+  "service2SeoDescription": "Professional blonding in Ljubljana — premium blonde transformations tailored to your skin tone and hair condition at STATUS KAY.",
+  "service2LongText": "Blonding is one of the most demanding colour techniques, requiring a precise read of your hair's condition and the right tone selection. It's often referred to as the 'double process' technique. At STATUS KAY, we assess your hair first, choose a shade that flatters your skin tone together, and take the process in stages to protect hair quality along the way. We use quality lighteners with Wellaplex technology, which preserves the hair's bonds throughout the process.",
+
+  "service3SeoTitle": "Women's Haircut Ljubljana | STATUS KAY",
+  "service3SeoDescription": "Women's haircuts in Ljubljana — precise cutting techniques tailored to your face shape at STATUS KAY, near the city centre.",
+  "service3LongText": "A good haircut is the foundation of every hairstyle. At STATUS KAY, we cut women's hair with precise tools, tailored to face shape, density and hair texture, so the style holds its shape between visits.",
+
+  "service4SeoTitle": "Hair Styling Ljubljana | STATUS KAY",
+  "service4SeoDescription": "Blow-dry and event styling in Ljubljana — polished looks for occasions and photoshoots at STATUS KAY.",
+  "service4LongText": "For special occasions, weddings or photoshoots, we offer bespoke styling — from a classic blow-dry to more elaborate updos. We tailor the appointment to your event and overall look.",
+
+  "service5SeoTitle": "Colour Correction Ljubljana | STATUS KAY",
+  "service5SeoDescription": "Hair colour correction in Ljubljana — expert fixes for colour gone wrong at STATUS KAY, restoring both shade and condition.",
+  "service5LongText": "When a colour service hasn't gone to plan, we're here to fix it. Colour correction takes patience and experience — at STATUS KAY, we first assess your hair's condition, then rebuild toward the shade you wanted in stages, prioritising hair health throughout.",
+
+  "service6SeoTitle": "Manicure Ljubljana | STATUS KAY",
+  "service6SeoDescription": "Manicure and nail care in Ljubljana — classic and gel finishes at STATUS KAY, in the same visit as your hair appointment.",
+  "service6LongText": "A manicure at STATUS KAY is as considered as any of our hair services — shape and cuticle care with no polish, or with gelish/long-lasting polish, all in one relaxed visit. Pair it with your usual hair appointment or book it on its own.",
+
+  "service7SeoTitle": "Highlights Ljubljana | STATUS KAY",
+  "service7SeoDescription": "Hair highlights in Ljubljana — classic foil highlighting for dimension and brightness at STATUS KAY.",
+  "service7LongText": "Highlights are the classic route to lighter hair with more dimension — foiled sections lifted to your chosen tone, from a few face-framing pieces to a full head. At STATUS KAY we match the placement and intensity to how low-maintenance or dramatic you want the result to be. Highlights are also a great option for covering the first signs of grey, blending them in naturally.",
+
+  "service8SeoTitle": "Barbering Ljubljana | STATUS KAY",
+  "service8SeoDescription": "Barbering in Ljubljana — fades, beard trims and men's grooming at STATUS KAY.",
+  "service8LongText": "From clean fades to beard shaping and old-school scissor cuts, our barbering service covers proper men's grooming from consultation to finish. Regular clients book a standing slot to keep everything sharp between visits.",
+
+  "service9SeoTitle": "Toning Ljubljana | STATUS KAY",
+  "service9SeoDescription": "Hair toning in Ljubljana — neutralise brassy tones and fine-tune your colour at STATUS KAY.",
+  "service9LongText": "Toning is the finishing step after lightening or highlights — a gentle glaze that neutralises brassy or yellow tones and settles your hair into a clean, even shade. It's quick, low-commitment, and makes a noticeable difference to how fresh your colour looks.",
+
+  "serviceBackLink": "All Services",
+  "serviceCtaTitle": "Book Now",
+
+  "blogBackLink": "All Posts",
+  "blogFaqTitle": "Frequently Asked Questions",
+
+  "blogEyebrow": "Journal",
+  "blogTitle": "From The Studio",
+  "blogIntro": "Notes on hair care, colour trends and what's happening at STATUS KAY.",
+
+  "directionsEyebrow": "Visit Us",
+  "directionsTitle": "How To Get Here",
+  "directionsIntro": "Located in the centre of Ljubljana, a short walk from Prešeren Square.",
+
+  "wayfindingHint": "Choose the direction you're coming from.",
+  "wayfindingMapsCta": "Open Navigation In Google Maps",
+  "wayfindingComingSoon": "Route photos coming soon.",
+  "wayfindingNext": "Next",
+
+  "directionsAddressLabel": "Address",
+  "directionsAddressValue": "Trg osvobodilne fronte 13, 1000 Ljubljana, Slovenia",
+
+  "directionsHoursLabel": "Opening Hours",
+  "hoursByAppointment": "By Appointment",
+  "hoursGoogleNote": "Current hours are always up to date on Google Maps.",
+  "directionsAvailabilityCta": "See Available Slots",
+  "directionsSeeMapCta": "See How To Get Here",
+
+  "transportEyebrow": "Getting Here",
+  "transportTitle": "Parking & Transport",
+  "transportIntro": "Our recommendations for parking and getting to the studio — handy if you're visiting from out of town.",
+  "transportParkingTitle": "Parking",
+  "transportSharingTitle": "Bike, Scooter & Car Sharing",
+  "transportTaxiTitle": "Taxi",
+  "transportBusTitle": "City Bus (LPP)",
+  "transportNote": "These are our own recommendations — especially useful if it's your first time in Ljubljana.",
+
+  "contactPageEyebrow": "Get In Touch",
+  "contactPageTitle": "Contact Us",
+  "contactPageIntro": "Questions about a service, a previous colour, or anything else — send us a message and we'll get back to you.",
+
+  "formNameLabel": "Name",
+  "formEmailLabel": "Email",
+  "formMessageLabel": "Message",
+  "formSubmit": "Send Message",
+
+  "contactInfoTitle": "Reach Us Directly",
+  "contactPhoneLabel": "Phone",
+  "contactEmailLabel": "Email",
+  "contactAddressLabel": "Studio",
+
+  "bookingEyebrow": "Book An Appointment",
+  "bookingPageTitle": "Reserve Your Visit",
+  "bookingIntro": "We don't yet have online booking — but reaching us takes less than a minute through any of the options below.",
+
+  "bookingCallTitle": "Call The Studio",
+  "bookingCallText": "The fastest way to book — we'll help you pick the right service and time. If we're mid-appointment, we'll call you back as soon as we can.",
+  "bookingCallCta": "Call +386 41 510 780",
+
+  "bookingOnlineTitle": "Book Online",
+  "bookingOnlineText": "Book your appointment straight online — pick the service and time that suits you, no waiting for a reply.",
+  "bookingOnlineCta": "Book Now",
+
+  "bookingInstagramTitle": "Message On Instagram",
+  "bookingInstagramText": "Prefer DMs? Send us your availability and we'll sort out the rest.",
+  "bookingInstagramCta": "Open Instagram",
+
+  "notFoundTitle": "Page Not Found",
+  "notFoundText": "The page you're looking for doesn't exist or has moved.",
+  "notFoundCta": "Back To Home",
+
+  "formConsentLabel": "I agree that STATUS KAY may use the information above to respond to my enquiry. More in our",
+  "formConsentLink": "privacy policy",
+
+  "privacyEyebrow": "Legal",
+  "privacyPageTitle": "Privacy Policy",
+  "privacyUpdated": "Last updated: July 2026",
+
+  "privacyIntroText": "This page explains what personal data the STATUS KAY website collects, how we use it, and what rights you have over it.",
+
+  "privacyDataTitle": "What Data We Collect",
+  "privacyDataText": "The only personal data we collect is what you enter in the contact form — your name, email address and message. This site has no server or database of its own: when you submit the form, it simply opens your own email client with the message pre-filled, and you send it yourself. Nothing is stored on our end.",
+
+  "privacyUseTitle": "How We Use It",
+  "privacyUseText": "Anything you email us is used solely to respond to your enquiry. We don't use it for advertising, sell it, or share it with third parties.",
+
+  "privacyThirdPartyTitle": "Third-Party Services",
+  "privacyThirdPartyText": "The How To Get Here page embeds a Google Maps view, and the Booking page links to Fresha for online booking. Both services operate under their own privacy policies, which are outside our control.",
+
+  "privacyRightsTitle": "Your Rights",
+  "privacyRightsText": "Because the message you send through the contact form goes straight from your own inbox, you're always in full control of it and can delete it at any time. For any privacy questions, reach us at the email below.",
+
+  "privacyContactTitle": "Privacy Contact",
+  "privacyContactText": "For any questions about this privacy policy, email us at"
 }

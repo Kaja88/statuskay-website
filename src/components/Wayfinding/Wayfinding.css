@@ -1,0 +1,245 @@
+.wayfinding {
+  text-align: center;
+}
+
+.wayfinding__compass {
+  display: grid;
+
+  grid-template-columns: 1fr auto 1fr;
+
+  grid-template-rows: auto auto auto;
+
+  align-items: center;
+
+  justify-items: center;
+
+  gap: var(--space-8);
+
+  max-width: 620px;
+
+  margin-inline: auto;
+}
+
+.wayfinding__point {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 2px;
+
+  width: 130px;
+
+  height: 130px;
+
+  border-radius: 50%;
+
+  border: 1px solid var(--accent);
+
+  background: var(--text-heading);
+
+  color: var(--accent);
+
+  text-align: center;
+
+  transition: var(--transition);
+}
+
+.wayfinding__point:hover {
+  background: var(--accent);
+
+  color: var(--white);
+
+  border-color: var(--accent);
+}
+
+.wayfinding__letter {
+  font-family: var(--font-heading);
+
+  font-size: 1.5rem;
+
+  font-weight: 600;
+
+  color: var(--white);
+}
+
+.wayfinding__point:hover .wayfinding__letter {
+  color: var(--white);
+}
+
+.wayfinding__label {
+  font-size: 0.7rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.1em;
+
+  max-width: 90px;
+}
+
+.wayfinding__point--n { grid-column: 2; grid-row: 1; }
+.wayfinding__point--w { grid-column: 1; grid-row: 2; }
+.wayfinding__point--e { grid-column: 3; grid-row: 2; }
+.wayfinding__point--s { grid-column: 2; grid-row: 3; }
+
+.wayfinding__map {
+  grid-column: 2;
+
+  grid-row: 2;
+
+  width: 200px;
+
+  height: 200px;
+
+  border: 1px solid var(--accent);
+
+  overflow: hidden;
+  background: var(--background-secondary);
+}
+
+.wayfinding__map iframe {
+  width: 100%;
+
+  height: 100%;
+
+  border: 0;
+}
+
+.wayfinding__hint {
+  margin-top: var(--space-10);
+
+  font-family: var(--font-heading);
+
+  font-style: italic;
+
+  font-size: 1.2rem;
+
+  color: var(--text);
+}
+
+.wayfinding__cta {
+  margin-top: var(--space-6);
+}
+
+/* ========================================
+   MODAL
+======================================== */
+
+.wayfinding__modal {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 2000;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: var(--space-6);
+
+  background: rgba(10, 10, 10, 0.85);
+}
+
+.wayfinding__modal-content {
+  position: relative;
+
+  width: min(480px, 100%);
+
+  padding: var(--space-8) var(--space-8) var(--space-10);
+
+  background: var(--background-secondary);
+
+  text-align: center;
+}
+
+.wayfinding__modal-content h3 {
+  margin-bottom: var(--space-6);
+
+  font-size: 1.5rem;
+
+  color: var(--text-heading);
+}
+
+.wayfinding__close {
+  position: absolute;
+
+  top: var(--space-4);
+
+  right: var(--space-4);
+
+  z-index: 3;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 32px;
+
+  height: 32px;
+
+  border-radius: 50%;
+
+  color: var(--text-heading);
+
+  opacity: 0.6;
+
+  transition: var(--transition);
+}
+
+.wayfinding__close:hover {
+  opacity: 1;
+
+  color: var(--accent);
+}
+
+.wayfinding__modal-content .carousel {
+  height: auto;
+}
+
+.wayfinding__modal-content .carousel__frame {
+  flex: none;
+
+  aspect-ratio: 4 / 3;
+}
+
+.wayfinding__empty {
+  padding: var(--space-10) 0 0;
+
+  text-align: center;
+
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+
+  .wayfinding__compass {
+    gap: var(--space-4);
+  }
+
+  .wayfinding__point {
+    width: 96px;
+
+    height: 96px;
+  }
+
+  .wayfinding__label {
+    font-size: 0.6rem;
+
+    max-width: 70px;
+  }
+
+  .wayfinding__map {
+    width: 140px;
+
+    height: 140px;
+  }
+
+}

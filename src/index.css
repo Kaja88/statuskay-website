@@ -53,6 +53,8 @@ html {
 
   --navbar-bg: rgba(10, 10, 10, 0.45);
 
+  --navbar-row-height: 100px;
+
   /* ========================================
      TYPOGRAPHY
   ======================================== */
@@ -91,11 +93,11 @@ html {
      RADIUS
   ======================================== */
 
-  --radius-sm: 8px;
+  --radius-sm: 0;
 
-  --radius-md: 16px;
+  --radius-md: 0;
 
-  --radius-lg: 24px;
+  --radius-lg: 0;
 
   /* ========================================
      SHADOWS
@@ -241,15 +243,19 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(1.8rem, 8vw, 10rem);
 
   letter-spacing: -0.06em;
+
+  white-space: nowrap;
 }
 
 h2 {
-  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-size: clamp(1.5rem, 4.5vw, 5rem);
 
   letter-spacing: -0.04em;
+
+  white-space: nowrap;
 }
 
 h3 {
@@ -333,114 +339,6 @@ section {
 }
 
 /* ========================================
-   NAVBAR
-======================================== */
-
-.navbar {
-  position: fixed;
-
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  z-index: 1000;
-
-  transition: var(--transition);
-}
-
-.navbar.scrolled {
-  background: var(--navbar-bg);
-
-  backdrop-filter: blur(14px);
-}
-
-.navbar__container {
-  width: min(var(--container), calc(100% - 40px));
-
-  margin-inline: auto;
-
-  min-height: 90px;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: space-between;
-
-  gap: 40px;
-}
-
-.navbar__logo {
-  color: var(--white);
-
-  font-family: var(--font-heading);
-
-  font-size: 1.5rem;
-
-  letter-spacing: 0.14em;
-}
-
-.navbar__navigation {
-  margin-left: auto;
-}
-
-.navbar__menu {
-  display: flex;
-
-  align-items: center;
-
-  gap: 40px;
-}
-
-.navbar__link {
-  color: var(--white);
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.18em;
-
-  font-size: 0.75rem;
-
-  transition: var(--transition);
-}
-
-.navbar__link:hover {
-  opacity: 0.7;
-}
-
-/* ========================================
-   LANGUAGE SWITCHER
-======================================== */
-
-.navbar__languages {
-  display: flex;
-
-  align-items: center;
-
-  gap: 12px;
-}
-
-.navbar__languages button {
-  color: var(--white);
-
-  font-size: 0.72rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.15em;
-
-  opacity: 0.7;
-
-  transition: var(--transition);
-}
-
-.navbar__languages button:hover {
-  opacity: 1;
-}
-
-/* ========================================
    HERO
 ======================================== */
 
@@ -496,6 +394,8 @@ section {
 .hero__title {
   color: var(--white);
 
+  font-size: clamp(4rem, 10vw, 10rem);
+
   margin-bottom: var(--space-8);
 }
 
@@ -507,6 +407,28 @@ section {
   letter-spacing: 0.3em;
 
   font-size: 0.75rem;
+}
+
+/* ========================================
+   PAGE HEADER
+======================================== */
+
+.page-header {
+  padding-top: calc(var(--navbar-row-height) + var(--space-24));
+
+  padding-bottom: var(--space-16);
+
+  text-align: center;
+
+  background: var(--background-secondary);
+}
+
+.page-header__intro {
+  max-width: 60ch;
+
+  margin-inline: auto;
+
+  margin-top: var(--space-6);
 }
 
 /* ========================================
@@ -556,6 +478,8 @@ section {
 }
 
 .service-card {
+  display: block;
+
   padding: var(--space-10);
 
   border: 1px solid var(--border);
@@ -621,14 +545,6 @@ section {
   .container,
   .container-small {
     width: calc(100% - 24px);
-  }
-
-  .navbar__menu {
-    display: none;
-  }
-
-  .navbar__container {
-    min-height: 80px;
   }
 
   h1 {

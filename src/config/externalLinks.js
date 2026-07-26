@@ -1,0 +1,1 @@
+export const freshaBookingUrl = "https://www.fresha.com/en-GB/a/status-kay-ljubljana-trg-osvobodilne-fronte-13-elvwwm1d/booking?menu=true&pId=450986&dppub=true&employeeId=1411269&cartId=a5f341d3-cc1d-4351-9c25-807c6b1bd0bc";

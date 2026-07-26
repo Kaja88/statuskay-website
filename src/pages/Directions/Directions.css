@@ -1,0 +1,169 @@
+.directions__info {
+  display: flex;
+
+  justify-content: center;
+
+  gap: var(--space-24);
+}
+
+.directions__item {
+  display: flex;
+
+  gap: var(--space-4);
+
+  color: var(--accent);
+
+  text-align: left;
+}
+
+.directions__item h4 {
+  font-family: var(--font-heading);
+
+  font-size: 1.3rem;
+
+  font-weight: 500;
+
+  color: var(--text-heading);
+
+  margin-bottom: var(--space-2);
+}
+
+.directions__item p {
+  color: var(--text);
+}
+
+.directions__link {
+  display: inline-block;
+
+  margin-top: var(--space-3);
+
+  color: var(--accent);
+
+  font-size: 0.85rem;
+
+  text-decoration: underline;
+}
+
+.directions__link:hover {
+  color: var(--text-heading);
+}
+
+.wayfinding-section {
+  background: var(--background-secondary);
+
+  scroll-margin-top: var(--navbar-row-height);
+}
+
+@media (max-width: 768px) {
+
+  .directions__info {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: var(--space-8);
+  }
+
+}
+
+/* ========================================
+   TRANSPORT
+======================================== */
+
+.transport {
+  background: var(--background-secondary);
+}
+
+.transport__grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: var(--space-10);
+}
+
+.transport__category h3 {
+  display: flex;
+
+  align-items: center;
+
+  gap: var(--space-2);
+
+  font-size: 1.2rem;
+
+  color: var(--accent);
+
+  margin-bottom: var(--space-5);
+}
+
+.transport__category ul {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: var(--space-5);
+}
+
+.transport__name {
+  display: block;
+
+  font-family: var(--font-heading);
+
+  font-size: 1.1rem;
+
+  color: var(--text-heading);
+
+  margin-bottom: var(--space-1);
+}
+
+.transport__detail {
+  display: block;
+
+  font-size: 0.9rem;
+
+  color: var(--text);
+}
+
+.transport__phone {
+  display: inline-block;
+
+  margin-top: var(--space-2);
+
+  color: var(--accent);
+
+  font-size: 0.9rem;
+
+  text-decoration: underline;
+}
+
+.transport__note {
+  margin-top: var(--space-12);
+
+  padding-top: var(--space-8);
+
+  border-top: 1px solid var(--border);
+
+  text-align: center;
+
+  font-size: 0.9rem;
+
+  color: var(--text);
+}
+
+@media (max-width: 1024px) {
+
+  .transport__grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    row-gap: var(--space-12);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .transport__grid {
+    grid-template-columns: 1fr;
+  }
+
+}

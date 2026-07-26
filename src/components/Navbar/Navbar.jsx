@@ -1,103 +1,108 @@
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { ChevronDown, Menu, X } from "lucide-react";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
-import { routes } from "../../config/routes";
+import { routes, buildPath, getRouteKeyFromSlug } from "../../config/routes";
+import { supportedLanguages } from "../../config/languages";
 
 import "./Navbar.css";
 
-function Navbar() {
+const navKeys = ["about", "services", "blog", "directions", "contact"];
 
-    const { i18n } = useTranslation();
+function Navbar({ lang }) {
 
-    const lang = i18n.language;
+    const navigate = useNavigate();
 
-    const [scrolled, setScrolled] = useState(false);
+    const location = useLocation();
+
+    const langRef = useRef(null);
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const [langMenuOpen, setLangMenuOpen] = useState(false);
+
+    const [lastPathname, setLastPathname] = useState(location.pathname);
 
     useEffect(() => {
 
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 40);
+        const handleClickOutside = (event) => {
+
+            if (langRef.current && !langRef.current.contains(event.target)) {
+                setLangMenuOpen(false);
+            }
+
         };
 
-        window.addEventListener("scroll", handleScroll);
+        document.addEventListener("mousedown", handleClickOutside);
 
-        return () => window.removeEventListener("scroll", handleScroll);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
 
     }, []);
 
+    if (location.pathname !== lastPathname) {
+
+        setLastPathname(location.pathname);
+
+        setMenuOpen(false);
+
+        setLangMenuOpen(false);
+
+    }
+
+    const handleLanguageChange = (targetLang) => {
+
+        setLangMenuOpen(false);
+
+        if (targetLang === lang) return;
+
+        const slug = location.pathname.split("/")[2] || "";
+
+        const currentKey = getRouteKeyFromSlug(lang, slug);
+
+        navigate(buildPath(targetLang, currentKey));
+
+    };
+
     return (
 
-        <header className={scrolled ? "navbar scrolled" : "navbar"}>
+        <header className={menuOpen ? "navbar navbar--menu-open" : "navbar"}>
 
-            <div className="container navbar__container">
+            <div className="container navbar__row">
 
                 {/* LOGO */}
 
                 <NavLink
-                    to={`/${lang}`}
+                    to={buildPath(lang, "home")}
                     className="navbar__logo"
                 >
                     STATUS KAY
                 </NavLink>
 
-                {/* MENU */}
+                {/* MENU + BOOK BUTTON */}
 
-                <nav>
+                <nav className={menuOpen ? "navbar__nav open" : "navbar__nav"}>
 
                     <ul className="navbar__menu">
 
-                        <li>
-                            <NavLink
-                                to={`/${lang}/${routes.about.path[lang]}`}
-                                className="navbar__link"
-                            >
-                                {routes.about.label[lang]}
-                            </NavLink>
-                        </li>
+                        {navKeys.map((key) => (
+
+                            <li key={key}>
+                                <NavLink
+                                    to={buildPath(lang, key)}
+                                    className="navbar__link"
+                                >
+                                    {routes[key].label[lang]}
+                                </NavLink>
+                            </li>
+
+                        ))}
 
                         <li>
                             <NavLink
-                                to={`/${lang}/${routes.services.path[lang]}`}
+                                to={buildPath(lang, "booking")}
                                 className="navbar__link"
                             >
-                                {routes.services.label[lang]}
-                            </NavLink>
-                        </li>
-
-                        <li>
-                            <NavLink
-                                to={`/${lang}/${routes.gallery.path[lang]}`}
-                                className="navbar__link"
-                            >
-                                {routes.gallery.label[lang]}
-                            </NavLink>
-                        </li>
-
-                        <li>
-                            <NavLink
-                                to={`/${lang}/${routes.blog.path[lang]}`}
-                                className="navbar__link"
-                            >
-                                {routes.blog.label[lang]}
-                            </NavLink>
-                        </li>
-
-                        <li>
-                            <NavLink
-                                to={`/${lang}/${routes.directions.path[lang]}`}
-                                className="navbar__link"
-                            >
-                                {routes.directions.label[lang]}
-                            </NavLink>
-                        </li>
-
-                        <li>
-                            <NavLink
-                                to={`/${lang}/${routes.contact.path[lang]}`}
-                                className="navbar__link"
-                            >
-                                {routes.contact.label[lang]}
+                                {routes.booking.label[lang]}
                             </NavLink>
                         </li>
 
@@ -105,32 +110,59 @@ function Navbar() {
 
                 </nav>
 
-                {/* LANGUAGE SWITCHER */}
+                <div className="navbar__actions">
 
-                <div className="navbar__languages">
+                    {/* LANGUAGE SWITCHER */}
+
+                    <div
+                        className="navbar__lang"
+                        ref={langRef}
+                    >
+
+                        <button
+                            className="navbar__lang-toggle"
+                            onClick={() => setLangMenuOpen((open) => !open)}
+                            aria-expanded={langMenuOpen}
+                        >
+                            <span>{lang.toUpperCase()}</span>
+                            <ChevronDown size={14} />
+                        </button>
+
+                        {langMenuOpen && (
+
+                            <ul className="navbar__lang-menu">
+
+                                {supportedLanguages.map((code) => (
+
+                                    <li key={code}>
+                                        <button
+                                            onClick={() => handleLanguageChange(code)}
+                                            aria-current={code === lang}
+                                        >
+                                            {code.toUpperCase()}
+                                        </button>
+                                    </li>
+
+                                ))}
+
+                            </ul>
+
+                        )}
+
+                    </div>
+
+                    {/* MOBILE TOGGLE */}
 
                     <button
-                        onClick={() => i18n.changeLanguage("en")}
+                        className="navbar__toggle"
+                        onClick={() => setMenuOpen((open) => !open)}
+                        aria-label="Toggle menu"
+                        aria-expanded={menuOpen}
                     >
-                        🇬🇧
-                    </button>
-
-                    <button
-                        onClick={() => i18n.changeLanguage("sl")}
-                    >
-                        🇸🇮
+                        {menuOpen ? <X size={22} /> : <Menu size={22} />}
                     </button>
 
                 </div>
-
-                {/* BOOK BUTTON */}
-
-                <NavLink
-                    to={`/${lang}/${routes.booking.path[lang]}`}
-                    className="button"
-                >
-                    {routes.booking.label[lang]}
-                </NavLink>
 
             </div>
 

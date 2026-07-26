@@ -60,26 +60,6 @@ export const routes = {
 
     },
 
-    gallery: {
-
-        label: {
-
-            en: "Gallery",
-
-            sl: "Galerija"
-
-        },
-
-        path: {
-
-            en: "gallery",
-
-            sl: "galerija"
-
-        }
-
-    },
-
     blog: {
 
         label: {
@@ -158,6 +138,40 @@ export const routes = {
 
         }
 
+    },
+
+    privacy: {
+
+        label: {
+
+            en: "Privacy Policy",
+
+            sl: "Politika zasebnosti"
+
+        },
+
+        path: {
+
+            en: "privacy-policy",
+
+            sl: "politika-zasebnosti"
+
+        }
+
     }
 
 };
+
+export function buildPath(lang, key) {
+
+    const slug = routes[key].path[lang];
+
+    return slug ? `/${lang}/${slug}` : `/${lang}`;
+
+}
+
+export function getRouteKeyFromSlug(lang, slug) {
+
+    return Object.keys(routes).find((key) => routes[key].path[lang] === slug) || "home";
+
+}

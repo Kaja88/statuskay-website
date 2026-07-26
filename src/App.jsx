@@ -1,200 +1,103 @@
-import { useTranslation } from "react-i18next";
+import { Routes, Route, Navigate } from "react-router-dom";
 
-import heroVideo from "./assets/videos/hero.mp4";
+import { supportedLanguages, defaultLanguage } from "./config/languages";
+import { routes } from "./config/routes";
 
-import Navbar from "./components/Navbar/Navbar";
+import Layout from "./components/Layout/Layout";
 
-import "./App.css";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Services from "./pages/Services/Services";
+import ServiceDetail from "./pages/ServiceDetail/ServiceDetail";
+import Blog from "./pages/Blog/Blog";
+import BlogPost from "./pages/BlogPost/BlogPost";
+import Directions from "./pages/Directions/Directions";
+import Contact from "./pages/Contact/Contact";
+import Booking from "./pages/Booking/Booking";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
 
-  const { t } = useTranslation();
+    return (
 
-  return (
+        <Routes>
 
-      <>
+            <Route
+                path="/"
+                element={<Navigate to={`/${defaultLanguage}`} replace />}
+            />
 
-        <Navbar />
+            {supportedLanguages.map((lang) => (
 
-        <main>
-
-          {/* HERO */}
-
-          <section className="hero">
-
-            <video
-                autoPlay
-                muted
-                loop
-                playsInline
-            >
-              <source
-                  src={heroVideo}
-                  type="video/mp4"
-              />
-            </video>
-
-            <div className="hero__content container">
-
-              <p className="hero__subtitle">
-                {t("heroSubtitle")}
-              </p>
-
-              <h1 className="hero__title">
-                STATUS KAY
-              </h1>
-
-              <a
-                  href="#about"
-                  className="button"
-              >
-                {t("discoverMore")}
-              </a>
-
-            </div>
-
-          </section>
-
-          {/* ABOUT */}
-
-          <section
-              id="about"
-              className="about"
-          >
-
-            <div className="container about__content">
-
-              <div className="about__image">
-
-                <img
-                    src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1200&auto=format&fit=crop"
-                    alt="Luxury salon interior"
-                />
-
-              </div>
-
-              <div className="about__text">
-
-                <p className="hero__subtitle">
-                  {t("aboutSubtitle")}
-                </p>
-
-                <h2>
-                  {t("aboutTitle")}
-                </h2>
-
-                <p>
-                  {t("aboutText")}
-                </p>
-
-                <a
-                    href="#services"
-                    className="button button-outline"
+                <Route
+                    key={lang}
+                    path={`/${lang}`}
+                    element={<Layout lang={lang} />}
                 >
-                  {t("ourServices")}
-                </a>
 
-              </div>
+                    <Route
+                        index
+                        element={<Home />}
+                    />
 
-            </div>
+                    <Route
+                        path={routes.about.path[lang]}
+                        element={<About />}
+                    />
 
-          </section>
+                    <Route
+                        path={routes.services.path[lang]}
+                        element={<Services />}
+                    />
 
-          {/* SERVICES */}
+                    <Route
+                        path={`${routes.services.path[lang]}/:serviceSlug`}
+                        element={<ServiceDetail />}
+                    />
 
-          <section
-              id="services"
-              className="services"
-          >
+                    <Route
+                        path={routes.blog.path[lang]}
+                        element={<Blog />}
+                    />
 
-            <div className="container">
+                    <Route
+                        path={`${routes.blog.path[lang]}/:postSlug`}
+                        element={<BlogPost />}
+                    />
 
-              <div className="section-title">
+                    <Route
+                        path={routes.directions.path[lang]}
+                        element={<Directions />}
+                    />
 
-                <p className="hero__subtitle">
-                  {t("servicesSubtitle")}
-                </p>
+                    <Route
+                        path={routes.contact.path[lang]}
+                        element={<Contact />}
+                    />
 
-                <h2>
-                  {t("servicesTitle")}
-                </h2>
+                    <Route
+                        path={routes.booking.path[lang]}
+                        element={<Booking />}
+                    />
 
-              </div>
+                    <Route
+                        path={routes.privacy.path[lang]}
+                        element={<PrivacyPolicy />}
+                    />
 
-              <div className="services__grid">
+                </Route>
 
-                <article className="service-card">
+            ))}
 
-                  <h3>
-                    {t("service1Title")}
-                  </h3>
+            <Route
+                path="*"
+                element={<NotFound />}
+            />
 
-                  <p>
-                    {t("service1Text")}
-                  </p>
+        </Routes>
 
-                </article>
-
-                <article className="service-card">
-
-                  <h3>
-                    {t("service2Title")}
-                  </h3>
-
-                  <p>
-                    {t("service2Text")}
-                  </p>
-
-                </article>
-
-                <article className="service-card">
-
-                  <h3>
-                    {t("service3Title")}
-                  </h3>
-
-                  <p>
-                    {t("service3Text")}
-                  </p>
-
-                </article>
-
-              </div>
-
-            </div>
-
-          </section>
-
-          {/* CONTACT */}
-
-          <section
-              id="contact"
-              className="contact"
-          >
-
-            <div className="container-small">
-
-              <div className="section-title">
-
-                <p className="hero__subtitle">
-                  {t("contactSubtitle")}
-                </p>
-
-                <h2>
-                  {t("contactTitle")}
-                </h2>
-
-              </div>
-
-            </div>
-
-          </section>
-
-        </main>
-
-      </>
-
-  );
+    );
 }
 
 export default App;

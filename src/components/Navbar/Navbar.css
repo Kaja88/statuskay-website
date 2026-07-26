@@ -1,0 +1,251 @@
+/* ========================================
+   NAVBAR
+======================================== */
+
+.navbar {
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+
+  backdrop-filter: blur(14px);
+
+  transition: var(--transition);
+}
+
+.navbar__row {
+  min-height: var(--navbar-row-height);
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 56px;
+}
+
+.navbar__logo {
+  color: var(--white);
+
+  font-family: var(--font-heading);
+
+  font-size: 1.65rem;
+
+  letter-spacing: 0.14em;
+
+  white-space: nowrap;
+}
+
+/* ========================================
+   MENU + BOOK BUTTON
+======================================== */
+
+.navbar__menu {
+  display: flex;
+
+  align-items: center;
+
+  gap: 36px;
+}
+
+.navbar__link {
+  color: var(--white);
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.18em;
+
+  font-size: 0.8rem;
+
+  font-weight: 300;
+
+  transition: var(--transition);
+}
+
+.navbar__link:hover {
+  opacity: 0.7;
+}
+
+.navbar__link.active {
+  color: var(--accent);
+}
+
+/* ========================================
+   ACTIONS (right cluster)
+======================================== */
+
+.navbar__actions {
+  display: flex;
+
+  align-items: center;
+
+  gap: var(--space-6);
+
+  margin-left: auto;
+}
+
+/* ========================================
+   LANGUAGE SWITCHER
+======================================== */
+
+.navbar__lang {
+  position: relative;
+}
+
+.navbar__lang-toggle {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: var(--white);
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.1em;
+
+  font-size: 0.8rem;
+
+  font-weight: 300;
+
+  transition: var(--transition);
+}
+
+.navbar__lang-toggle:hover {
+  opacity: 0.7;
+}
+
+.navbar__lang-menu {
+  position: absolute;
+
+  top: calc(100% + 12px);
+
+  right: 0;
+
+  min-width: 80px;
+
+  background: var(--white);
+
+  border-radius: var(--radius-sm);
+
+  box-shadow: var(--shadow);
+
+  overflow: hidden;
+}
+
+.navbar__lang-menu button {
+  display: block;
+
+  width: 100%;
+
+  padding: 10px 16px;
+
+  text-align: left;
+
+  color: var(--text-heading);
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.1em;
+
+  font-size: 0.8rem;
+
+  transition: var(--transition);
+}
+
+.navbar__lang-menu button:hover {
+  background: var(--background-secondary);
+}
+
+.navbar__lang-menu button[aria-current="true"] {
+  color: var(--accent);
+}
+
+/* ========================================
+   MOBILE TOGGLE
+======================================== */
+
+.navbar__toggle {
+  display: none;
+
+  color: var(--white);
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 768px) {
+
+  :root {
+    --navbar-row-height: 80px;
+  }
+
+  .navbar__row {
+    gap: var(--space-6);
+  }
+
+  .navbar__toggle {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .navbar--menu-open {
+    background: var(--background);
+
+    transition: none;
+  }
+
+  .navbar--menu-open .navbar__logo,
+  .navbar--menu-open .navbar__toggle,
+  .navbar--menu-open .navbar__lang-toggle {
+    color: var(--text-heading);
+  }
+
+  .navbar__nav {
+    position: fixed;
+
+    inset: var(--navbar-row-height) 0 0 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: var(--background);
+
+    transform: translateX(100%);
+
+    visibility: hidden;
+
+    transition: transform 300ms ease, visibility 0s linear 300ms;
+  }
+
+  .navbar__nav.open {
+    transform: translateX(0);
+
+    visibility: visible;
+
+    transition: transform 300ms ease, visibility 0s linear 0s;
+  }
+
+  .navbar__nav .navbar__link {
+    color: var(--text-heading);
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+
+    gap: var(--space-6);
+  }
+
+}
