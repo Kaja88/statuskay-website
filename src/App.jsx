@@ -1,4 +1,5 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { useEffect } from "react";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import { supportedLanguages, defaultLanguage } from "./config/languages";
 import { routes } from "./config/routes";
@@ -17,85 +18,105 @@ import Booking from "./pages/Booking/Booking";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import NotFound from "./pages/NotFound/NotFound";
 
+function ScrollToTop() {
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+
+        window.scrollTo(0, 0);
+
+    }, [pathname]);
+
+    return null;
+
+}
+
 function App() {
 
     return (
 
-        <Routes>
+        <>
 
-            <Route
-                path="/"
-                element={<Navigate to={`/${defaultLanguage}`} replace />}
-            />
+            <ScrollToTop />
 
-            {supportedLanguages.map((lang) => (
+            <Routes>
 
                 <Route
-                    key={lang}
-                    path={`/${lang}`}
-                    element={<Layout lang={lang} />}
-                >
+                    path="/"
+                    element={<Navigate to={`/${defaultLanguage}`} replace />}
+                />
+
+                {supportedLanguages.map((lang) => (
 
                     <Route
-                        index
-                        element={<Home />}
-                    />
+                        key={lang}
+                        path={`/${lang}`}
+                        element={<Layout lang={lang} />}
+                    >
 
-                    <Route
-                        path={routes.about.path[lang]}
-                        element={<About />}
-                    />
+                        <Route
+                            index
+                            element={<Home />}
+                        />
 
-                    <Route
-                        path={routes.services.path[lang]}
-                        element={<Services />}
-                    />
+                        <Route
+                            path={routes.about.path[lang]}
+                            element={<About />}
+                        />
 
-                    <Route
-                        path={`${routes.services.path[lang]}/:serviceSlug`}
-                        element={<ServiceDetail />}
-                    />
+                        <Route
+                            path={routes.services.path[lang]}
+                            element={<Services />}
+                        />
 
-                    <Route
-                        path={routes.blog.path[lang]}
-                        element={<Blog />}
-                    />
+                        <Route
+                            path={`${routes.services.path[lang]}/:serviceSlug`}
+                            element={<ServiceDetail />}
+                        />
 
-                    <Route
-                        path={`${routes.blog.path[lang]}/:postSlug`}
-                        element={<BlogPost />}
-                    />
+                        <Route
+                            path={routes.blog.path[lang]}
+                            element={<Blog />}
+                        />
 
-                    <Route
-                        path={routes.directions.path[lang]}
-                        element={<Directions />}
-                    />
+                        <Route
+                            path={`${routes.blog.path[lang]}/:postSlug`}
+                            element={<BlogPost />}
+                        />
 
-                    <Route
-                        path={routes.contact.path[lang]}
-                        element={<Contact />}
-                    />
+                        <Route
+                            path={routes.directions.path[lang]}
+                            element={<Directions />}
+                        />
 
-                    <Route
-                        path={routes.booking.path[lang]}
-                        element={<Booking />}
-                    />
+                        <Route
+                            path={routes.contact.path[lang]}
+                            element={<Contact />}
+                        />
 
-                    <Route
-                        path={routes.privacy.path[lang]}
-                        element={<PrivacyPolicy />}
-                    />
+                        <Route
+                            path={routes.booking.path[lang]}
+                            element={<Booking />}
+                        />
 
-                </Route>
+                        <Route
+                            path={routes.privacy.path[lang]}
+                            element={<PrivacyPolicy />}
+                        />
 
-            ))}
+                    </Route>
 
-            <Route
-                path="*"
-                element={<NotFound />}
-            />
+                ))}
 
-        </Routes>
+                <Route
+                    path="*"
+                    element={<NotFound />}
+                />
+
+            </Routes>
+
+        </>
 
     );
 }

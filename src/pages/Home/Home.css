@@ -1,3 +1,37 @@
+.home-about__content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+
+  gap: var(--space-6);
+
+  max-width: 720px;
+
+  margin-inline: auto;
+}
+
+.home-about__image {
+  width: 100%;
+
+  margin-block: var(--space-4);
+}
+
+.home-about__image img {
+  width: 100%;
+
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
+
+  filter: grayscale(1);
+
+  border-radius: var(--radius-lg);
+}
+
 .home__services-cta {
   margin-top: var(--space-16);
 

@@ -1,12 +1,24 @@
 import { useTranslation } from "react-i18next";
 import { Link, useOutletContext } from "react-router-dom";
 
+import Carousel from "../../components/Carousel/Carousel";
+
 import heroVideo from "../../assets/videos/hero.mp4";
 import aboutImg from "../../assets/home/about.jpg";
+import balayageImg from "../../assets/services/balayage.jpg";
+import blondingImg from "../../assets/services/blonding.jpg";
+import haircutsImg from "../../assets/services/haircuts.jpg";
 
 import { buildPath } from "../../config/routes";
+import { buildServicePath } from "../../config/serviceRoutes";
 
 import "./Home.css";
+
+const featuredServices = [
+    { n: 1, image: balayageImg },
+    { n: 2, image: blondingImg },
+    { n: 3, image: haircutsImg }
+];
 
 function Home() {
 
@@ -59,12 +71,24 @@ function Home() {
 
             <section
                 id="about"
-                className="about"
+                className="about home-about"
             >
 
-                <div className="container about__content">
+                <div className="container home-about__content">
 
-                    <div className="about__image">
+                    <p className="hero__subtitle">
+                        {t("aboutSubtitle")}
+                    </p>
+
+                    <h2>
+                        {t("aboutTitle")}
+                    </h2>
+
+                    <p>
+                        {t("aboutText")}
+                    </p>
+
+                    <div className="home-about__image">
 
                         <img
                             src={aboutImg}
@@ -73,28 +97,12 @@ function Home() {
 
                     </div>
 
-                    <div className="about__text">
-
-                        <p className="hero__subtitle">
-                            {t("aboutSubtitle")}
-                        </p>
-
-                        <h2>
-                            {t("aboutTitle")}
-                        </h2>
-
-                        <p>
-                            {t("aboutText")}
-                        </p>
-
-                        <Link
-                            to={buildPath(lang, "about")}
-                            className="button button-outline"
-                        >
-                            {t("readOurStory")}
-                        </Link>
-
-                    </div>
+                    <Link
+                        to={buildPath(lang, "about")}
+                        className="button button-outline"
+                    >
+                        {t("readOurStory")}
+                    </Link>
 
                 </div>
 
@@ -123,41 +131,30 @@ function Home() {
 
                     <div className="services__grid">
 
-                        <article className="service-card">
+                        {featuredServices.map(({ n, image }) => (
 
-                            <h3>
-                                {t("service1Title")}
-                            </h3>
+                            <Link
+                                key={n}
+                                to={buildServicePath(lang, n)}
+                                className="service-tile"
+                            >
 
-                            <p>
-                                {t("service1Text")}
-                            </p>
+                                <Carousel
+                                    images={[image]}
+                                    alt={t(`service${n}Title`)}
+                                />
 
-                        </article>
+                                <div className="service-tile__overlay">
 
-                        <article className="service-card">
+                                    <h3>{t(`service${n}Title`)}</h3>
 
-                            <h3>
-                                {t("service2Title")}
-                            </h3>
+                                    <p>{t(`service${n}Text`)}</p>
 
-                            <p>
-                                {t("service2Text")}
-                            </p>
+                                </div>
 
-                        </article>
+                            </Link>
 
-                        <article className="service-card">
-
-                            <h3>
-                                {t("service3Title")}
-                            </h3>
-
-                            <p>
-                                {t("service3Text")}
-                            </p>
-
-                        </article>
+                        ))}
 
                     </div>
 

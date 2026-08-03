@@ -4,8 +4,8 @@ import { Link, useOutletContext } from "react-router-dom";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import Carousel from "../../components/Carousel/Carousel";
 
-import { buildPath } from "../../config/routes";
 import { buildServicePath } from "../../config/serviceRoutes";
+import { freeConsultationUrl } from "../../config/externalLinks";
 
 import servicesVideo from "../../assets/videos/services.mp4";
 
@@ -87,12 +87,14 @@ function Services() {
 
                         <p>{t("servicesNote")}</p>
 
-                        <Link
-                            to={buildPath(lang, "booking")}
+                        <a
+                            href={freeConsultationUrl}
+                            target="_blank"
+                            rel="noreferrer"
                             className="button"
                         >
                             {t("servicesCta")}
-                        </Link>
+                        </a>
 
                     </div>
 

@@ -1,7 +1,7 @@
 <#
 Compresses every .mp4 in src/assets/videos for web use:
 - scales down to max 1280px width (background banner videos never need more)
-- H.264, CRF 27, no audio, faststart (progressive playback)
+- H.264, CRF 30, no audio, faststart (progressive playback)
 Run again any time you drop a new video into that folder.
 #>
 
@@ -18,7 +18,7 @@ Get-ChildItem -Path $videosDir -Filter "*.mp4" | ForEach-Object {
 
     Write-Host "Compressing $($_.Name) ($originalSizeMB MB)..."
 
-    ffmpeg -y -i "$input" -vf "scale='min(1280,iw)':-2,fps=15" -c:v libx264 -crf 27 -preset slow -an -movflags +faststart "$output" 2>$null
+    ffmpeg -y -i "$input" -vf "scale='min(1280,iw)':-2,fps=15" -c:v libx264 -crf 30 -preset slow -an -movflags +faststart "$output" 2>$null
 
     $newSizeMB = [math]::Round((Get-Item $output).Length / 1MB, 1)
 

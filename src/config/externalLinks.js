@@ -1,5 +1,7 @@
 export const freshaBookingUrl = "https://www.fresha.com/book-now/y9qzt5m0/all-offer?share=true&pId=450986";
 
+export const freeConsultationUrl = "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15578933&share=true&pId=450986";
+
 // Per-service Fresha "share" links, keyed by serviceRoutes id (see serviceRoutes.js).
 // A plain string books that one exact Fresha service directly.
 // An array books one of several named variants (e.g. haircut length, highlights half/full head) —
@@ -19,7 +21,7 @@ export const serviceBookingUrls = {
 
     5: [
         { label: { en: "Colour correction", sl: "Korekcija barve" }, url: freshaBookingUrl },
-        { label: { en: "Free consultation", sl: "Brezplačen posvet" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15578933&share=true&pId=450986" }
+        { label: { en: "Free consultation", sl: "Brezplačen posvet" }, url: freeConsultationUrl }
     ],
 
     3: [
