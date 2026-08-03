@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Link, Navigate, useOutletContext, useParams } from "react-router-dom";
+import { Navigate, useOutletContext, useParams } from "react-router-dom";
 
 import PageBanner from "../../components/PageBanner/PageBanner";
 
@@ -8,6 +8,7 @@ import { useStructuredData } from "../../hooks/useStructuredData";
 import { buildPath } from "../../config/routes";
 import { getServiceKeyFromSlug } from "../../config/serviceRoutes";
 import { serviceFaqs } from "../../content/serviceFaqs";
+import { getServiceBooking } from "../../config/externalLinks";
 
 import servicesVideo from "../../assets/videos/services.mp4";
 
@@ -76,6 +77,8 @@ function ServiceDetail() {
 
     const heading = t(`service${key}SeoTitle`).split(" | ")[0];
 
+    const booking = getServiceBooking(key);
+
     return (
 
         <>
@@ -127,19 +130,34 @@ function ServiceDetail() {
 
                     <div className="service-detail__actions">
 
-                        <Link
-                            to={buildPath(lang, "booking")}
-                            className="button"
-                        >
-                            {t("serviceCtaTitle")}
-                        </Link>
+                        {booking.variants ? (
 
-                        <Link
-                            to={buildPath(lang, "services")}
-                            className="button button-outline"
-                        >
-                            {t("serviceBackLink")}
-                        </Link>
+                            booking.variants.map((variant) => (
+
+                                <a
+                                    key={variant.url}
+                                    href={variant.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="button"
+                                >
+                                    {t("serviceCtaTitle")} — {variant.label[lang]}
+                                </a>
+
+                            ))
+
+                        ) : (
+
+                            <a
+                                href={booking.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="button"
+                            >
+                                {t("serviceCtaTitle")}
+                            </a>
+
+                        )}
 
                     </div>
 

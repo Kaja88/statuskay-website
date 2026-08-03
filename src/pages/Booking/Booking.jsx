@@ -74,7 +74,7 @@ function Booking() {
                         <p>{t("bookingInstagramText")}</p>
 
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/statuskay"
                             target="_blank"
                             rel="noreferrer"
                             className="button button-outline"

@@ -241,6 +241,14 @@ export const blogPosts = [
                 {
                     q: "Where can I park nearby?",
                     a: "Street parking on Miklošičeva, the Trdinova garage, and Tivolska cesta parking are all within a short walk — see our How To Get Here page for the full list, including bike, scooter and taxi options."
+                },
+                {
+                    q: "Can I choose services different from what's on my gift voucher?",
+                    a: "Of course — choose whatever you like and pay the difference for the rest."
+                },
+                {
+                    q: "Where can I buy your gift voucher?",
+                    a: "Right here at the salon — available for a haircut of your choice or a manicure of your choice. For bigger transformations or specific services that need a consultation, email us and we'll personalise a gift voucher for you."
                 }
             ],
 
@@ -276,6 +284,14 @@ export const blogPosts = [
                 {
                     q: "Kje lahko parkiram v bližini?",
                     a: "Cestno parkiranje na Miklošičevi, garaža Trdinova in parkirišče Tivolska cesta so vsi na kratki peš razdalji — celoten seznam, vključno s kolesi, skiroji in taksijem, najdete na strani Kako do nas."
+                },
+                {
+                    q: "Ali lahko izberem storitve, ki so drugačne kot na darilnem bonu?",
+                    a: "Seveda, izberite karkoli želite in ostalo doplačajte."
+                },
+                {
+                    q: "Kje lahko kupim vaš darilni bon?",
+                    a: "Pri nas v salonu — na voljo striženje po izbiri, manikura po izbiri. Za večje preobrazbe ali specifične storitve, ki potrebujejo posvet, nam pišite na mail in vam darilni bon personaliziramo."
                 }
             ]
 

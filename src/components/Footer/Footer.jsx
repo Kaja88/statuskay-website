@@ -38,7 +38,7 @@ function Footer({ lang }) {
                     <div className="footer__socials">
 
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/statuskay"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Instagram"
@@ -47,7 +47,7 @@ function Footer({ lang }) {
                         </a>
 
                         <a
-                            href="https://facebook.com"
+                            href="https://www.facebook.com/statuskay"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Facebook"
@@ -56,7 +56,7 @@ function Footer({ lang }) {
                         </a>
 
                         <a
-                            href="https://tiktok.com"
+                            href="https://www.tiktok.com/@statuskay"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="TikTok"
