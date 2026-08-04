@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useOutletContext } from "react-router-dom";
 
 import Carousel from "../../components/Carousel/Carousel";
+import Reviews from "../../components/Reviews/Reviews";
 
 import heroVideo from "../../assets/videos/hero.mp4";
 import aboutImg from "../../assets/home/about.jpg";
@@ -172,6 +173,10 @@ function Home() {
                 </div>
 
             </section>
+
+            {/* REVIEWS */}
+
+            <Reviews />
 
             {/* CONTACT */}
 
