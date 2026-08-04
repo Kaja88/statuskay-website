@@ -30,13 +30,13 @@ export const serviceFaqs = {
 
     3: {
         en: [
-            { q: "How do I know which length to choose?", a: "Short is hair to the ears, mid length falls between the ears and shoulders, long is below the shoulders, and extra long is halfway down the back or very thick hair." },
+            { q: "How do I know which length to choose?", a: "Short is hair to the ears, mid length (bob) falls between the ears and shoulders, long is below the shoulders, and extra long is halfway down the back or very thick hair." },
             { q: "Does the haircut include a blow-dry?", a: "Yes, every haircut finishes with a blow-dry and styling." },
             { q: "Does it include a hair wash?", a: "Yes." },
             { q: "How often should I fully refresh my style?", a: "We recommend a full refresh every 3 to 6 months." }
         ],
         sl: [
-            { q: "Kako vem katero dolžino izbrati?", a: "Kratki pomeni lase do ušes, srednji so med ušesi in rameni, dolgi so pod rameni, zahtevni pa polovica hrbta ali zelo gosti lasje." },
+            { q: "Kako vem katero dolžino izbrati?", a: "Kratki pomeni lase do ušes, srednji (paž) so med ušesi in rameni, dolgi so pod rameni, zahtevni pa polovica hrbta ali zelo gosti lasje." },
             { q: "Ali striženje vključuje tudi feniranje?", a: "Da, vsako striženje zaključimo s feniranjem in oblikovanjem." },
             { q: "Ali striženje vključuje umivanje las?", a: "Ja." },
             { q: "Kako pogosto naj popolnoma osvežim pričesko?", a: "Priporočamo obnovitev vsakih 3 do 6 mesecev." }

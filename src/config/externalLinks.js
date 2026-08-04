@@ -11,6 +11,17 @@ export const serviceBookingUrls = {
 
     1: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15509580&share=true&pId=450986",
 
+    2: [
+        { label: { en: "Up to 1 month of regrowth", sl: "Do 1 meseca narastka" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15500830&share=true&pId=450986" },
+        { label: { en: "Two-process (over 1 month)", sl: "Dvoprocesno (nad 1 mesec)" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15500894&share=true&pId=450986" }
+    ],
+
+    6: [
+        { label: { en: "Shaping, no polish", sl: "Oblikovanje brez lakiranja" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15509931&share=true&pId=450986" },
+        { label: { en: "Gelish", sl: "Gelish" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15509961&share=true&pId=450986" },
+        { label: { en: "Gel removal", sl: "Gel odstranjevanje" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A17079894&share=true&pId=450986" }
+    ],
+
     4: [
         { label: { en: "Styling", sl: "Styling" }, url: freshaBookingUrl },
         { label: { en: "Blow-dry style (short)", sl: "Fen frizura (kratki)" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465765&share=true&pId=450986" },
@@ -26,7 +37,7 @@ export const serviceBookingUrls = {
 
     3: [
         { label: { en: "Short", sl: "Kratki" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465660&share=true&pId=450986" },
-        { label: { en: "Mid length", sl: "Srednji" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465663&share=true&pId=450986" },
+        { label: { en: "Mid length (bob)", sl: "Srednji (paž)" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465663&share=true&pId=450986" },
         { label: { en: "Long", sl: "Dolgi" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465678&share=true&pId=450986" },
         { label: { en: "Extra long", sl: "Zahtevni" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15465710&share=true&pId=450986" },
         { label: { en: "Girls' cut", sl: "Dekliško striženje" }, url: "https://www.fresha.com/book-now/y9qzt5m0/services?lid=482898&eid=1411269&oiid=sv%3A15509788&share=true&pId=450986" }

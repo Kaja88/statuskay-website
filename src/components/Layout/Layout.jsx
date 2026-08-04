@@ -20,7 +20,7 @@ import "./Layout.css";
 // blog post pages set a more specific one themselves via useDocumentHead,
 // so this map is intentionally left without entries for those two.
 const staticMetaKeys = {
-    home: { title: "heroSubtitle", description: "aboutIntro" },
+    home: { title: "heroSubtitle", description: "homeSeoDescription" },
     about: { title: "aboutPageTitle", description: "aboutIntro" },
     services: { title: "servicesPageTitle", description: "servicesPageIntro" },
     blog: { title: "blogTitle", description: "blogIntro" },

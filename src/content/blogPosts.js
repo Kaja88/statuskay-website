@@ -147,7 +147,7 @@ export const blogPosts = [
                 },
                 {
                     q: "Where is STATUS KAY located relative to the city centre?",
-                    a: "The studio is close to Ljubljana's main train station, within easy walking distance of Prešeren Square and the old town."
+                    a: "The studio is right by Ljubljana's main train and bus station, in the capital of Slovenia, within easy walking distance of Prešeren Square and the old town."
                 }
             ],
 
@@ -166,7 +166,7 @@ export const blogPosts = [
                 },
                 {
                     q: "Kje se nahaja STATUS KAY glede na center mesta?",
-                    a: "Studio je blizu ljubljanske železniške postaje, na enostavni peš razdalji od Prešernovega trga in starega mestnega jedra."
+                    a: "Studio je tik ob glavni železniški in avtobusni postaji Ljubljana, glavnem mestu Slovenije, na enostavni peš razdalji od Prešernovega trga in starega mestnega jedra."
                 }
             ]
 

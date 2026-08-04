@@ -21,7 +21,7 @@
   "service2Text": "Premium blond preobrazbe prilagojene vašim potrebam.",
 
   "service3Title": "Žensko striženje",
-  "service3Text": "Ženska pričeska, oblikovana z natančnimi tehnikami, prilagojena obliki vašega obraza.",
+  "service3Text": "Vse od kratkih frizur, paž frizur in dolgolask – precizno striženje, prilagojeno obliki obraza.",
 
   "contactSubtitle": "Kontakt",
   "contactTitle": "Rezervirajte svoj termin",
@@ -35,6 +35,7 @@
   "aboutEyebrow": "Naša zgodba",
   "aboutPageTitle": "Zgodba za STATUS KAY",
   "aboutIntro": "STATUS KAY je nastal iz preproste ideje: salonska izkušnja, ki lase obravnava kot obrt, ne kot izdelek.",
+  "homeSeoDescription": "STATUS KAY je frizerski salon v srcu Ljubljane, glavnega mesta Slovenije — specializirani za balayage, blondiranje, moderne frizure in premium nego las.",
 
   "storyEyebrow": "Od prvega dne",
   "storyTitle": "Natančnost, skrb, osebnost",
@@ -92,8 +93,8 @@
   "service2LongText": "Blondiranje je ena najbolj zahtevnih tehnik barvanja, saj zahteva natančno oceno stanja las in pravi izbor nianse. Tehniko pogosto imenujemo tudi 'dvojni proces' (double process). V STATUS KAY najprej ocenimo vaše lase in skupaj določimo odtenek, ki bo laskal vaši polti, nato pa proces izpeljemo postopoma, da ohranimo kakovost las. Uporabljamo kakovostna belila z Wellaplex tehnologijo, ki med procesom ohranja vezi v lasu.",
 
   "service3SeoTitle": "Žensko striženje Ljubljana | STATUS KAY",
-  "service3SeoDescription": "Žensko striženje v Ljubljani – precizni rezi, prilagojeni obliki obraza, v salonu STATUS KAY blizu centra.",
-  "service3LongText": "Dobro striženje je osnova vsake pričeske. V STATUS KAY ženske lase strižemo z natančnimi rezili, prilagojenimi obliki obraza, gostoti in strukturi las, tako da pričeska ohrani obliko tudi med posameznimi obiski salona.",
+  "service3SeoDescription": "Žensko striženje in kratke frizure v Ljubljani – precizni rezi, prilagojeni obliki obraza, v salonu STATUS KAY blizu centra.",
+  "service3LongText": "Dobro striženje je osnova vsake pričeske. V STATUS KAY ženske lase strižemo z natančnimi tehnikami, prilagojenimi obliki obraza, gostoti in strukturi las, tako da pričeska ohrani obliko tudi med posameznimi obiski salona.",
 
   "service4SeoTitle": "Styling las Ljubljana | STATUS KAY",
   "service4SeoDescription": "Feniranje in styling za posebne priložnosti v Ljubljani – dovršen videz za dogodke in fotografiranja v salonu STATUS KAY.",
@@ -112,8 +113,8 @@
   "service7LongText": "Prameni so klasična pot do svetlejših las z več dimenzije – posamezni prameni, zaviti v folijo in posvetljeni do želenega odtenka, od nekaj pramenov ob obrazu do cele glave. V STATUS KAY postavitev in intenzivnost prilagodimo temu, kako subtilen ali izrazit rezultat želite. Prameni so tudi odlična izbira za prve sivčke, saj jih naravno prekrijejo in zabrišejo.",
 
   "service8SeoTitle": "Frizer za moške Ljubljana | STATUS KAY",
-  "service8SeoDescription": "Frizerske storitve za moške v Ljubljani – fade rezi, urejanje brade in moška nega v salonu STATUS KAY.",
-  "service8LongText": "Od čistih fade rezov do oblikovanja brade in oldschool striženja s škarjami, naša ponudba za moške pokriva pravo moško nego od konzultacije do zaključka. Redni gostje si rezervirajo stalni termin, da so med obiski vedno urejeni.",
+  "service8SeoDescription": "Barber storitve za moške v Ljubljani – fade, urejanje brade in moška nega v salonu STATUS KAY.",
+  "service8LongText": "Od čistih fade tehnik do oblikovanja brade in oldschool striženja s škarjami, naša ponudba za moške pokriva pravo moško nego od konzultacije do zaključka. Redni gostje si rezervirajo stalni termin, da so med obiski vedno urejeni.",
 
   "service9SeoTitle": "Toniranje Ljubljana | STATUS KAY",
   "service9SeoDescription": "Toniranje las v Ljubljani – nevtralizacija neželenih tonov in fino uglaševanje barve v salonu STATUS KAY.",
@@ -131,7 +132,7 @@
 
   "directionsEyebrow": "Obiščite nas",
   "directionsTitle": "Kako do nas",
-  "directionsIntro": "Nahajamo se v centru Ljubljane, le nekaj korakov od Prešernovega trga.",
+  "directionsIntro": "Nahajamo se v centru Ljubljane, glavnega mesta Slovenije — tik ob glavni železniški in avtobusni postaji Ljubljana, le nekaj korakov od Prešernovega trga.",
 
   "wayfindingHint": "Izberi smer, od koder prihajaš.",
   "wayfindingMapsCta": "Odpri Navigacijo V Google Maps",
