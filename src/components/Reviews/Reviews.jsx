@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -10,7 +10,15 @@ import "./Reviews.css";
 const GOOGLE_READ_URL = "https://g.page/r/CYfWhNu8lVgaEBM";
 const GOOGLE_WRITE_URL = "https://g.page/r/CYfWhNu8lVgaEBM/review";
 
-const SWIPE_THRESHOLD = 80;
+const SWIPE_CONFIDENCE_THRESHOLD = 8000;
+
+const swipePower = (offset, velocity) => Math.abs(offset) * velocity;
+
+const cardVariants = {
+    enter: { opacity: 0, x: 16, filter: "blur(8px)" },
+    center: { opacity: 1, x: 0, filter: "blur(0px)" },
+    exit: { opacity: 0, x: -16, filter: "blur(8px)", pointerEvents: "none" }
+};
 
 function Reviews() {
 
@@ -23,23 +31,23 @@ function Reviews() {
     const isLast = index === reviews.length - 1;
 
     const goNext = () => {
-        if (isLast) return;
-        setIndex((i) => i + 1);
+        setIndex((i) => Math.min(i + 1, reviews.length - 1));
     };
 
     const goPrev = () => {
-        if (isFirst) return;
-        setIndex((i) => i - 1);
+        setIndex((i) => Math.max(i - 1, 0));
     };
 
     const handleDragEnd = (event, info) => {
 
-        if (info.offset.x > SWIPE_THRESHOLD) {
+        const swipe = swipePower(info.offset.x, info.velocity.x);
+
+        if (swipe < -SWIPE_CONFIDENCE_THRESHOLD) {
             goNext();
             return;
         }
 
-        if (info.offset.x < -SWIPE_THRESHOLD) {
+        if (swipe > SWIPE_CONFIDENCE_THRESHOLD) {
             goPrev();
         }
 
@@ -80,38 +88,48 @@ function Reviews() {
                         <ChevronLeft size={22} />
                     </button>
 
-                    <motion.div
-                        className="reviews__card"
-                        key={index}
-                        drag="x"
-                        dragConstraints={{ left: 0, right: 0 }}
-                        dragElastic={0.3}
-                        onDragEnd={handleDragEnd}
-                        initial={{ opacity: 0, x: 24 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.3 }}
-                    >
+                    <div className="reviews__viewport">
 
-                        <div className="reviews__stars">
-                            {Array.from({ length: 5 }).map((_, i) => (
-                                <Star
-                                    key={i}
-                                    size={16}
-                                    fill="currentColor"
-                                    strokeWidth={0}
-                                />
-                            ))}
-                        </div>
+                        <AnimatePresence initial={false}>
 
-                        <p className="reviews__text">
-                            {review.text}
-                        </p>
+                            <motion.div
+                                className="reviews__card"
+                                key={index}
+                                variants={cardVariants}
+                                initial="enter"
+                                animate="center"
+                                exit="exit"
+                                transition={{ duration: 0.35, ease: "easeOut" }}
+                                drag="x"
+                                dragConstraints={{ left: 0, right: 0 }}
+                                dragElastic={1}
+                                onDragEnd={handleDragEnd}
+                            >
 
-                        <p className="reviews__name">
-                            {review.name}
-                        </p>
+                                <div className="reviews__stars">
+                                    {Array.from({ length: 5 }).map((_, i) => (
+                                        <Star
+                                            key={i}
+                                            size={16}
+                                            fill="currentColor"
+                                            strokeWidth={0}
+                                        />
+                                    ))}
+                                </div>
 
-                    </motion.div>
+                                <p className="reviews__text">
+                                    {review.text}
+                                </p>
+
+                                <p className="reviews__name">
+                                    {review.name}
+                                </p>
+
+                            </motion.div>
+
+                        </AnimatePresence>
+
+                    </div>
 
                     <button
                         type="button"

@@ -10,8 +10,16 @@
   gap: var(--space-6);
 }
 
-.reviews__card {
+.reviews__viewport {
   flex: 1;
+
+  display: grid;
+
+  overflow: hidden;
+}
+
+.reviews__card {
+  grid-area: 1 / 1;
 
   padding: var(--space-10) var(--space-12);
 
