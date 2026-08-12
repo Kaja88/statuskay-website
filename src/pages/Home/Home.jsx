@@ -176,7 +176,7 @@ function Home() {
 
             {/* REVIEWS */}
 
-            <Reviews />
+            <Reviews lang={lang} />
 
             {/* CONTACT */}
 

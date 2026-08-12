@@ -76,6 +76,18 @@
   color: var(--text);
 }
 
+.reviews__translated {
+  margin-top: var(--space-2);
+
+  font-size: 0.65rem;
+
+  font-style: italic;
+
+  color: var(--text);
+
+  opacity: 0.45;
+}
+
 .reviews__arrow {
   display: flex;
 

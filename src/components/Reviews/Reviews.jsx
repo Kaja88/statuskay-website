@@ -20,7 +20,7 @@ const cardVariants = {
     exit: { opacity: 0, x: -16, filter: "blur(8px)", pointerEvents: "none" }
 };
 
-function Reviews() {
+function Reviews({ lang }) {
 
     const { t } = useTranslation();
 
@@ -118,12 +118,20 @@ function Reviews() {
                                 </div>
 
                                 <p className="reviews__text">
-                                    {review.text}
+                                    {review.text[lang]}
                                 </p>
 
                                 <p className="reviews__name">
                                     {review.name}
                                 </p>
+
+                                {review.originalLang !== lang && (
+
+                                    <p className="reviews__translated">
+                                        {review.originalLang === "sl" ? t("reviewsTranslatedFromSl") : t("reviewsTranslatedFromEn")}
+                                    </p>
+
+                                )}
 
                             </motion.div>
 
