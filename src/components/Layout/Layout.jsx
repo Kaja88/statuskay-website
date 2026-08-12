@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { Outlet, useLocation } from "react-router-dom";
 
@@ -155,7 +155,17 @@ function Layout({ lang }) {
 
             <main>
 
-                <Outlet context={{ lang }} />
+                <Suspense
+                    fallback={(
+                        <div className="route-loading">
+                            <div className="route-loading__spinner" />
+                        </div>
+                    )}
+                >
+
+                    <Outlet context={{ lang }} />
+
+                </Suspense>
 
             </main>
 

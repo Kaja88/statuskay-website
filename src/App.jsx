@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, lazy } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import { supportedLanguages, defaultLanguage } from "./config/languages";
@@ -6,18 +6,22 @@ import { routes } from "./config/routes";
 
 import Layout from "./components/Layout/Layout";
 
+// Home and NotFound ship in the main bundle since they're the most common
+// entry points; every other page loads on demand so a visitor only
+// downloads the page they actually asked for.
 import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Services from "./pages/Services/Services";
-import ServiceDetail from "./pages/ServiceDetail/ServiceDetail";
-import Blog from "./pages/Blog/Blog";
-import BlogPost from "./pages/BlogPost/BlogPost";
-import Directions from "./pages/Directions/Directions";
-import Contact from "./pages/Contact/Contact";
-import Booking from "./pages/Booking/Booking";
-import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
-import BookingPolicy from "./pages/BookingPolicy/BookingPolicy";
 import NotFound from "./pages/NotFound/NotFound";
+
+const About = lazy(() => import("./pages/About/About"));
+const Services = lazy(() => import("./pages/Services/Services"));
+const ServiceDetail = lazy(() => import("./pages/ServiceDetail/ServiceDetail"));
+const Blog = lazy(() => import("./pages/Blog/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost/BlogPost"));
+const Directions = lazy(() => import("./pages/Directions/Directions"));
+const Contact = lazy(() => import("./pages/Contact/Contact"));
+const Booking = lazy(() => import("./pages/Booking/Booking"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy/PrivacyPolicy"));
+const BookingPolicy = lazy(() => import("./pages/BookingPolicy/BookingPolicy"));
 
 function ScrollToTop() {
 

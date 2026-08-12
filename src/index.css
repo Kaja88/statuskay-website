@@ -388,6 +388,40 @@ section {
 }
 
 /* ========================================
+   ROUTE LOADING FALLBACK
+======================================== */
+
+.route-loading {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-height: 60vh;
+}
+
+.route-loading__spinner {
+  width: 28px;
+
+  height: 28px;
+
+  border-radius: 50%;
+
+  border: 2px solid var(--border);
+
+  border-top-color: var(--accent);
+
+  animation: route-loading-spin 0.7s linear infinite;
+}
+
+@keyframes route-loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ========================================
    PAGE HEADER
 ======================================== */
 
