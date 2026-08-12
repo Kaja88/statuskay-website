@@ -16,6 +16,7 @@ import Directions from "./pages/Directions/Directions";
 import Contact from "./pages/Contact/Contact";
 import Booking from "./pages/Booking/Booking";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import BookingPolicy from "./pages/BookingPolicy/BookingPolicy";
 import NotFound from "./pages/NotFound/NotFound";
 
 function ScrollToTop() {
@@ -103,6 +104,11 @@ function App() {
                         <Route
                             path={routes.privacy.path[lang]}
                             element={<PrivacyPolicy />}
+                        />
+
+                        <Route
+                            path={routes.bookingPolicy.path[lang]}
+                            element={<BookingPolicy />}
                         />
 
                     </Route>

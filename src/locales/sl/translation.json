@@ -193,6 +193,7 @@
   "bookingInstagramTitle": "Sporočilo na Instagramu",
   "bookingInstagramText": "Raje preko sporočil? Pošljite nam svojo razpoložljivost, za ostalo poskrbimo mi.",
   "bookingInstagramCta": "Odpri Instagram",
+  "bookingPolicyLinkText": "Preberite našo politiko rezervacij",
 
   "notFoundTitle": "Stran ne obstaja",
   "notFoundText": "Stran, ki jo iščete, ne obstaja ali je bila premaknjena.",
@@ -220,5 +221,26 @@
   "privacyRightsText": "Ker sporočilo, ki ga pošljete prek kontaktnega obrazca, gre neposredno iz vašega e-poštnega predala, imate nad njim polni nadzor — lahko ga kadarkoli izbrišete. Za vsa vprašanja glede zasebnosti nas kontaktirajte na spodnji e-naslov.",
 
   "privacyContactTitle": "Kontakt za zasebnost",
-  "privacyContactText": "Za vsa vprašanja o tej politiki zasebnosti nam pišite na"
+  "privacyContactText": "Za vsa vprašanja o tej politiki zasebnosti nam pišite na",
+
+  "bookingPolicyEyebrow": "Dobro je vedeti",
+  "bookingPolicyPageTitle": "Politika rezervacij",
+  "bookingPolicyUpdated": "Zadnja posodobitev: avgust 2026",
+
+  "bookingPolicyIntroText": "Da lahko vsem strankam zagotovimo miren in profesionalen termin, upoštevamo nekaj preprostih pravil pri naročanju, prestavljanju in neprihodih.",
+
+  "bookingPolicyBookingTitle": "Naročanje termina",
+  "bookingPolicyBookingText": "Termin lahko rezervirate prek spleta, po telefonu ali prek Instagrama. Ob rezervaciji prosimo za natančne kontaktne podatke, da vas lahko po potrebi obvestimo o morebitnih spremembah.",
+
+  "bookingPolicyCancelTitle": "Odpovedi in prestavitve",
+  "bookingPolicyCancelText": "Če termina ne morete izkoristiti, nas prosimo obvestite čim prej — idealno vsaj 24 ur vnaprej — da lahko termin ponudimo drugi stranki.",
+
+  "bookingPolicyNoShowTitle": "Neprihodi in predplačilo",
+  "bookingPolicyNoShowText": "Občasne spremembe razumemo, stvari se zgodijo. Če pa stranka termine prepogosto prestavlja ali se nanje ne zglasi brez obvestila, si pridržujemo pravico, da za nadaljnje rezervacije zahtevamo predplačilo. Če se stranka ne zglasi na termin, za katerega je bilo opravljeno predplačilo, se storitev šteje za opravljeno in predplačilo ni povrnjeno.",
+
+  "bookingPolicyWalkinTitle": "Sprotni obiski (walk-in)",
+  "bookingPolicyWalkinText": "Za sprotne obiske brez predhodne rezervacije predplačilo ni potrebno — če je termin prost, ste vedno dobrodošli tudi brez najave.",
+
+  "bookingPolicyContactTitle": "Vprašanja",
+  "bookingPolicyContactText": "Za vsa vprašanja glede rezervacij nas kontaktirajte na"
 }

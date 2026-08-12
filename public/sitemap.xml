@@ -97,6 +97,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/privacy-policy" />
   </url>
   <url>
+    <loc>https://statuskay.com/en/booking-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/booking-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-rezervacij" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/booking-policy" />
+  </url>
+  <url>
+    <loc>https://statuskay.com/sl/politika-rezervacij</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/booking-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-rezervacij" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/booking-policy" />
+  </url>
+  <url>
     <loc>https://statuskay.com/en/services/balayage</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/balayage" />
     <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/balayage" />

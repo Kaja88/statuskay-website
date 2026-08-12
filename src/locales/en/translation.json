@@ -193,6 +193,7 @@
   "bookingInstagramTitle": "Message On Instagram",
   "bookingInstagramText": "Prefer DMs? Send us your availability and we'll sort out the rest.",
   "bookingInstagramCta": "Open Instagram",
+  "bookingPolicyLinkText": "Please note our booking policy",
 
   "notFoundTitle": "Page Not Found",
   "notFoundText": "The page you're looking for doesn't exist or has moved.",
@@ -220,5 +221,26 @@
   "privacyRightsText": "Because the message you send through the contact form goes straight from your own inbox, you're always in full control of it and can delete it at any time. For any privacy questions, reach us at the email below.",
 
   "privacyContactTitle": "Privacy Contact",
-  "privacyContactText": "For any questions about this privacy policy, email us at"
+  "privacyContactText": "For any questions about this privacy policy, email us at",
+
+  "bookingPolicyEyebrow": "Good To Know",
+  "bookingPolicyPageTitle": "Booking Policy",
+  "bookingPolicyUpdated": "Last updated: August 2026",
+
+  "bookingPolicyIntroText": "To keep appointments running smoothly for every client, we follow a few simple rules around booking, rescheduling and no-shows.",
+
+  "bookingPolicyBookingTitle": "Booking An Appointment",
+  "bookingPolicyBookingText": "You can book online, by phone or via Instagram. Please give us accurate contact details when booking, so we can reach you if anything changes.",
+
+  "bookingPolicyCancelTitle": "Cancellations & Rescheduling",
+  "bookingPolicyCancelText": "If you can't make your appointment, please let us know as early as possible — ideally at least 24 hours in advance — so we can offer the slot to someone else.",
+
+  "bookingPolicyNoShowTitle": "No-Shows & Prepayment",
+  "bookingPolicyNoShowText": "Occasional changes happen, and that's completely fine. However, if appointments are rescheduled too often or missed without notice, we reserve the right to require prepayment for future bookings. If a prepaid appointment is missed, the service is considered rendered and the prepayment is non-refundable.",
+
+  "bookingPolicyWalkinTitle": "Walk-In Clients",
+  "bookingPolicyWalkinText": "No prepayment is needed for walk-ins — if a slot is open, you're always welcome without a prior booking.",
+
+  "bookingPolicyContactTitle": "Questions",
+  "bookingPolicyContactText": "For any questions about booking, reach us at"
 }

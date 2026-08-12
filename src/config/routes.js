@@ -158,6 +158,26 @@ export const routes = {
 
         }
 
+    },
+
+    bookingPolicy: {
+
+        label: {
+
+            en: "Booking Policy",
+
+            sl: "Politika rezervacij"
+
+        },
+
+        path: {
+
+            en: "booking-policy",
+
+            sl: "politika-rezervacij"
+
+        }
+
     }
 
 };

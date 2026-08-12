@@ -137,6 +137,10 @@ function Footer({ lang }) {
                     {routes.privacy.label[lang]}
                 </NavLink>
 
+                <NavLink to={buildPath(lang, "bookingPolicy")}>
+                    {routes.bookingPolicy.label[lang]}
+                </NavLink>
+
             </div>
 
         </footer>

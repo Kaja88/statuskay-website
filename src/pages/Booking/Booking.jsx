@@ -1,10 +1,12 @@
 import { useTranslation } from "react-i18next";
+import { Link, useOutletContext } from "react-router-dom";
 import { Phone, Calendar } from "lucide-react";
 
 import { InstagramIcon } from "../../components/icons/SocialIcons";
 import PageBanner from "../../components/PageBanner/PageBanner";
 
 import { freshaBookingUrl } from "../../config/externalLinks";
+import { buildPath } from "../../config/routes";
 
 import bookingVideo from "../../assets/videos/booking.mp4";
 
@@ -13,6 +15,8 @@ import "./Booking.css";
 function Booking() {
 
     const { t } = useTranslation();
+
+    const { lang } = useOutletContext();
 
     return (
 
@@ -85,6 +89,12 @@ function Booking() {
                     </article>
 
                 </div>
+
+                <p className="booking__policy-note">
+                    <Link to={buildPath(lang, "bookingPolicy")}>
+                        {t("bookingPolicyLinkText")}
+                    </Link>
+                </p>
 
             </section>
 
