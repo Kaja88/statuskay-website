@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -9,6 +10,17 @@ import "./NotFound.css";
 function NotFound() {
 
     const { t } = useTranslation();
+
+    useEffect(() => {
+
+        const meta = document.createElement("meta");
+        meta.name = "robots";
+        meta.content = "noindex";
+        document.head.appendChild(meta);
+
+        return () => document.head.removeChild(meta);
+
+    }, []);
 
     return (
 
