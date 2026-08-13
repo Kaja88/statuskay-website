@@ -19,6 +19,8 @@ function Contact() {
 
     const [form, setForm] = useState({ name: "", email: "", message: "", consent: false });
 
+    const [status, setStatus] = useState("idle");
+
     const handleChange = (event) => {
 
         const { name, value, type, checked } = event.target;
@@ -27,15 +29,31 @@ function Contact() {
 
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
 
         event.preventDefault();
 
-        const subject = encodeURIComponent(`Message from ${form.name || "the website"}`);
+        setStatus("submitting");
 
-        const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`);
+        try {
 
-        window.location.href = `mailto:statuskay@gmail.com?subject=${subject}&body=${body}`;
+            const response = await fetch("/api/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(form)
+            });
+
+            if (!response.ok) throw new Error("Request failed");
+
+            setStatus("success");
+
+            setForm({ name: "", email: "", message: "", consent: false });
+
+        } catch {
+
+            setStatus("error");
+
+        }
 
     };
 
@@ -112,9 +130,22 @@ function Contact() {
                         <button
                             type="submit"
                             className="button"
+                            disabled={status === "submitting"}
                         >
-                            {t("formSubmit")}
+                            {status === "submitting" ? t("formSubmitting") : t("formSubmit")}
                         </button>
+
+                        {status === "success" && (
+                            <p className="contact-form__status contact-form__status--success">
+                                {t("formSuccess")}
+                            </p>
+                        )}
+
+                        {status === "error" && (
+                            <p className="contact-form__status contact-form__status--error">
+                                {t("formError")}
+                            </p>
+                        )}
 
                     </form>
 

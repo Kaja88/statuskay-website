@@ -172,6 +172,9 @@
   "formEmailLabel": "E-pošta",
   "formMessageLabel": "Sporočilo",
   "formSubmit": "Pošlji sporočilo",
+  "formSubmitting": "Pošiljanje ...",
+  "formSuccess": "Hvala — sporočilo je bilo poslano. Oglasili se vam bomo v najkrajšem možnem času.",
+  "formError": "Nekaj je šlo narobe. Poskusite znova, ali nam pišite direktno na statuskay@gmail.com.",
 
   "contactInfoTitle": "Kontaktirajte nas neposredno",
   "contactPhoneLabel": "Telefon",

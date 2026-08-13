@@ -172,6 +172,9 @@
   "formEmailLabel": "Email",
   "formMessageLabel": "Message",
   "formSubmit": "Send Message",
+  "formSubmitting": "Sending...",
+  "formSuccess": "Thanks — your message has been sent. We'll get back to you soon.",
+  "formError": "Something went wrong. Please try again, or email us directly at statuskay@gmail.com.",
 
   "contactInfoTitle": "Reach Us Directly",
   "contactPhoneLabel": "Phone",
