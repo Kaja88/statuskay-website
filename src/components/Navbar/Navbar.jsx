@@ -108,8 +108,6 @@ function Navbar({ lang }) {
 
                     </ul>
 
-                    <p className="navbar__nav-logo">STATUS KAY</p>
-
                 </nav>
 
                 <div className="navbar__actions">
