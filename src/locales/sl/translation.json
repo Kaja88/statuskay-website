@@ -207,21 +207,21 @@
 
   "privacyEyebrow": "Pravno",
   "privacyPageTitle": "Politika zasebnosti",
-  "privacyUpdated": "Zadnja posodobitev: julij 2026",
+  "privacyUpdated": "Zadnja posodobitev: avgust 2026",
 
   "privacyIntroText": "Ta stran pojasnjuje, katere osebne podatke zbira spletna stran STATUS KAY, kako jih uporabljamo in kakšne pravice imate v zvezi z njimi.",
 
   "privacyDataTitle": "Kateri podatki se zbirajo",
-  "privacyDataText": "Edini osebni podatki, ki jih zbiramo, so tisti, ki jih vnesete v kontaktni obrazec — ime, e-poštni naslov in sporočilo. Ta stran nima lastnega strežnika ali baze podatkov: ko oddate obrazec, se preprosto odpre vaš lastni e-poštni odjemalec s pripravljenim sporočilom, ki ga pošljete sami. Na naši strani se ne shrani nič.",
+  "privacyDataText": "Edini osebni podatki, ki jih zbiramo, so tisti, ki jih vnesete v kontaktni obrazec — ime, e-poštni naslov in sporočilo. Ko oddate obrazec, se sporočilo pošlje neposredno v naš nabiralnik (statuskay@gmail.com) prek Resend, storitve za pošiljanje elektronske pošte. Sporočil ne shranjujemo v lastno bazo podatkov — obstajajo samo kot email, ki ga prejmemo.",
 
   "privacyUseTitle": "Kako uporabljamo podatke",
-  "privacyUseText": "Podatke, ki nam jih pošljete po e-pošti, uporabimo izključno za odgovor na vaše povpraševanje. Ne uporabljamo jih za oglaševanje, jih ne prodajamo in ne delimo s tretjimi osebami.",
+  "privacyUseText": "Podatke, ki nam jih pošljete prek kontaktnega obrazca, uporabimo izključno za odgovor na vaše povpraševanje. Ne uporabljamo jih za oglaševanje, jih ne prodajamo in ne delimo s tretjimi osebami.",
 
   "privacyThirdPartyTitle": "Storitve tretjih oseb",
-  "privacyThirdPartyText": "Na strani Kako do nas je vgrajen zemljevid Google Maps, na strani Rezervacija pa povezava do Fresha za spletno rezervacijo. Obe storitvi delujeta po svoji lastni politiki zasebnosti, na katero nimamo vpliva.",
+  "privacyThirdPartyText": "Na strani Kako do nas je vgrajen zemljevid Google Maps, na strani Rezervacija je povezava do Fresha za spletno rezervacijo, kontaktni obrazec pa se pošlje prek Resend, našega ponudnika e-pošte. Vse tri storitve delujejo po svoji lastni politiki zasebnosti, na katero nimamo vpliva.",
 
   "privacyRightsTitle": "Vaše pravice",
-  "privacyRightsText": "Ker sporočilo, ki ga pošljete prek kontaktnega obrazca, gre neposredno iz vašega e-poštnega predala, imate nad njim polni nadzor — lahko ga kadarkoli izbrišete. Za vsa vprašanja glede zasebnosti nas kontaktirajte na spodnji e-naslov.",
+  "privacyRightsText": "Kadarkoli nas lahko vprašate, katere podatke o vas hranimo, ali nas prosite, da izbrišemo sporočilo, ki ste nam ga poslali. Za vsa vprašanja glede zasebnosti nas kontaktirajte na spodnji e-naslov.",
 
   "privacyContactTitle": "Kontakt za zasebnost",
   "privacyContactText": "Za vsa vprašanja o tej politiki zasebnosti nam pišite na",

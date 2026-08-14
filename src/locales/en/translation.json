@@ -207,21 +207,21 @@
 
   "privacyEyebrow": "Legal",
   "privacyPageTitle": "Privacy Policy",
-  "privacyUpdated": "Last updated: July 2026",
+  "privacyUpdated": "Last updated: August 2026",
 
   "privacyIntroText": "This page explains what personal data the STATUS KAY website collects, how we use it, and what rights you have over it.",
 
   "privacyDataTitle": "What Data We Collect",
-  "privacyDataText": "The only personal data we collect is what you enter in the contact form — your name, email address and message. This site has no server or database of its own: when you submit the form, it simply opens your own email client with the message pre-filled, and you send it yourself. Nothing is stored on our end.",
+  "privacyDataText": "The only personal data we collect is what you enter in the contact form — your name, email address and message. When you submit the form, it's delivered straight to our inbox (statuskay@gmail.com) through Resend, an email delivery service. We don't store submissions in a database of our own — the message only exists as the email we receive.",
 
   "privacyUseTitle": "How We Use It",
-  "privacyUseText": "Anything you email us is used solely to respond to your enquiry. We don't use it for advertising, sell it, or share it with third parties.",
+  "privacyUseText": "Anything you send us through the contact form is used solely to respond to your enquiry. We don't use it for advertising, sell it, or share it with third parties.",
 
   "privacyThirdPartyTitle": "Third-Party Services",
-  "privacyThirdPartyText": "The How To Get Here page embeds a Google Maps view, and the Booking page links to Fresha for online booking. Both services operate under their own privacy policies, which are outside our control.",
+  "privacyThirdPartyText": "The How To Get Here page embeds a Google Maps view, the Booking page links to Fresha for online booking, and the contact form is delivered through Resend, our email provider. All three operate under their own privacy policies, which are outside our control.",
 
   "privacyRightsTitle": "Your Rights",
-  "privacyRightsText": "Because the message you send through the contact form goes straight from your own inbox, you're always in full control of it and can delete it at any time. For any privacy questions, reach us at the email below.",
+  "privacyRightsText": "You can ask us at any time what we hold about you, or ask us to delete a message you've sent us. For any privacy questions, reach us at the email below.",
 
   "privacyContactTitle": "Privacy Contact",
   "privacyContactText": "For any questions about this privacy policy, email us at",
