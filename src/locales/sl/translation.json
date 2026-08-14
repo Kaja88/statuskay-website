@@ -131,6 +131,14 @@
   "serviceCtaTitle": "Rezerviraj termin",
 
   "blogBackLink": "Vse objave",
+
+  "newsletterTitle": "Ne zamudi nove objave",
+  "newsletterText": "Prejmi najnovejše nasvete o laseh in novice iz salona naravnost v svoj nabiralnik.",
+  "newsletterEmailPlaceholder": "Tvoj email",
+  "newsletterSubmit": "Naroči se",
+  "newsletterSubmitting": "Pošiljanje ...",
+  "newsletterSuccess": "Hvala! Preveri svoj nabiralnik in potrdi naročnino, da začneš prejemati objave.",
+  "newsletterError": "Nekaj je šlo narobe. Poskusi znova.",
   "blogFaqTitle": "Pogosta vprašanja",
 
   "blogEyebrow": "Dnevnik",

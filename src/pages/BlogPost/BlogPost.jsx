@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import { Link, Navigate, useOutletContext, useParams } from "react-router-dom";
 
 import PageBanner from "../../components/PageBanner/PageBanner";
+import NewsletterBlock from "../../components/Newsletter/NewsletterBlock";
+import NewsletterPopup from "../../components/Newsletter/NewsletterPopup";
 
 import { useDocumentHead } from "../../hooks/useDocumentHead";
 import { useStructuredData } from "../../hooks/useStructuredData";
@@ -92,6 +94,8 @@ function BlogPost() {
 
                     )}
 
+                    <NewsletterBlock />
+
                     <Link
                         to={buildPath(lang, "blog")}
                         className="button button-outline"
@@ -102,6 +106,8 @@ function BlogPost() {
                 </div>
 
             </section>
+
+            <NewsletterPopup />
 
         </>
 

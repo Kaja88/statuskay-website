@@ -131,6 +131,14 @@
   "serviceCtaTitle": "Book Now",
 
   "blogBackLink": "All Posts",
+
+  "newsletterTitle": "Don't miss a new post",
+  "newsletterText": "Get our latest hair tips and salon news straight to your inbox.",
+  "newsletterEmailPlaceholder": "Your email",
+  "newsletterSubmit": "Subscribe",
+  "newsletterSubmitting": "Subscribing...",
+  "newsletterSuccess": "Thanks! Check your inbox and confirm your subscription to start receiving posts.",
+  "newsletterError": "Something went wrong. Please try again.",
   "blogFaqTitle": "Frequently Asked Questions",
 
   "blogEyebrow": "Journal",
