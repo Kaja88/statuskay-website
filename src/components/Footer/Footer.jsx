@@ -4,17 +4,19 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 import { InstagramIcon, FacebookIcon, TikTokIcon } from "../icons/SocialIcons";
 import { routes, buildPath } from "../../config/routes";
-import { blogPosts } from "../../content/blogPosts";
 
 import "./Footer.css";
+
+// Hardcoded rather than looked up from blogPosts (which now holds the full
+// migrated archive) so the footer — part of the always-loaded Layout —
+// doesn't pull that entire dataset into the main bundle.
+const faqSlug = { en: "faq", sl: "pogosta-vprasanja" };
 
 function Footer({ lang }) {
 
     const { t } = useTranslation();
 
     const year = new Date().getFullYear();
-
-    const faqPost = blogPosts.find((post) => post.slug.en === "faq");
 
     return (
 
@@ -86,13 +88,11 @@ function Footer({ lang }) {
 
                         ))}
 
-                        {faqPost && (
-                            <li>
-                                <NavLink to={`${buildPath(lang, "blog")}/${faqPost.slug[lang]}`}>
-                                    FAQ
-                                </NavLink>
-                            </li>
-                        )}
+                        <li>
+                            <NavLink to={`${buildPath(lang, "blog")}/${faqSlug[lang]}`}>
+                                FAQ
+                            </NavLink>
+                        </li>
 
                     </ul>
 

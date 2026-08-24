@@ -11,7 +11,7 @@ import { useDocumentHead } from "../../hooks/useDocumentHead";
 
 import { routes, buildPath, getRouteKeyFromSlug } from "../../config/routes";
 import { buildServicePath, getServiceKeyFromSlug } from "../../config/serviceRoutes";
-import { blogPosts } from "../../content/blogPosts";
+import { blogSlugs } from "../../content/blogSlugs";
 import { defaultLanguage, supportedLanguages } from "../../config/languages";
 
 import "./Layout.css";
@@ -49,9 +49,9 @@ function resolveRoute(lang, pathname) {
     if (rest.startsWith(`${blogSlug}/`)) {
 
         const slug = rest.slice(blogSlug.length + 1);
-        const post = blogPosts.find((p) => p.slug[lang] === slug);
+        const postSlugs = blogSlugs.find((s) => s[lang] === slug);
 
-        if (post) return { type: "blog", post };
+        if (postSlugs) return { type: "blog", postSlugs };
 
     }
 
@@ -69,7 +69,7 @@ function getAlternates(route) {
 
     if (route.type === "blog") {
         return Object.fromEntries(
-            supportedLanguages.map((l) => [l, `${buildPath(l, "blog")}/${route.post.slug[l]}`])
+            supportedLanguages.map((l) => [l, `${buildPath(l, "blog")}/${route.postSlugs[l]}`])
         );
     }
 
