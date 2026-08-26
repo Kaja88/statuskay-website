@@ -1,20 +1,30 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useOutletContext } from "react-router-dom";
 
 import PageBanner from "../../components/PageBanner/PageBanner";
 
 import { buildPath } from "../../config/routes";
+import { blogCategories } from "../../config/blogCategories";
 import { blogPosts } from "../../content/blogPosts";
 
 import blogVideo from "../../assets/videos/blog.mp4";
 
 import "./Blog.css";
 
+const categoryKeys = Object.keys(blogCategories);
+
 function Blog() {
 
     const { t } = useTranslation();
 
     const { lang } = useOutletContext();
+
+    const [activeCategory, setActiveCategory] = useState(null);
+
+    const visiblePosts = activeCategory
+        ? blogPosts.filter((post) => post.category === activeCategory)
+        : blogPosts;
 
     return (
 
@@ -29,27 +39,56 @@ function Blog() {
 
             <section className="blog">
 
-                <div className="container blog__grid">
+                <div className="container">
 
-                    {blogPosts.map((post) => (
+                    <div className="blog__categories">
 
-                        <Link
-                            key={post.slug[lang]}
-                            to={`${buildPath(lang, "blog")}/${post.slug[lang]}`}
-                            className="blog-card"
+                        <button
+                            type="button"
+                            className={activeCategory === null ? "blog__category active" : "blog__category"}
+                            onClick={() => setActiveCategory(null)}
                         >
+                            {t("blogCategoryAll")}
+                        </button>
 
-                            <p className="blog-card__date">
-                                {post.date[lang]}
-                            </p>
+                        {categoryKeys.map((key) => (
 
-                            <h3>{post.title[lang]}</h3>
+                            <button
+                                key={key}
+                                type="button"
+                                className={activeCategory === key ? "blog__category active" : "blog__category"}
+                                onClick={() => setActiveCategory(key)}
+                            >
+                                {blogCategories[key][lang]}
+                            </button>
 
-                            <p>{post.excerpt[lang]}</p>
+                        ))}
 
-                        </Link>
+                    </div>
 
-                    ))}
+                    <div className="blog__grid">
+
+                        {visiblePosts.map((post) => (
+
+                            <Link
+                                key={post.slug[lang]}
+                                to={`${buildPath(lang, "blog")}/${post.slug[lang]}`}
+                                className="blog-card"
+                            >
+
+                                <p className="blog-card__date">
+                                    {post.date[lang]}
+                                </p>
+
+                                <h3>{post.title[lang]}</h3>
+
+                                <p>{post.excerpt[lang]}</p>
+
+                            </Link>
+
+                        ))}
+
+                    </div>
 
                 </div>
 

@@ -50,4 +50,6 @@
 
 .page-banner h1 {
   color: var(--white);
+
+  white-space: normal;
 }

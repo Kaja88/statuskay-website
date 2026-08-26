@@ -6,6 +6,8 @@ export const blogPosts = [
             sl: "hot-mama-summer-frizura-z-dojenckom"
         },
 
+        category: "about",
+
         date: {
             en: "July 5, 2026",
             sl: "5. julij 2026"
@@ -90,6 +92,8 @@ export const blogPosts = [
             en: "where-to-go-in-ljubljana-after-your-haircut",
             sl: "kam-v-ljubljani-po-frizuri"
         },
+
+        category: "about",
 
         date: {
             en: "June 23, 2026",
@@ -179,6 +183,8 @@ export const blogPosts = [
             en: "faq",
             sl: "pogosta-vprasanja"
         },
+
+        category: "about",
 
         date: {
             en: "July 15, 2026",
@@ -305,6 +311,8 @@ export const blogPosts = [
             sl: "zakaj-lasje-neprijetno-disijo"
         },
 
+        category: "haircuts",
+
         date: {
             en: "April 20, 2026",
             sl: "20. april 2026"
@@ -410,6 +418,8 @@ export const blogPosts = [
             sl: "kako-podaljsati-obstojnost-fen-frizure"
         },
 
+        category: "haircuts",
+
         date: {
             en: "March 30, 2026",
             sl: "30. marec 2026"
@@ -450,9 +460,7 @@ export const blogPosts = [
 
                 "Kar veliko ljudi ne ve, je to, da dolgotrajen rezultat ne temelji samo na izdelkih. Temelji tudi na tehniki. V Status Kay poskrbimo, da je tvoja pričeska oblikovana tako, da dejansko zdrži, zato izgleda enako dobro še več dni po obisku.",
 
-                "Če si naveličana, da tvoja fen frizura zdrži le en dan, je morda čas, da izkusiš razliko. Rezerviraj svoj termin, dokler so še na voljo prosti termini.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Če si naveličana, da tvoja fen frizura zdrži le en dan, je morda čas, da izkusiš razliko. Rezerviraj svoj termin, dokler so še na voljo prosti termini."
             ]
 
         },
@@ -503,6 +511,8 @@ export const blogPosts = [
             sl: "kako-pospesiti-rast-las"
         },
 
+        category: "haircuts",
+
         date: {
             en: "March 23, 2026",
             sl: "23. marec 2026"
@@ -547,9 +557,7 @@ export const blogPosts = [
 
                 "Dobra novica! S pravo rutino in frizerjem, ki res razume tvoje lase, lahko vidiš razliko že v nekaj mesecih. Prav to je naš fokus. Ne samo lep izgled za en dan, ampak dolgoročno zdravi in močni lasje.",
 
-                "Če si naveličana ugibanja, kaj tvoji lasje potrebujejo, to z veseljem rešimo skupaj. Rezerviraj svoj termin in skupaj bomo našli rešitev, ki dejansko deluje ✨",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Če si naveličana ugibanja, kaj tvoji lasje potrebujejo, to z veseljem rešimo skupaj. Rezerviraj svoj termin in skupaj bomo našli rešitev, ki dejansko deluje ✨"
             ]
 
         },
@@ -596,114 +604,11 @@ export const blogPosts = [
 
     {
         slug: {
-            en: "signs-its-time-to-switch-hairdressers",
-            sl: "znaki-za-menjavo-frizerja"
-        },
-
-        date: {
-            en: "March 16, 2026",
-            sl: "16. marec 2026"
-        },
-
-        title: {
-            en: "Signs It's Time to Switch Hairdressers",
-            sl: "Znaki za menjavo frizerja"
-        },
-
-        excerpt: {
-            en: "They don't listen to what you want, your hair isn't better after a visit, the feeling just isn't right? These are clear signs it might be time for a new hairdresser. Here's what to watch for.",
-            sl: "Ne posluša tvojih želja, lasje po obisku niso boljši, počutje po frizuri ni pravo? To so jasni znaki, da je čas za novega frizerja. Preveri, na kaj bodi pozorna."
-        },
-
-        body: {
-
-            en: [
-                "Your hair has a big impact on how confident and put-together you feel. A good hairdresser doesn't just handle the cut or the color. They understand your style, listen to what you want, and help you look your best. But if you often leave the salon feeling disappointed or unhappy, that can be a sign it's time for a change.",
-
-                "One of the most common signs is that your hairdresser doesn't listen to what you want. A great cut or color always starts with a conversation. A hairdresser should ask questions, look at reference photos, and make sure they fully understand your expectations before starting any work. If you feel your wishes are often overlooked or misunderstood, it's hard to trust the result.",
-
-                "Another sign is leaving the salon without truly feeling satisfied. After a visit, you should feel confident, excited, and ready to show off your new look. But if you find yourself tying your hair back the next day or thinking it should look different, that can mean the result isn't what it should be.",
-
-                "Hair health matters too. Professional techniques and quality products should improve the condition of your hair, not make it worse. If your hair keeps getting drier, more brittle, or more damaged after every salon visit, it might be time to reconsider who you're trusting with your hair.",
-
-                "A good hairdresser also keeps up with current trends and knows how to adapt them to your face shape, hair type, and lifestyle. If your hairstyle feels outdated or too generic, a fresh perspective can make a real difference.",
-
-                "At Status Kay, every client gets a personal approach and expert care. Instead of quick, routine services, the focus is on creating a look that highlights your features, suits your lifestyle, and keeps you feeling confident long after you leave the salon.",
-
-                "If you're ready for a hairdresser who truly listens and delivers a result you'll love, it might be time for a change.",
-
-                "Book your appointment at Status Kay today and experience the difference.",
-
-                "Learn more: Instagram | Book an Appointment | TikTok | Facebook"
-            ],
-
-            sl: [
-                "Vaši lasje imajo velik vpliv na to, kako samozavestno in urejeno se počutite. Dober frizer ne poskrbi le za striženje ali barvanje. Razume vaš stil, posluša vaše želje in vam pomaga, da izgledate kar najbolje. Če pa iz salona pogosto odhajate razočarani ali nezadovoljni, je to lahko znak, da je čas za spremembo.",
-
-                "Eden najpogostejših znakov je, da frizer ne posluša, kaj si želite. Kakovostno striženje ali barvanje se vedno začne s pogovorom. Frizer bi moral postavljati vprašanja, si ogledati fotografije in se prepričati, da popolnoma razume vaša pričakovanja, preden začne z delom. Če imate občutek, da vaše želje pogosto niso upoštevane ali razumljene, je težko zaupati rezultatu.",
-
-                "Drugi znak je, da iz salona odhajate brez pravega občutka zadovoljstva. Po obisku frizerja bi se morali počutiti samozavestno, navdušeno in pripravljeni pokazati svojo novo pričesko. Če pa si naslednji dan lase pogosto spnete ali razmišljate, da bi moralo izgledati drugače, to lahko pomeni, da rezultat ni takšen, kot bi moral biti.",
-
-                "Pomembno je tudi zdravje las. Profesionalni postopki in kakovostni izdelki bi morali izboljšati stanje vaših las, ne pa ga poslabšati. Če so vaši lasje po obisku salona vedno bolj suhi, lomljivi ali poškodovani, je morda čas, da premislite, komu zaupate svoje lase.",
-
-                "Dober frizer prav tako spremlja sodobne trende in jih zna prilagoditi obliki vašega obraza, tipu las in vašemu življenjskemu slogu. Če se vam zdi, da je vaša pričeska zastarela ali preveč generična, lahko svež pristop naredi veliko razliko.",
-
-                "V salonu Status Kay je vsaka stranka deležna osebnega pristopa in strokovne obravnave. Namesto hitrih, rutinskih storitev je poudarek na tem, da ustvarimo videz, ki poudari vaše poteze, ustreza vašemu življenjskemu slogu in vam daje občutek samozavesti tudi dolgo po obisku salona.",
-
-                "Če ste pripravljeni na frizerja, ki vas res posluša in ustvari rezultat, ki ga boste oboževali, je morda čas za spremembo.",
-
-                "Rezervirajte svoj termin pri Status Kay še danes in izkusite razliko.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
-            ]
-
-        },
-
-        faq: {
-
-            en: [
-                {
-                    q: "What's the clearest sign it's time to switch hairdressers?",
-                    a: "If your hairdresser doesn't listen to what you want and the result often doesn't match your expectations, that's a clear sign it's time for a change."
-                },
-
-                {
-                    q: "What if my hair seems more damaged after every salon visit?",
-                    a: "That's not normal. Professional care should improve your hair's condition, not worsen it, so it's worth finding a hairdresser who genuinely cares for your hair's health."
-                },
-
-                {
-                    q: "How do I know I've found the right hairdresser for me?",
-                    a: "The right hairdresser listens, asks questions, and leaves you feeling confident and happy with the result, not just right after your appointment, but weeks later too."
-                }
-            ],
-
-            sl: [
-                {
-                    q: "Kateri je najbolj očiten znak, da bi morala zamenjati frizerja?",
-                    a: "Če frizer ne posluša tvojih želja in rezultat pogosto ne ustreza pričakovanjem, je to jasen signal, da je čas za spremembo."
-                },
-
-                {
-                    q: "Kaj, če so moji lasje po vsakem obisku salona bolj poškodovani?",
-                    a: "To ni normalno. Profesionalna nega bi morala izboljšati stanje las, ne pa ga slabšati, zato velja poiskati frizerja, ki resnično skrbi za zdravje tvojih las."
-                },
-
-                {
-                    q: "Kako naj vem, da sem našla pravega frizerja zase?",
-                    a: "Pravi frizer te posluša, ti postavlja vprašanja in po obisku se počutiš samozavestno ter zadovoljna z rezultatom, ne le takoj po terminu, ampak tudi tedne kasneje."
-                }
-            ]
-
-        }
-
-    },
-
-    {
-        slug: {
             en: "how-to-get-to-our-salon",
             sl: "kako-do-nasega-salona"
         },
+
+        category: "about",
 
         date: {
             en: "March 9, 2026",
@@ -761,9 +666,7 @@ export const blogPosts = [
 
                 "Rezervirajte svoj termin prek spleta, izberite čas, ki vam najbolj ustreza, mi pa bomo poskrbeli za vse ostalo.",
 
-                "Vaš naslednji odličen dan za lase je bližje, kot si mislite. ✨",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Vaš naslednji odličen dan za lase je bližje, kot si mislite. ✨"
             ]
 
         },
@@ -814,6 +717,8 @@ export const blogPosts = [
             sl: "pomladne-frizure-za-zaposlene-zenske"
         },
 
+        category: "trends",
+
         date: {
             en: "March 2, 2026",
             sl: "2. marec 2026"
@@ -854,9 +759,7 @@ export const blogPosts = [
 
                 "Pomemben trend te pomladi so tudi nizko vzdrževalne barve. Topli rjavi toni, mehke blond nianse in nežno zabrisani prameni so zasnovani tako, da se naravno izpirajo in lepo rastejo, kar pomeni manj popravkov in več samozavesti med obiski salona. Namesto drastičnih sprememb se vse več strank odloča za subtilne izboljšave, ki dopolnjujejo njihov naravni videz in življenjski slog.",
 
-                "Nizko vzdrževalna pričeska ne pomeni dolgočasno, ampak premišljeno. Prava frizura in barva morata podpirati vaš življenjski tempo, ne pa ga oteževati. S prilagojenim pristopom in strokovnim svetovanjem lahko dosežete svež, moderen in sproščen pomladni videz, ki se popolnoma prilega vašemu vsakdanu.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Nizko vzdrževalna pričeska ne pomeni dolgočasno, ampak premišljeno. Prava frizura in barva morata podpirati vaš življenjski tempo, ne pa ga oteževati. S prilagojenim pristopom in strokovnim svetovanjem lahko dosežete svež, moderen in sproščen pomladni videz, ki se popolnoma prilega vašemu vsakdanu."
             ]
 
         },
@@ -906,6 +809,8 @@ export const blogPosts = [
             en: "why-you-should-never-peel-polish-off-your-nails",
             sl: "zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta"
         },
+
+        category: "nails",
 
         date: {
             en: "February 23, 2026",
@@ -963,9 +868,7 @@ export const blogPosts = [
 
                 "Če ne veš kako odstraniti lak iz nohta, pa se oglasi v našem salonu, kjer ti bomo z veseljem pomagali.",
 
-                "Tvoji nohti ti bodo hvaležni 💅",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Tvoji nohti ti bodo hvaležni 💅"
             ]
 
         },
@@ -1016,6 +919,8 @@ export const blogPosts = [
             sl: "kako-ohraniti-mocne-nohte-med-obiski-salona"
         },
 
+        category: "nails",
+
         date: {
             en: "February 16, 2026",
             sl: "16. februar 2026"
@@ -1064,9 +969,7 @@ export const blogPosts = [
 
                 "Za najboljše rezultate pa je ključna redna profesionalna nega. Kakovostni izdelki, strokovna obdelava in individualen pristop pa poskrbijo, da so vaši nohti vedno močni, elegantni in urejeni.",
 
-                "Rezervirajte svoj termin za nego nohtov in si zagotovite popoln, dolgotrajen videz, ki dopolni vaš celoten stil.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Rezervirajte svoj termin za nego nohtov in si zagotovite popoln, dolgotrajen videz, ki dopolni vaš celoten stil."
             ]
 
         },
@@ -1116,6 +1019,8 @@ export const blogPosts = [
             en: "the-most-common-hair-care-mistakes",
             sl: "najpogostejse-napake-pri-negi-las"
         },
+
+        category: "haircuts",
 
         date: {
             en: "February 9, 2026",
@@ -1189,9 +1094,7 @@ export const blogPosts = [
 
                 "Rezervirajte enega izmed naših profesionalnih obnovitvenih tretmajev in občutite, kako izgleda resnično zdrava in brezskrbna nega las.",
 
-                "Vaši lasje si zaslužijo več kot le povprečno nego.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Vaši lasje si zaslužijo več kot le povprečno nego."
             ]
 
         },
@@ -1241,6 +1144,8 @@ export const blogPosts = [
             en: "how-your-hair-affects-your-confidence",
             sl: "tvoji-lasje-vplivajo-na-samozavest"
         },
+
+        category: "haircuts",
 
         date: {
             en: "January 26, 2026",
@@ -1292,11 +1197,7 @@ export const blogPosts = [
 
                 "In ravno tu nastane razlika med “hitro frizuro” in pravo nego las. Tretma ni razvajanje, je investicija v občutek, ki ga nosiš s sabo vsak dan.",
 
-                "✨ Če želiš, da tvoji lasje spet izgledajo zdravi, močni in polni življenja, si privošči profesionalni tretma, prilagojen točno tvojim lasem.",
-
-                "📅 Rezerviraj svoj termin zdaj in naredi prvi korak k samozavesti.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "✨ Če želiš, da tvoji lasje spet izgledajo zdravi, močni in polni življenja, si privošči profesionalni tretma, prilagojen točno tvojim lasem."
             ]
 
         },
@@ -1346,6 +1247,8 @@ export const blogPosts = [
             en: "what-to-ask-your-stylist-before-they-start",
             sl: "kaj-vprasati-stilista-preden-zacne"
         },
+
+        category: "about",
 
         date: {
             en: "January 19, 2026",
@@ -1415,9 +1318,7 @@ export const blogPosts = [
 
                 "Tvoji lasje niso poskus. So del tvoje samozavesti, tvojega počutja, tvojega dneva.",
 
-                "Če želiš frizerja, ki ta vprašanja pozdravlja in nanje z veseljem odgovarja, rezerviraj svoj termin. Najprej se pogovorimo, šele potem pridejo lasje na vrsto.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Če želiš frizerja, ki ta vprašanja pozdravlja in nanje z veseljem odgovarja, rezerviraj svoj termin. Najprej se pogovorimo, šele potem pridejo lasje na vrsto."
             ]
 
         },
@@ -1467,6 +1368,8 @@ export const blogPosts = [
             en: "restore-your-tired-hair",
             sl: "obnovi-utrujene-lase"
         },
+
+        category: "haircuts",
 
         date: {
             en: "January 12, 2026",
@@ -1520,9 +1423,7 @@ export const blogPosts = [
 
                 "Beautiful hair happens quietly. Through consistency. Until one day you look in the mirror and think, \"Ah. There it is.\"",
 
-                "If you want a real reset, don't guess. 👉 Book a restorative hair treatment and let your hair finally breathe. Your mirror will thank you.",
-
-                "See more: Instagram | Book an Appointment | TikTok | Facebook"
+                "If you want a real reset, don't guess. 👉 Book a restorative hair treatment and let your hair finally breathe. Your mirror will thank you."
             ],
 
             sl: [
@@ -1560,9 +1461,7 @@ export const blogPosts = [
 
                 "Lepi lasje nastajajo tiho. Z doslednostjo. Dokler se nekega dne ne pogledaš in si rečeš: “Aha. To je to.”",
 
-                "Če želiš pravi reset, ne ugibaj. 👉 Rezerviraj obnovitveni tretma za lase in dovoli, da tvoji lasje končno zadihajo. Tvoje ogledalo ti bo hvaležno.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Če želiš pravi reset, ne ugibaj. 👉 Rezerviraj obnovitveni tretma za lase in dovoli, da tvoji lasje končno zadihajo. Tvoje ogledalo ti bo hvaležno."
             ]
 
         },
@@ -1613,6 +1512,8 @@ export const blogPosts = [
             sl: "novo-leto-novi-lasje"
         },
 
+        category: "haircuts",
+
         date: {
             en: "January 5, 2026",
             sl: "5. januar 2026"
@@ -1657,9 +1558,7 @@ export const blogPosts = [
 
                 "If your hair is still living in last year, this is your sign.",
 
-                "Book your appointment now. January slots fill up fast, and your future self will thank you for it.",
-
-                "See more: Instagram | Book an Appointment | TikTok | Facebook"
+                "Book your appointment now. January slots fill up fast, and your future self will thank you for it."
             ],
 
             sl: [
@@ -1689,9 +1588,7 @@ export const blogPosts = [
 
                 "Če so tvoji lasje še vedno v lanskem letu, je to tvoj znak.",
 
-                "Rezerviraj svoj termin zdaj. Januarski termini se hitro zapolnijo in tvoja prihodnja jaz ti bo zelo hvaležna.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Rezerviraj svoj termin zdaj. Januarski termini se hitro zapolnijo in tvoja prihodnja jaz ti bo zelo hvaležna."
             ]
 
         },
@@ -1742,6 +1639,8 @@ export const blogPosts = [
             sl: "zakaj-barva-za-lase-prehitro-zbledi"
         },
 
+        category: "haircuts",
+
         date: {
             en: "December 29, 2025",
             sl: "29. december 2025"
@@ -1778,9 +1677,7 @@ export const blogPosts = [
 
                 "Your hair deserves more than guesswork.",
 
-                "Book your appointment and we'll make sure your color lasts exactly as long as it should.",
-
-                "See more: Instagram | Book an Appointment | TikTok | Facebook"
+                "Book your appointment and we'll make sure your color lasts exactly as long as it should."
             ],
 
             sl: [
@@ -1802,9 +1699,7 @@ export const blogPosts = [
 
                 "Tvoji lasje si zaslužijo več kot ugibanje.",
 
-                "Rezerviraj svoj termin in poskrbeli bomo, da bo tvoja barva obstojna, tako kot mora biti.",
-
-                "Poglej več: Instagram | Naročilo termina | TikTok | Facebook"
+                "Rezerviraj svoj termin in poskrbeli bomo, da bo tvoja barva obstojna, tako kot mora biti."
             ]
 
         },
@@ -1854,6 +1749,8 @@ export const blogPosts = [
             en: "christmas-hair",
             sl: "bozicni-lasje"
         },
+
+        category: "trends",
 
         date: {
             en: "December 22, 2025",
@@ -1967,6 +1864,8 @@ export const blogPosts = [
             en: "how-to-care-for-your-hair-after-a-night-out",
             sl: "kako-negovati-lase-po-zabavi"
         },
+
+        category: "haircuts",
 
         date: {
             en: "December 15, 2025",
@@ -2101,6 +2000,8 @@ export const blogPosts = [
             sl: "praznicne-frizure-v-status-kay"
         },
 
+        category: "trends",
+
         date: {
             en: "December 8, 2025",
             sl: "8. december 2025"
@@ -2226,6 +2127,8 @@ export const blogPosts = [
             sl: "kako-popraviti-poskodovane-lase-zaradi-likanja"
         },
 
+        category: "haircuts",
+
         date: {
             en: "November 24, 2025",
             sl: "24. november 2025"
@@ -2319,231 +2222,11 @@ export const blogPosts = [
 
     {
         slug: {
-            en: "the-difference-between-a-cheap-haircut-and-a-professional-one",
-            sl: "razlika-med-poceni-strizenjem-in-profesionalno-frizuro"
-        },
-
-        date: {
-            en: "November 17, 2025",
-            sl: "17. november 2025"
-        },
-
-        title: {
-            en: "The Difference Between a Cheap Haircut and a Professional One",
-            sl: "Razlika med poceni striženjem in profesionalno frizuro"
-        },
-
-        excerpt: {
-            en: "A cheap haircut is a gamble, a professional one is an investment. Here's why the difference shows within just a few weeks.",
-            sl: "Poceni striženje je loterija, profesionalna frizura pa investicija. Tukaj je, zakaj se ta razlika pozna že po nekaj tednih."
-        },
-
-        body: {
-
-            en: [
-                "The first thing you notice at a cheap barbershop is the vibe. That odd feeling in your stomach whispering, \"This might be a bad decision.\" Every guy knows that fear. The fear of sitting down in the chair, hearing the cape rustle around your neck, and hoping you'll walk out looking like a person and not like someone who lost a bet.",
-
-                "A cheap haircut always looks pretty solid for the first ten minutes. Then the flaws start to show. Uneven sides. A crooked neckline. A fade so rough it looks like it was done during an earthquake. First you try to fix it with gel, then with a cap. Eventually you give up and wait out two painful weeks for your hair to grow back.",
-
-                "A professional haircut, on the other hand, is a completely different experience. You feel it before the scissors even touch your hair. The space smells clean, the tools gleam. The stylist asks the right questions. Not \"Same as last time?\" but \"How do you want it to look in a few weeks, once it's grown out?\" That alone tells you everything.",
-
-                "A professional sees your head as a canvas. They look at your face shape, your hair's texture, and how it grows. They blend everything so precisely that the cut still looks sharp three, four, even five weeks later. No odd lines. No rough patches or random steps in the fade.",
-
-                "Guys rarely talk about it, but a good haircut can change your whole energy. You walk out more confident. You look people in the eye. You feel sharp.",
-
-                "A cheap haircut is a gamble. A professional one is an investment. One drains your confidence. The other rebuilds it with every step.",
-
-                "Want that professional feeling again? Book an appointment at Status Kay. Your future self will thank you."
-            ],
-
-            sl: [
-                "Prvo kar opaziš v poceni frizerskem salonu, je vzdušje. Tisti čuden občutek v trebuhu, ki šepeta, “To bo mogoče slaba odločitev.” Vsak moški pozna ta strah. Strah, ko sedeš na stol, slišiš šelestenje ogrinjala okoli vratu in upaš, da boš ven prišel videti kot človek in ne kot nekdo, ki je izgubil stavo.",
-
-                "Poceni striženje je prvih deset minut vedno videti čisto solidno. Potem pa se začnejo kazati pomanjkljivosti. Neenake stranice. Poševen vratni izrez. Prehod tako grob, kot da bi ga delali med potresom. Najprej poskusiš rešiti z gelom in nato še z kapo. Na koncu se predaš in čakaš dva boleča tedna, da lasje spet zrastejo.",
-
-                "Profesionalna frizura pa je čisto drugačna. To začutiš, še preden se te škarje sploh dotaknejo. Prostor diši čisto, orodja se svetijo. Frizer postavlja prava vprašanja. Ne “Kot zadnjič?” ampak “Kako želiš, da izgleda čez nekaj tednov, ko bo zrastlo?” Že samo to ti pove vse.",
-
-                "Profesionalec vidi tvojo glavo kot platno. Pogleda obliko obraza. Teksturo las in kako rastejo. Vse zmeša tako natančno, da frizura še po treh, štirih ali celo petih tednih izgleda vrhunsko. Brez čudnih črt. Brez grobih zaplat ali naključnih stopnic v prehodu.",
-
-                "Moški o tem redko govorijo, ampak dobra frizura ti lahko spremeni celotno energijo. Ven stopiš bolj samozavesten. Ljudem pogledaš v oči. Počutiš se ostrega.",
-
-                "Poceni striženje je loterija. Profesionalno striženje je investicija. Eno ti posrka samozavest. Drugo ti jo ob vsakem koraku spet zgradi nazaj.",
-
-                "Hočeš spet tisti profesionalni občutek? Rezerviraj termin pri Status Kay. Tvoj bodoči jaz ti bo hvaležen."
-            ]
-
-        },
-
-        faq: {
-
-            en: [
-                {
-                    q: "Why does a cheap haircut look worse after a few weeks?",
-                    a: "Without a precise blend and real knowledge of your hair's texture, uneven lines and rough transitions show up once the hair grows out a bit."
-                },
-
-                {
-                    q: "What does a stylist ask before a professional cut?",
-                    a: "A good stylist asks how you want it to look weeks from now, not just how it should look right after the cut."
-                },
-
-                {
-                    q: "How long does a professional haircut hold its shape?",
-                    a: "With the right cut, your hairstyle stays sharp even three, four, or five weeks after your salon visit."
-                }
-            ],
-
-            sl: [
-                {
-                    q: "Zakaj poceni striženje po nekaj tednih izgleda slabše?",
-                    a: "Ker manjka natančnega prehoda in poznavanja teksture las, tako da se neenakosti in grobi prehodi pokažejo šele, ko lasje malo zrastejo."
-                },
-
-                {
-                    q: "Kaj me stilist vpraša pred profesionalnim striženjem?",
-                    a: "Dober stilist te vpraša, kako želiš, da frizura izgleda čez nekaj tednov, ne le kako naj izgleda takoj po striženju."
-                },
-
-                {
-                    q: "Kako dolgo zdrži profesionalna frizura v dobri obliki?",
-                    a: "Pri pravilnem striženju frizura ostane urejena tudi tri, štiri ali celo pet tednov po obisku salona."
-                }
-            ]
-
-        }
-
-    },
-
-    {
-        slug: {
-            en: "most-common-mistakes-in-eyelash-extension-care",
-            sl: "najpogostejse-napake-pri-negi-podaljsanih-trepalnic"
-        },
-
-        date: {
-            en: "November 10, 2025",
-            sl: "10. november 2025"
-        },
-
-        title: {
-            en: "The Most Common Mistakes in Eyelash Extension Care",
-            sl: "Najpogostejše napake pri negi podaljšanih trepalnic"
-        },
-
-        excerpt: {
-            en: "New lash extensions look flawless, but a few simple habits decide whether they last for weeks or fall out fast. Here are the most common mistakes.",
-            sl: "Nove trepalnice izgledajo popolno, a nekaj preprostih navad odloča, ali bodo take ostale tedne ali hitro odpadle. Tukaj so najpogostejše napake."
-        },
-
-        body: {
-
-            en: [
-                "You've just gotten new lash extensions, and they look perfect, full, and irresistible. But keeping them that way for as long as possible takes more than luck. A few simple habits can make all the difference between weeks of flawless lashes and extensions that fall out fast.",
-
-                "Let's look at the most common lash care mistakes and how to gracefully avoid them.",
-
-                "1. Touching or rubbing your lashes",
-
-                "We know it's tempting, especially in the first few days. But every touch, tug, or night spent sleeping face-down into a pillow damages the extensions and weakens the glue. Try sleeping on your back and leave your lashes alone.",
-
-                "2. Using oil-based products",
-
-                "Oils are lash glue's worst enemy. Avoid oil-based cleansers, creams, and mascaras around the eyes. Instead, choose oil-free formulas or cleansers made specifically for lash extensions.",
-
-                "3. Skipping cleansing",
-
-                "A lot of people think washing causes lashes to fall out, but that's not true. Daily cleansing removes oils, dust, and bacteria, which helps the extensions last longer and keeps your eyes healthy.",
-
-                "4. Exposure to heat and steam",
-
-                "Long hot showers, saunas, or hair dryers can soften the glue and ruin the shape of your lashes. Avoid direct heat if you want to keep that perfect curl.",
-
-                "5. Removing them yourself",
-
-                "Never remove your extensions yourself. Leave it to a professional, as doing it yourself can damage your natural lashes.",
-
-                "At Status Kay, we make sure your lashes stay beautiful, healthy, and flawless week after week.",
-
-                "Book your lash fill or care appointment today! Your lashes will thank you. 💫"
-            ],
-
-            sl: [
-                "Pravkar si dobila nove podaljške trepalnic, ki izgledajo popolne, goste in zapeljive. A da bodo takšne ostale čim dlje, ni dovolj le sreča. Nekaj preprostih navad lahko naredi ogromno razliko med tedni popolnega videza in trepalnicami, ki hitro odpadejo.",
-
-                "Poglejmo si najpogostejše napake pri negi trepalnic in kako se jim elegantno izogniti.",
-
-                "1. Dotikanje ali drgnjenje trepalnic",
-
-                "Vemo, da je mamljivo, še posebej prvih nekaj dni. A vsak dotik, vlečenje ali spanje z obrazom v blazini poškoduje podaljške in oslabi lepilo. Poskusi spati na hrbtu in pusti trepalnice pri miru.",
-
-                "2. Uporaba izdelkov na osnovi olja",
-
-                "Olja so največji sovražnik lepila za trepalnice. Izogibaj se oljnim čistilcem, kremam in maskaram okoli oči. Namesto tega izberi formule, ki ne vsebujejo olja ali čistila, namenjena posebej za podaljške trepalnic.",
-
-                "3. Preskakovanje čiščenja",
-
-                "Veliko ljudi misli, da pranje povzroča izpadanje, vendar to ni res. Vsakodnevno čiščenje odstrani olja, prah in bakterije, kar pomaga, da podaljški zdržijo dlje, tvoje oči pa ostanejo zdrave.",
-
-                "4. Izpostavljenost toploti in pari",
-
-                "Dolgi vroči tuši, savne ali sušilniki za lase lahko zmehčajo lepilo in uničijo obliko trepalnic. Izogibaj se direktni toploti, če želiš ohraniti popolno ukrivljenost.",
-
-                "5. Samostojno odstranjevanje",
-
-                "Nikoli ne odstranjuj podaljškov sama. To naj naredi strokovnjakinja, saj lahko poškoduješ svoje naravne trepalnice.",
-
-                "V Status Kay poskrbimo, da tvoje trepalnice ostanejo čudovite, zdrave in popolne teden za tednom.",
-
-                "Rezerviraj svoj termin za obnovo ali nego trepalnic še danes! Tvoje trepalnice ti bodo hvaležne. 💫"
-            ]
-
-        },
-
-        faq: {
-
-            en: [
-                {
-                    q: "Does washing my face actually damage lash extensions?",
-                    a: "No, quite the opposite, gentle daily cleansing removes oils and dirt and helps your extensions last longer."
-                },
-
-                {
-                    q: "What products should I avoid if I have lash extensions?",
-                    a: "Avoid anything oil-based, like oil cleansers, creams, and mascaras, since oil weakens the lash glue."
-                },
-
-                {
-                    q: "Can I remove my extensions myself at home?",
-                    a: "We don't recommend it, leave removal to a professional, since doing it yourself can damage your natural lashes."
-                }
-            ],
-
-            sl: [
-                {
-                    q: "Ali umivanje obraza res škoduje podaljškom trepalnic?",
-                    a: "Ne, nasprotno, vsakodnevno nežno čiščenje odstrani olja in umazanijo ter pomaga, da podaljški zdržijo dlje."
-                },
-
-                {
-                    q: "Katerim izdelkom naj se izogibam, če imam podaljške trepalnic?",
-                    a: "Izogibaj se vsem izdelkom na osnovi olja, kot so oljni čistilci, kreme in maskare, saj olje oslabi lepilo."
-                },
-
-                {
-                    q: "Ali lahko podaljške odstranim sama doma?",
-                    a: "Ne priporočamo, odstranitev prepusti strokovnjakinji, saj lahko sicer poškoduješ svoje naravne trepalnice."
-                }
-            ]
-
-        }
-
-    },
-
-    {
-        slug: {
             en: "winter-hair-care-tips",
             sl: "nasveti-za-zimske-lase"
         },
+
+        category: "haircuts",
 
         date: {
             en: "November 3, 2025",
@@ -2581,12 +2264,6 @@ export const blogPosts = [
 
                 "Extra tip: gently rub a dryer sheet over your hair to tame flyaways in seconds (it really works!).",
 
-                "4. Protect your style",
-
-                "Wool hats are lovely, but they can damage delicate hair. Try a hat with a silk lining, or wrap your hair in a silk scarf before heading out.",
-
-                "Your hair deserves its own spa day. Come in for a deep moisturizing treatment and let us bring your tired winter hair back to life.",
-
                 "Stay warm, stay glowing, and remember… winter hair care isn't about perfection, it's about protection."
             ],
 
@@ -2608,12 +2285,6 @@ export const blogPosts = [
                 "Hladen zrak zunaj + suh zrak znotraj povzročita kodre in naelektrene lase. V torbici imej balzam brez izpiranja ali sprej proti naelektrenosti.",
 
                 "Dodaten trik: nežno podrgni sušilni robček po laseh, da v nekaj sekundah ukrotiš štrleče dlačice (res deluje!).",
-
-                "4. Zaščiti svoj stil",
-
-                "Volnene kape so čudovite, a lahko poškodujejo občutljive lase. Poskusi z kapo, ki ima svilnato podlogo ali lase ovij v svileno ruto, preden greš ven.",
-
-                "Tvoji lasje si zaslužijo svoj dan v “wellnessu”. Pridi na globinsko vlažilno nego, da tvojim zimskim, utrujenim lasem povrnemo življenje.",
 
                 "Ostani na toplem, ostani sijoča in ne pozabi… nega las pozimi ni popolnost, ampak zaščita."
             ]
@@ -2665,6 +2336,8 @@ export const blogPosts = [
             en: "blondorplex",
             sl: "blondorplex"
         },
+
+        category: "haircuts",
 
         date: {
             en: "October 27, 2025",
@@ -2766,6 +2439,8 @@ export const blogPosts = [
             en: "wellaplex",
             sl: "wellaplex"
         },
+
+        category: "haircuts",
 
         date: {
             en: "October 20, 2025",
@@ -2888,6 +2563,8 @@ export const blogPosts = [
             sl: "kako-ponovno-oziviti-poskodovane-kodre"
         },
 
+        category: "haircuts",
+
         date: {
             en: "October 13, 2025",
             sl: "13. oktober 2025"
@@ -2978,7 +2655,7 @@ export const blogPosts = [
 
                 {
                     q: "How often should I trim my ends to keep curls healthy?",
-                    a: "We recommend a trim every 6 to 8 weeks, that prevents split ends from spreading and keeps your natural curl pattern looking its best."
+                    a: "We recommend a trim once your ends feel dry and start tangling more — that prevents split ends from spreading and keeps your natural curl pattern looking its best."
                 }
             ],
 
@@ -2995,7 +2672,7 @@ export const blogPosts = [
 
                 {
                     q: "Kako pogosto naj strižem konice, da kodri ostanejo zdravi?",
-                    a: "Priporočamo striženje vsakih 6 do 8 tednov, tako preprečiš širjenje razcepljenih konic in ohraniš naravni vzorec kodrov."
+                    a: "Priporočamo striženje, ko konice postanejo suhe in se zapletajo, tako preprečiš širjenje razcepljenih konic in ohraniš naravni vzorec kodrov."
                 }
             ]
 
@@ -3008,6 +2685,8 @@ export const blogPosts = [
             en: "why-you-should-use-nail-oil-every-day",
             sl: "zakaj-uporabljati-olje-za-nohte-vsak-dan"
         },
+
+        category: "nails",
 
         date: {
             en: "October 6, 2025",
@@ -3117,6 +2796,8 @@ export const blogPosts = [
             en: "what-is-formaldehyde",
             sl: "kaj-je-formaldehid"
         },
+
+        category: "nails",
 
         date: {
             en: "September 29, 2025",
@@ -3231,6 +2912,8 @@ export const blogPosts = [
             sl: "zakaj-je-dobro-pustiti-nohte-da-dihajo"
         },
 
+        category: "nails",
+
         date: {
             en: "September 22, 2025",
             sl: "22. september 2025"
@@ -3336,6 +3019,8 @@ export const blogPosts = [
             sl: "kako-izbrati-masko-za-lase"
         },
 
+        category: "haircuts",
+
         date: {
             en: "September 15, 2025",
             sl: "15. september 2025"
@@ -3437,6 +3122,8 @@ export const blogPosts = [
             sl: "feniranje-s-krtacami-ibiza"
         },
 
+        category: "haircuts",
+
         date: {
             en: "September 1, 2025",
             sl: "1. september 2025"
@@ -3463,9 +3150,7 @@ export const blogPosts = [
 
                 "When blow-drying with Ibiza brushes, you don't need as much heat. The natural bristles smooth hair mechanically, which means less damaged ends and a healthier, shinier look overall.",
 
-                "To help you see the difference more clearly, check out this short video where we show you how it works in practice:",
-
-                "🎥 Video",
+                "To help you see the difference more clearly, hop over to our social media and check out this short video,",
 
                 "If you want your everyday blow-dry to look like it came straight from the salon, give Ibiza brushes a try.",
 
@@ -3481,9 +3166,7 @@ export const blogPosts = [
 
                 "Pri feniranju z Ibiza krtačami ne potrebuješ toliko toplote. Naravne ščetine lase mehansko zgladijo, kar pomeni manj poškodovanih konic in bolj zdrav ter sijoč videz.",
 
-                "Da boš lažje videla razliko, si poglej tale kratek video, kjer ti pokažem, kako to izgleda v praksi:",
-
-                "🎥 Video",
+                "Da boš lažje videla razliko, skoči na naša socialna omrežja in si poglej tale kratek video,",
 
                 "Če si želiš, da bo tvoje vsakdanje feniranje izgledalo kot iz salona, poskusi z Ibiza krtačami.",
 
@@ -3538,6 +3221,8 @@ export const blogPosts = [
             sl: "osnove-toplotnega-oblikovanja"
         },
 
+        category: "haircuts",
+
         date: {
             en: "August 25, 2025",
             sl: "25. avgust 2025"
@@ -3576,7 +3261,7 @@ export const blogPosts = [
             ],
 
             sl: [
-                "Velik dogodek. Pogledaš se v ogledalo. Lasišče je še vedno rahlo vlažno. Primeš fen kot meč, z likalnikom zgladiš vsak šop frizastega upora, nato pa s kodralnikom ustvariš mehke, popolne kodre.",
+                "Velik dogodek. Pogledaš se v ogledalo, nato pa s kodralnikom ustvariš mehke, popolne kodre.",
 
                 "In lasje izgledajo božansko. Ampak na otip so kot slama.",
 
@@ -3642,6 +3327,8 @@ export const blogPosts = [
             en: "5-tricks-for-healthy-shiny-hair",
             sl: "5-trikov-za-zdrave-in-sijoce-lase"
         },
+
+        category: "haircuts",
 
         date: {
             en: "August 18, 2025",
@@ -3744,6 +3431,8 @@ export const blogPosts = [
             sl: "preproste-priceske-za-zaposlene-profesionalce"
         },
 
+        category: "trends",
+
         date: {
             en: "August 4, 2025",
             sl: "4. avgust 2025"
@@ -3790,13 +3479,13 @@ export const blogPosts = [
             ],
 
             sl: [
-                "Vemo, kako je. Jutra so kaotična. Piješ kavo, prekopavaš omaro, v glavi že vodiš Zoom sestanek in ravno takrat ti frizura slabo izgleda.",
+                "Vemo, kako je. Jutra so kaotična. Piješ kavo, prekopavaš omaro, v glavi že vodiš Zoom sestanek in ravno takrat frizura slabo izgleda.",
 
                 "Videti urejeno ne pomeni več ur pred ogledalom. Teh 5 frizur je tako enostavnih, da jih lahko urediš kar v taksiju.",
 
                 "60-sekundski gladki čop",
 
-                "Drzno. Čisto. Izgleda kot da imaš vse pod kontrolo, tudi če se v resnici razpadaš od znotraj. Lase zgladi nazaj, z malo olja ali pomade in ovij pramen okoli elastike za finiš. Tik tak in pripravljena si na sestanek.",
+                "Drzno. Čisto. Izgleda kot da imaš vse pod kontrolo, tudi če vse okoli tebe danes deluje na off. Lase zgladi nazaj, z malo olja ali pomade in ovij pramen okoli elastike za finiš. Tik tak in pripravljena si na sestanek.",
 
                 "Razmršena nizka figa (a.k.a. Organiziran kaos)",
 
@@ -3804,7 +3493,7 @@ export const blogPosts = [
 
                 "Luksuzni fen",
 
-                "Trik za prihranek časa: umij lase zvečer, zjutraj pa se zbudi z naravnimi valovi. Z okroglo krtačo počeši konice, poškropi s sprejem (lakom) in videti bo, kot da si se urejala 45 minut, v resnici pa samo pet.",
+                "Trik za prihranek časa: umij lase zvečer, zjutraj pa se zbudi z naravnimi valovi. Pofenaj konice, poškropi s sprejem (lakom) in videti bo, kot da si se urejala 45 minut, v resnici pa samo pet.",
 
                 "Preča, ki govori namesto tebe",
 
@@ -3864,6 +3553,8 @@ export const blogPosts = [
             en: "cutting-your-hair-by-the-moon",
             sl: "strizenje-glede-na-luno"
         },
+
+        category: "haircuts",
 
         date: {
             en: "July 28, 2025",
@@ -3966,6 +3657,8 @@ export const blogPosts = [
             sl: "strizenje-pred-stroji"
         },
 
+        category: "haircuts",
+
         date: {
             en: "July 21, 2025",
             sl: "21. julij 2025"
@@ -4066,6 +3759,8 @@ export const blogPosts = [
             en: "why-we-dont-cut-your-cuticles",
             sl: "zakaj-obnohtne-kozice-ne-rezemo"
         },
+
+        category: "nails",
 
         date: {
             en: "July 14, 2025",
@@ -4172,130 +3867,11 @@ export const blogPosts = [
 
     {
         slug: {
-            en: "gel-or-acrylic-nails",
-            sl: "gel-ali-akrilni-nohti"
-        },
-
-        date: {
-            en: "July 7, 2025",
-            sl: "7. julij 2025"
-        },
-
-        title: {
-            en: "Gel or Acrylic Nails?",
-            sl: "Gel ali Akrilni nohti?"
-        },
-
-        excerpt: {
-            en: "Gel or acrylic? Learn the differences, pros, and cons of both techniques so you know which one is the right choice for your nails.",
-            sl: "Gel ali akril? Spoznaj razlike, prednosti in slabosti obeh tehnik, da boš vedela, katera je prava izbira za tvoje nohte."
-        },
-
-        body: {
-
-            en: [
-                "When it comes to long-lasting manicures, two options dominate the salon scene: gel and acrylic nails. Both offer durability and style, but they serve different needs depending on your lifestyle and preferences.",
-
-                "Gel nails are made with a gel polish that cures under a UV or LED lamp. They're known for their glossy finish and natural feel, and typically last 2 to 3 weeks. In our salon, we use the OPI brand, which guarantees high quality and long-lasting wear.",
-
-                "Pros: Fast application. Light and natural feel. Short curing time. Less damage to natural nails if removed properly.",
-
-                "Cons: Not the best choice for length or elaborate shapes. Can start to chip if picked at. Requires curing under a lamp.",
-
-                "Gel nails are best for clients who want a neat, clean look with minimal upkeep.",
-
-                "Acrylic nails are created by mixing liquid monomer with powder polymer, which together form a hard protective layer over the natural nail. They're ideal for extensions and bold shapes, and last approximately 3 to 4 weeks with proper care.",
-
-                "Pros: Stronger and more durable. Custom shapes and lengths. Great for a bold look.",
-
-                "Cons: Heavier feel on the nails. Longer application and removal time. Can look less natural.",
-
-                "Best suited for clients who want length, strength, or a bold look.",
-
-                "So which should you choose?",
-
-                "Gel nails are ideal if you want something quick, natural, and professional. Acrylic nails are better if you want longer nails with a strong visual impact and longer-lasting wear.",
-
-                "In our salon in Ljubljana, we specialize in OPI gel nails and offer a look tailored to your style and personality.",
-
-                "Not sure which one suits you best? Come visit us and we'll find the perfect solution for your nails together."
-            ],
-
-            sl: [
-                "Ko govorimo o dolgotrajni manikuri, sta dve možnosti, ki prevladujeta v salonih: gel in akrilni nohti. Obe nudita obstojnost in stil, vendar služita različnim potrebam glede na vaš življenjski slog in želje.",
-
-                "Gel nohti se naredijo z gel lakom, ki se strdi pod UV ali LED lučko. Znani so po sijočem zaključku in naravnem občutku, običajno pa zdržijo od 2 do 3 tedne. V našem salonu uporabljamo znamko OPI, ki zagotavlja visoko kakovost in dolgo obstojnost.",
-
-                "Prednosti Hitro nanašanje. Lahek in naraven občutek. Kratek čas sušenja. Manj poškoduje naravne nohte, če je odstranjen pravilno.",
-
-                "Slabosti Ni najboljši za dolžino ali oblikovanje. Lahko se začne luščiti, če jih trgamo. Potrebuje strjevanje z lučko.",
-
-                "Gel nohti so najboljši za stranke, ki želijo urejen in čist videz z minimalnim vzdrževanjem.",
-
-                "Akrilni nohti nastanejo z mešanjem tekočega monomera in praškastega polimera, ki skupaj tvorita trdno zaščitno plast nad naravnim nohtom. Idealni so za podaljševanje in izrazite oblike ter zdržijo približno 3 do 4 tedne, če jih pravilno negujemo.",
-
-                "Prednosti Močnejši in bolj obstojni. Oblike in dolžine po meri. Odlični za izrazit videz.",
-
-                "Slabosti Težji občutek na nohtih. Daljši čas nanašanja in odstranjevanja. Lahko delujejo manj naravno.",
-
-                "Najbolj primerni za stranke, ki želijo dolžino, trdnost ali drzen videz.",
-
-                "Kaj izbrati?",
-
-                "Gel nohti so idealni, če želite nekaj hitrega, naravnega in profesionalnega. Akrilni nohti so boljši, če želite daljše nohte z močnim vizualnim učinkom in daljšo obstojnostjo.",
-
-                "V našem salonu v Ljubljani smo specializirani za gel nohte znamke OPI in nudimo prilagojen videz glede na vaš stil in osebnost.",
-
-                "Niste prepričani, kaj vam najbolj ustreza? Obiščite nas in skupaj bomo našli najboljšo rešitev za vaše nohte."
-            ]
-
-        },
-
-        faq: {
-
-            en: [
-                {
-                    q: "Which is better for my nails, gel or acrylic?",
-                    a: "Gel is great for a natural, lightweight look with minimal upkeep, while acrylic is the better choice if you want length, strength, or a bold look."
-                },
-
-                {
-                    q: "How long do gel and acrylic nails last?",
-                    a: "Gel nails typically last 2 to 3 weeks, while acrylic nails last 3 to 4 weeks with proper care."
-                },
-
-                {
-                    q: "What brand do you use for gel nails?",
-                    a: "We use the OPI brand for gel nails, which guarantees high quality and long-lasting wear."
-                }
-            ],
-
-            sl: [
-                {
-                    q: "Kaj je bolje za moje nohte, gel ali akril?",
-                    a: "Gel je odličen za naraven, lahek videz z minimalnim vzdrževanjem, akril pa je boljša izbira, če želiš dolžino, trdnost ali izrazit videz."
-                },
-
-                {
-                    q: "Kako dolgo zdržijo gel in akrilni nohti?",
-                    a: "Gel nohti navadno zdržijo od 2 do 3 tedne, akrilni pa od 3 do 4 tedne, če jih pravilno negujemo."
-                },
-
-                {
-                    q: "Katero znamko uporabljate za gel nohte?",
-                    a: "V našem salonu za gel nohte uporabljamo znamko OPI, ki zagotavlja visoko kakovost in dolgo obstojnost."
-                }
-            ]
-
-        }
-
-    },
-
-    {
-        slug: {
             en: "dry-shampoo-done-right",
             sl: "suhi-sampon"
         },
+
+        category: "haircuts",
 
         date: {
             en: "June 30, 2025",
@@ -4325,7 +3901,7 @@ export const blogPosts = [
 
                 "How to (not) use it:",
 
-                "Don't spray it directly onto your scalp. Hold the can about 20 cm away, roughly an arm's length.",
+                "Hold the can about 20 cm away, roughly an arm's length.",
 
                 "Target only where it's needed. That's usually the crown area, maybe the back of your head if you've had your hair tied up. Don't drench your whole head, unless you're going for a baroque, powdered-wig look.",
 
@@ -4335,9 +3911,7 @@ export const blogPosts = [
 
                 "Pro tip: Use it in the evening, before bed, before your hair even gets greasy. It's like prevention for your scalp.",
 
-                "Dry shampoo isn't just for lazy days. It's for smart people who know they only have 7 minutes to go from \"just rolled out of bed\" to \"wait, were you just at the hairdresser?\"",
-
-                "Need help picking the right one for your hair? Come into the salon and let's find the one that'll change your life."
+                "Dry shampoo isn't just for lazy days. It's for smart people who know they only have 7 minutes to go from \"just rolled out of bed\" to \"wait, were you just at the hairdresser?\""
             ],
 
             sl: [
@@ -4351,7 +3925,7 @@ export const blogPosts = [
 
                 "Kako ga (ne)uporabiti:",
 
-                "Ne špricaj direkt na lasišče. Pločevinko drži približno 20 cm stran, približno na dolžino roke.",
+                "Pločevinko drži približno 20 cm stran, približno na dolžino roke.",
 
                 "Ciljaj samo tja, kjer je treba. Navadno je to temeni del, mogoče zadnji del glave, če si imela speto frizuro. Ne zalivaj cele glave, razen če ciljaš na baročno pudrasto frizuro.",
 
@@ -4361,9 +3935,7 @@ export const blogPosts = [
 
                 "Pro tip: Uporabi ga zvečer, preden greš spat in se lasje sploh zmastijo. Je kot preventiva za tvoje lasišče.",
 
-                "Suhi šampon ni samo za lene dneve. Je za pametne, ki vedo, da imajo samo 7 minut, da gredo iz \"ravno sem vstala\" v \"a si bila pravkar pri frizerju?\"",
-
-                "Rabiš pomoč pri izbiri pravega za tvoje lase? Pridi v salon in skupaj najdemo tistega, ki ti bo rešil življenje."
+                "Suhi šampon ni samo za lene dneve. Je za pametne, ki vedo, da imajo samo 7 minut, da gredo iz \"ravno sem vstala\" v \"a si bila pravkar pri frizerju?\""
             ]
 
         },
@@ -4413,6 +3985,8 @@ export const blogPosts = [
             en: "hair-care-through-the-seasons",
             sl: "negovanje-las-v-razlicnih-sezonah"
         },
+
+        category: "haircuts",
 
         date: {
             en: "June 23, 2025",
@@ -4535,6 +4109,8 @@ export const blogPosts = [
             sl: "prvic-pri-nas"
         },
 
+        category: "about",
+
         date: {
             en: "June 16, 2025",
             sl: "16. junij 2025"
@@ -4565,8 +4141,6 @@ export const blogPosts = [
 
                 "We speak English, so tourists and visitors from abroad are more than welcome. Booking is simple: you can do it online, over the phone, or just walk in.",
 
-                "On top of that, after your 10th visit you get a free treatment of your choice. It's our way of saying thank you for trusting us.",
-
                 "Come by, and let your first salon visit be not something scary, but the start of something new."
             ],
 
@@ -4582,8 +4156,6 @@ export const blogPosts = [
                 "Zato si vzamemo čas za pogovor, kjer te pospremimo skozi vsak korak.",
 
                 "Govorimo angleško, zato so turisti in tujci pri nas več kot dobrodošli. Rezervacija je preprosta: lahko jo opraviš preko spleta, po telefonu ali pa kar tako prideš.",
-
-                "Poleg tega po 10. obisku dobiš brezplačen tretma po tvoji izbiri. To je zahvala za tvoje zaupanje.",
 
                 "Pridi, naj tvoj prvi obisk salona ne bo strašljiv, ampak začetek nečesa novega."
             ]
@@ -4635,6 +4207,8 @@ export const blogPosts = [
             en: "why-regular-haircuts-are-essential",
             sl: "zakaj-je-redno-strizenje-nujno"
         },
+
+        category: "haircuts",
 
         date: {
             en: "June 9, 2025",
@@ -4690,7 +4264,7 @@ export const blogPosts = [
 
                 "Torej, kaj narediti?",
 
-                "Redno striženje, vsakih 6 do 8 tednov. Ne gre za krajšanje dolžine, gre za odstranjevanje tistega, kar ti preprečuje imeti goste, prožne in sijoče lase, ki se ne lomijo vsakič, ko jih počešeš.",
+                "Redno striženje, ko vidiš, da se konice cepijo, se bolj zapletajo in postanejo suhe. Ne gre za krajšanje dolžine, gre za odstranjevanje tistega, kar ti preprečuje imeti goste, prožne in sijoče lase, ki se ne lomijo vsakič, ko jih počešeš.",
 
                 "Razcepljene konice potujejo po dolžini las navzgor. Ena postane dve, dve štiri... in tiste zdrave dolžine, ki si jo vedno želela, ni več.",
 
@@ -4760,6 +4334,8 @@ export const blogPosts = [
             en: "how-to-maintain-salon-perfect-hair-at-home",
             sl: "kako-doma-ohraniti-popolne-lase"
         },
+
+        category: "haircuts",
 
         date: {
             en: "June 2, 2025",
@@ -4882,6 +4458,8 @@ export const blogPosts = [
             sl: "balayage-ali-pramena"
         },
 
+        category: "haircuts",
+
         date: {
             en: "May 26, 2025",
             sl: "26. maj 2025"
@@ -4999,6 +4577,8 @@ export const blogPosts = [
             sl: "kako-izbrati-popolno-barvo-las"
         },
 
+        category: "haircuts",
+
         date: {
             en: "May 19, 2025",
             sl: "19. maj 2025"
@@ -5023,7 +4603,9 @@ export const blogPosts = [
 
                 "So... how do you find the right shade?",
 
-                "The first step is figuring out your skin undertone. Trust us, this can change the whole game. No need for testing kits or apps — just look at the veins on your wrist. If they look greenish, you have a warm undertone, which means rich, earthy shades will make you glow. If your veins look more blue or purple, you're on the cool side. And if you see a bit of both, you have a neutral undertone, which means you've got more options than most, but you just need to choose them wisely.",
+                "The first step is figuring out your skin undertone. Trust us, this can change the whole game. Look at the veins on your wrist: if they look greenish, you have a warm undertone, which means rich, earthy shades will make you glow. If your veins look more blue or purple, you're on the cool side. And if you see a bit of both, you have a neutral undertone, which means you've got more options than most, but you just need to choose them wisely.",
+
+                "If you really want to see how different you'd look in another color, upload a photo of yourself to ChatGPT and ask it to suggest the best color palette for you — that way you'll quickly see whether the shade you want would actually suit you.",
 
                 "The second step is intention. If your skin has an olive or golden undertone, honey blonde, caramel, rich chocolate, and copper red will suit you beautifully. Not only do they look stunning, they also bring out your eyes and make it look like you're always standing in perfect light. If you have porcelain or slightly pink-toned skin, then ashy blonde, deep espresso, and wine red are your secret weapons. And if you're somewhere in between? You've got the freedom to choose — you can pull off both.",
 
@@ -5041,7 +4623,9 @@ export const blogPosts = [
 
                 "Torej... kako najti pravi odtenek?",
 
-                "Prvi korak je, da ugotoviš svoj podton kože. Verjemi, to lahko obrne celotno igro. Ni ti treba na testiranje ali naložiti aplikacije, samo poglej žile na zapestju. Če so videti zelenkaste, imaš topel podton. To pomeni, da ti pristajajo bogati, zemeljski odtenki, s katerimi boš žarela. Če so tvoje žile bolj modrikaste ali vijolične, si na hladni strani. In če vidiš oboje, imaš nevtralen podton. To pomeni, da imaš več možnosti kot večina, a jih moraš pravilno izbrati.",
+                "Prvi korak je, da ugotoviš svoj podton kože. Verjemi, to lahko obrne celotno igro. Poglej žile na zapestju: če so videti zelenkaste, imaš topel podton. To pomeni, da ti pristajajo bogati, zemeljski odtenki, s katerimi boš žarela. Če so tvoje žile bolj modrikaste ali vijolične, si na hladni strani. In če vidiš oboje, imaš nevtralen podton. To pomeni, da imaš več možnosti kot večina, a jih moraš pravilno izbrati.",
+
+                "Če se zares želiš videti, kako drugačna si s drugo barvo, naloži svojo sliko v ChatGPT in naj ti predlaga najboljšo barvno paleto zate — tako boš hitro videla, ali ti bo željena barva pristajala.",
 
                 "Drugi korak je namen. Če je tvoja koža olivnega ali zlatega podtona, potem ti bolj pristajajo medene blond, karamela, bogata čokoladna in bakreno rdeča. Ne le da izgledajo čudovito, ampak izpostavijo tvoje oči in ustvarijo občutek, kot da te vedno osvetljuje popolna luč. Če imaš porcelanasto ali rahlo rožnato polt, potem so pepelnato blond, temna espresso in vinsko rdeča tvoje skrivno orožje. In če si med nevtralnimi? Imaš svobodo izbire, kar pomeni, da lahko nosiš oboje.",
 
@@ -5099,6 +4683,8 @@ export const blogPosts = [
             en: "why-toning-is-the-secret-to-long-lasting-color",
             sl: "toniranje"
         },
+
+        category: "haircuts",
 
         date: {
             en: "May 12, 2025",
@@ -5213,6 +4799,8 @@ export const blogPosts = [
             sl: "dvostopenjsko-barvanje"
         },
 
+        category: "haircuts",
+
         date: {
             en: "May 5, 2025",
             sl: "5. maj 2025"
@@ -5245,9 +4833,7 @@ export const blogPosts = [
 
                 "If you're ready for a real transformation and want a color that makes you feel confident and one of a kind, this is the service you're looking for.",
 
-                "Right now, we're offering a free consultation with every two-step coloring service. It's the perfect opportunity to treat your hair to something special and finally live the look you've been dreaming of.",
-
-                "Book today, as appointments for this month are almost full!"
+                "Right now, we're offering a free consultation with every two-step coloring service. It's the perfect opportunity to treat your hair to something special and finally live the look you've been dreaming of."
             ],
 
             sl: [
@@ -5265,9 +4851,7 @@ export const blogPosts = [
 
                 "Če ste pripravljeni na pravo preobrazbo in si želite barve, ob kateri se boste počutili samozavestni in edinstveni, je to storitev, ki jo iščete.",
 
-                "Trenutno ob vsakem dvostopenjskem barvanju podarjamo brezplačen posvet. To je popolna priložnost, da svojim lasem privoščite nekaj posebnega in zaživite v videzu, o katerem sanjate.",
-
-                "Rezervirajte še danes, saj so termini za ta mesec že skoraj polni!"
+                "Trenutno ob vsakem dvostopenjskem barvanju podarjamo brezplačen posvet. To je popolna priložnost, da svojim lasem privoščite nekaj posebnega in zaživite v videzu, o katerem sanjate."
             ]
 
         },
@@ -5315,8 +4899,10 @@ export const blogPosts = [
     {
         slug: {
             en: "all-about-highlights",
-            sl: "pramena"
+            sl: "prameni"
         },
+
+        category: "haircuts",
 
         date: {
             en: "April 28, 2025",
@@ -5443,6 +5029,8 @@ export const blogPosts = [
             sl: "pomladni-trendi-2025"
         },
 
+        category: "trends",
+
         date: {
             en: "April 14, 2025",
             sl: "14. april 2025"
@@ -5478,14 +5066,6 @@ export const blogPosts = [
                 "Milkmaid Braids",
 
                 "A nostalgic trend in a new outfit. This braided style involves two braids that wrap gently around the crown of the head, creating a romantic, practical look that's perfect for spring outings and festivals.",
-
-                "The Mullet Revival",
-
-                "Once a symbol of the '80s, the mullet is having its modern comeback. Today's version combines different lengths and textures to create a bold, confident look for anyone who wants to stand out.",
-
-                "Broccoli Cut",
-
-                "Especially popular among younger generations, the Broccoli Cut features shorter sides and full, curly hair on top. This style is often achieved with a perm, giving it a youthful, fresh look.",
 
                 "Surfer Curtain Haircut",
 
@@ -5526,14 +5106,6 @@ export const blogPosts = [
                 "Spete kitke (Milkmaid Braids)",
 
                 "Nostalgičen trend v novi preobleki. Pri tej speti pričeski gre za dve kitki, ki se nežno ovijeta okoli vrha glave, s katerima ustvarita romantičen in praktičen videz in je kot nalašč za spomladanske izlete in festivale.",
-
-                "Mullet (The Mullet Revival)",
-
-                "Nekoč simbol 80-ih, ki danes doživlja svoj sodobni preporod. Današnji stil združuje različne dolžine in teksture, katere ustvarjajo drzno in samozavestno pričesko za vse, ki želijo izstopati.",
-
-                "Broccoli Cut (Brokolijev rez)",
-
-                "Priljubljen predvsem med mlajšimi generacijami, Broccoli Cut vključuje krajše stranice in bujne kodraste lase. Ta pričeska pogosto nastane s trajnim kodranjem ter doda mladosten in svež videz.",
 
                 "Surferska zavesa (Surfer Curtain Haircut)",
 
@@ -5600,142 +5172,11 @@ export const blogPosts = [
 
     {
         slug: {
-            en: "uv-lash-glue",
-            sl: "uv-lepilo-za-trepalnice"
-        },
-
-        date: {
-            en: "March 7, 2025",
-            sl: "7. marec 2025"
-        },
-
-        title: {
-            en: "UV Lash Glue Is Here!",
-            sl: "UV lepilo za trepalnice!"
-        },
-
-        excerpt: {
-            en: "Discover UV lash glue — a revolutionary innovation for faster drying, less irritation, and longer-lasting lashes.",
-            sl: "Spoznajte UV lepilo za trepalnice — revolucionarno novost, ki trepalnicam zagotovi hitrejše sušenje, manj draženja in dolgotrajnejši videz."
-        },
-
-        body: {
-
-            en: [
-                "The future of lash extensions: UV lash glue!",
-
-                "If you love that full, long-lasting look of lash extensions, there's a new revolution happening in the beauty world: UV lash glue. And if you haven't heard about it yet, get ready to fall in love with your new favorite way to keep your lashes full, fluffy, and fresh.",
-
-                "What is UV lash glue, and why is everyone talking about it?",
-
-                "Regular lash extension glue? It works, but it takes longer to dry, can irritate the eyes, and, let's be honest, sometimes it just doesn't last as long as you'd like.",
-
-                "➡️ UV lash glue is a medical-grade adhesive that cures in seconds under safe UV light, locking your lashes securely in place.",
-
-                "✔️ No waiting – Dries in seconds, no more lashes sticking together. ✔️ Less irritation – No fumes, no stinging. UV glue is hypoallergenic compared to regular glue. ✔️ Moisture-resistant – No more worrying about lashes lifting from heat or water.",
-
-                "Imagine waking up every single day with perfect lashes that actually last.",
-
-                "How does it work?",
-
-                "1️⃣ The lash extension process works just like usual, but instead of classic glue, we use an advanced UV-activated adhesive for outstanding durability. 2️⃣ A gentle UV light instantly cures the glue, locking your lashes in place in just seconds. 3️⃣ You leave the salon with exceptionally long-lasting, full, and securely attached lashes that hold up longer than ever before.",
-
-                "Sounds like magic? That's because it is. Once you try it, you'll never go back to the old way!",
-
-                "Why you need to try this now",
-
-                "This isn't just another passing beauty trend. This is the future of lash extensions.",
-
-                "💥 For a limited time only, enjoy 15% OFF your UV lash set! 💥",
-
-                "Don't miss your chance for more durable, fluffy, and healthy lashes with the latest innovation in the industry.",
-
-                "📅 Click here to book your appointment today! 🚀",
-
-                "Offer valid until March 31, 2025."
-            ],
-
-            sl: [
-                "Prihodnost podaljševanja trepalnic z UV lepilom za trepalnice!",
-
-                "Če vam je všeč popoln in dolgotrajen videz podaljšanih trepalnic, je v svetu lepote nova revolucija: UV lepilo za trepalnice. In če o tem še niste slišali, se boste kmalu zaljubili v svoj novi najljubši način, kako ohraniti trepalnice goste, puhaste in sveže.",
-
-                "Kaj je UV lepilo za trepalnice in zakaj vsi govorijo o njem?",
-
-                "Običajno lepilo za podaljševanje trepalnic? Deluje, ampak sušenje traja dlje časa, lahko draži oči, in če smo iskreni – včasih preprosto ne zdrži tako dolgo, kot bi si želeli.",
-
-                "➡️ UV lepilo za trepalnice je medicinsko lepilo, ki se s pomočjo varne UV svetlobe strdi v nekaj sekundah ter zalepi vaše trepalnice na mestu.",
-
-                "✔️ Brez čakanja – Sušenje v sekundah, brez zlepljenih trepalnic. ✔️ Manj draženja – Brez hlapov in pekočega občutka. UV lepilo je hipoalergeno v primerjavi z običajnim. ✔️ Odporno na vlago – Ni vam treba skrbeti, da se bodo trepalnice dvignile zaradi vročine ali vode.",
-
-                "Predstavljajte si, da se vsak dan zbudite s popolnimi trepalnicami, ki trajajo.",
-
-                "Kako deluje?",
-
-                "1️⃣ Postopek podaljševanja trepalnic poteka kot običajno, vendar namesto klasičnega lepila uporabljamo napredno UV-aktivirano lepilo za vrhunsko obstojnost. 2️⃣ Nežna UV svetloba v trenutku strdi lepilo, trepalnice ostanejo na mestu v le nekaj sekundah. 3️⃣ Iz salona odidete z izjemno obstojnimi, gostimi in varno pritrjenimi trepalnicami, ki bodo zdržale dlje kot kadarkoli prej.",
-
-                "Zveni kot čarovnija? In to tudi je. Ko enkrat preizkusite, se nikoli več ne boste vrnili na star način!",
-
-                "Zakaj to morate preizkusiti zdaj?",
-
-                "To ni le še en bežen lepotni trend. To je prihodnost podaljševanja trepalnic.",
-
-                "💥 Samo za omejen čas vam ponujamo 15% POPUST na vaš UV set trepalnic! 💥",
-
-                "Ne zamudite priložnosti za bolj obstojne, puhaste in zdrave trepalnice z najnovejšo inovacijo v industriji.",
-
-                "📅 Kliknite tukaj in si zagotovite svoj termin še danes! 🚀",
-
-                "Ponudba traja do 31. 3. 2025."
-            ]
-
-        },
-
-        faq: {
-
-            en: [
-                {
-                    q: "What's the difference between UV glue and regular lash glue?",
-                    a: "UV glue cures in just seconds under safe UV light, causes less eye irritation, and is more resistant to moisture, so your lashes last longer than with traditional glue."
-                },
-
-                {
-                    q: "Is UV glue safe for sensitive eyes?",
-                    a: "Yes, UV glue is hypoallergenic compared to regular glue, so it causes less irritation, stinging, and fewer fumes."
-                },
-
-                {
-                    q: "Until when is the 15% discount on the UV lash set valid?",
-                    a: "The offer is valid until March 31, 2025, so be sure to book your appointment in time."
-                }
-            ],
-
-            sl: [
-                {
-                    q: "Kakšna je razlika med UV lepilom in običajnim lepilom za trepalnice?",
-                    a: "UV lepilo se strdi v nekaj sekundah pod varno UV svetlobo, je manj dražeče za oči in bolj odporno na vlago, zato trepalnice zdržijo dlje kot pri klasičnem lepilu."
-                },
-
-                {
-                    q: "Ali je UV lepilo varno za občutljive oči?",
-                    a: "Da, UV lepilo je hipoalergeno v primerjavi z običajnim lepilom, zato povzroča manj draženja, pekočega občutka in hlapov."
-                },
-
-                {
-                    q: "Do kdaj velja 15-odstotni popust na UV set trepalnic?",
-                    a: "Ponudba velja do 31. 3. 2025, zato si termin zagotovite pravočasno."
-                }
-            ]
-
-        }
-
-    },
-
-    {
-        slug: {
             en: "meet-daisy",
             sl: "spoznajte-daisy"
         },
+
+        category: "about",
 
         date: {
             en: "February 16, 2025",
@@ -5757,7 +5198,7 @@ export const blogPosts = [
             en: [
                 "If you've ever visited our salon, chances are you didn't just hear the snip of scissors and hum of hairdryers — you also met the biggest personality in the smallest body. Meet Daisy, our three-year-old Yorkie, unofficial head of the salon, stress-reliever, and master of getting attention.",
 
-                "A bold little diva. At first, Daisy plays it cool. She stands by the front door, gives you a quick once-over, maybe sniffs your shoes, as if deciding whether you're worthy of her attention. But don't let her poker face fool you — two seconds and a gentle pet are all it takes for her to start wagging her tail and hopping around like she's known you forever. Daisy rarely barks, unless she spots someone suspicious (in her world, that's anyone who walks past the window without stopping to admire her elegance).",
+                "A bold little diva.",
 
                 "Your personal lap warmer 🥰 One of her many talents is turning your salon visit into a VIP hug. Whether you're getting a new haircut or the perfect gel manicure, don't be surprised if Daisy climbs into your lap, curls into a little ball, and claims you as her personal human for the next hour. She has a sixth sense for nervous clients — especially kids who might be scared of their first haircut. The moment she settles into their lap, the fear turns into giggles and the whole experience becomes wonderfully relaxing.",
 
@@ -5767,7 +5208,7 @@ export const blogPosts = [
 
                 "A day in the life of Daisy 🐕✨ While Kaja is busy creating gorgeous hairstyles and pampering nails, Daisy runs on her own schedule: greeting clients and persistently demanding belly rubs, keeping a watchful eye on haircuts or drifting off into a beauty nap while you're being styled, begging for treats and playing with her favorite toys (balls and sticks), and following Kaja everywhere while keeping up her royal attention-seeking duties. If she really likes you, she'll sit in your lap for the entire appointment — which, in this salon, is basically the highest honor there is!",
 
-                "Want to meet Daisy? You don't need a special occasion to meet Daisy — she's always here, ready to win your heart. Just book an appointment for a haircut, manicure, or lash treatment, and you just might get lucky enough to become her favorite client of the day. (Tip: we always have treats on hand to boost your chances. 😉)",
+                "Want to meet Daisy? You don't need a special occasion to meet Daisy — she's always here, ready to win your heart. Just book an appointment for a haircut or manicure, and you just might get lucky enough to become her favorite client of the day. (Tip: we always have treats on hand to boost your chances. 😉)",
 
                 "So next time you visit Status Kay, get ready for the sweetest, most playful welcome in Ljubljana.",
 
@@ -5777,17 +5218,17 @@ export const blogPosts = [
             sl: [
                 "Če ste kdaj obiskali naš salon, ste verjetno zaslišali ne le šumenje škarij in sušilnikov, ampak tudi srečali največjo osebnost v najmanjšem telesu. Spoznajte Daisy, našo triletno Yorkico, neformalno šefico salona, zdravilko stresa in mojstrico iskanja pozornosti.",
 
-                "Drzna mala diva. Na začetku se Daisy vede precej hladnokrvno. Stoji ob vhodnih vratih, vas hitro pregleduje, morda celo vohlja vaše čevlje, kot da bi se odločala, ali ste vredni njene pozornosti. Toda naj vas njen neizražen obraz ne zmede – dve sekundi in rahlo božanje sta dovolj, da začne mahati z repom in skakati okoli, kot da bi vas poznala že celo življenje. Daisy redko laja – razen če opazi nekoga sumljivega (v njenem svetu so to vsi, ki hodijo mimo okna brez da bi se ustavili in občudovali njeno eleganco).",
+                "Drzna mala diva.",
 
-                "Vaša osebna grelnica za kolena 🥰 Ena izmed njenih številnih talentov je, da vaš obisk salona spremeni v VIP objem. Ne glede na to ali si privoščite novo pričesko ali popolno gel manikuro. Naj vas ne preseneti, če se Daisy preseli v vaše naročje, kjer se zvije v majhno kepico in vas za naslednjo uro pridobi kot svojega osebnega človeka. Ima šesti čut za nervozne stranke – še posebej za otroke, ki se morda bojijo svojega prvega striženja. Takoj, ko se namesti v njihovo naročje, se strah spremeni v smeh in doživetje postane izjemno sproščujoče.",
+                "Vaš osebni grelček za zmrznjene ljudi 🥰 Ena izmed njenih številnih talentov je, da vaš obisk salona spremeni v VIP objem. Ne glede na to ali si privoščite novo pričesko ali popolno gel manikuro. Naj vas ne preseneti, če se Daisy preseli v vaše naročje, kjer se zvije v majhno kepico in vas za naslednjo uro pridobi kot svojega osebnega človeka. Ima šesti čut za nervozne stranke – še posebej za otroke, ki se morda bojijo svojega prvega striženja. Takoj, ko se namesti v njihovo naročje, se strah spremeni v smeh in doživetje postane izjemno sproščujoče.",
 
                 "Najljubša nadzornica salona. Daisy svojo službo jemlje resno. Nadzira striženje las, pazljivo spremlja barve nohtov in občasno laja na mimoidoče, ki se ne ustavijo, da bi ji priznali kraljevski status. Ko ni zasedena z iskanjem pozornosti, ima dve najljubši točki: ✅ Okno – da lahko oceni mimoidoče. ✅ Prostor za striženje – kjer si privošči svoje lepotne dremeže med obiskom strank.",
 
                 "Če je še posebej razigrana, se lahko celo vključi pri izbiri vaše barve las (ali se vsaj pretvarja, da jo izbere). Kaja se včasih pošali, da je Daisy bolje oblečena kot mi vsi... in resnično, kdo bi ji lahko rekel drugače?",
 
-                "En dan iz Daisyjinega življenja 🐕✨ Medtem ko Kaja ustvarja čarobne pričeske in neguje nohte, ima Daisy svoj lasten urnik: Pozdravlja stranke in vztrajno zahteva božanje. Budno nadzira striženja ali pa se med vašim urejanjem zaziblje v lepotni spanec. Zelo rada prosi za priboljške in se igra s svojimi najljubšimi igračami (žogice in palice). Kaji sledi povsod, zraven pa nadaljuje svoje kraljevske dolžnosti v iskanju pozornosti. Če vas ima resnično rada, bo med celotnim terminom sedela na vaših kolenih – kar je v tem salonu skoraj največja čast!",
+                "En dan iz Daisyjinega življenja 🐕✨ Medtem ko Kaja ustvarja čarobne pričeske in neguje nohte, ima Daisy svoj lasten urnik: Pozdravlja stranke in vztrajno zahteva božanje. Budno nadzira striženja ali pa se med vašim urejanjem zaziblje v lepotni spanec. Zelo rada prosi za priboljške in se igra s svojimi najljubšimi igračami (žogice in palice). Kaji sledi povsod, zraven pa nadaljuje svoje kraljevske dolžnosti v iskanju pozornosti. Če vas ima resnično rada, bo med celotnim terminom sedela v vašem naročju – kar je v tem salonu skoraj največja čast!",
 
-                "Želite spoznati Daisy? Ne potrebujete posebnega dneva za srečanje z Daisy – vedno je tukaj pripravljena osvojiti vaše srce. Samo rezervirajte termin za pričesko, manikuro ali urejanje trepalnic in morda boste imeli srečo, da boste postali njena najljubša stranka dneva. (Nasvet: vedno imamo priboljške, s katerimi povečamo vaše možnosti. 😉)",
+                "Želite spoznati Daisy? Ne potrebujete posebnega dneva za srečanje z Daisy – vedno je tukaj pripravljena osvojiti vaše srce. Samo rezervirajte termin za pričesko ali manikuro in morda boste imeli srečo, da boste postali njena najljubša stranka dneva. (Nasvet: vedno imamo priboljške, s katerimi povečamo vaše možnosti. 😉)",
 
                 "Torej, naslednjič, ko boste obiskali Status Kay, bodite pripravljeni na najslajši in najbolj razigran sprejem v Ljubljani.",
 
@@ -5811,7 +5252,7 @@ export const blogPosts = [
 
                 {
                     q: "Do I need to book a special appointment just to meet Daisy?",
-                    a: "Not at all — simply book any service (a haircut, manicure, or lash treatment) and Daisy will be happy to greet you."
+                    a: "Not at all — simply book any service (a haircut or manicure) and Daisy will be happy to greet you."
                 }
             ],
 
@@ -5828,7 +5269,7 @@ export const blogPosts = [
 
                 {
                     q: "Ali si moram za srečanje z Daisy rezervirati poseben termin?",
-                    a: "Ne, posebnega termina ne potrebujete – dovolj je, da rezervirate katerokoli storitev (pričesko, manikuro ali trepalnice) in Daisy vas bo z veseljem pozdravila."
+                    a: "Ne, posebnega termina ne potrebujete – dovolj je, da rezervirate katerokoli storitev (pričesko ali manikuro) in Daisy vas bo z veseljem pozdravila."
                 }
             ]
 
@@ -5841,6 +5282,8 @@ export const blogPosts = [
             en: "tourists-and-expats-welcome",
             sl: "turisti-in-tujci-dobrodosli"
         },
+
+        category: "about",
 
         date: {
             en: "November 1, 2023",
@@ -5922,6 +5365,8 @@ export const blogPosts = [
             en: "haircut-styles",
             sl: "strizenje"
         },
+
+        category: "haircuts",
 
         date: {
             en: "November 1, 2023",
@@ -6020,6 +5465,8 @@ export const blogPosts = [
             sl: "tehnike-barvanja"
         },
 
+        category: "haircuts",
+
         date: {
             en: "November 1, 2023",
             sl: "1. november 2023"
@@ -6109,6 +5556,8 @@ export const blogPosts = [
             sl: "o-status-kay-salonu"
         },
 
+        category: "about",
+
         date: {
             en: "November 1, 2023",
             sl: "1. november 2023"
@@ -6129,7 +5578,7 @@ export const blogPosts = [
             en: [
                 "Welcome to a modern and inviting salon where you'll feel right at home.",
 
-                "Younger and older guests alike, ladies and gentlemen who want a change or simply want to maintain their current look — if you're looking to step away from the rush of the workday and treat yourself to some pampering in a pleasant salon, you can take advantage of our \"1 for 2\" option, letting you get your hair and nails done in a single visit. The salon is easy to reach yet tucked away from curious eyes on the street. Right next to the salon you'll also find free parking (just let us know when booking your appointment). Please book your visit in advance by calling 041 510 780 or through the app, available at this link: https://www.fresha.com/a/status-kay-ljubljana-trg-osvobodilne-fronte-13-elvwwm1d/booking?dppub=true&employeeId=1411269&menu=true&pId=450986",
+                "Younger and older guests alike, ladies and gentlemen who want a change or simply want to maintain their current look — if you're looking to step away from the rush of the workday and treat yourself to some pampering in a pleasant salon, you can take advantage of our \"1 for 2\" option, letting you get your hair and nails done in a single visit. The salon is easy to reach yet tucked away from curious eyes on the street.",
 
                 "We pride ourselves on precision, professional expertise kept sharp through regular training, genuine care for our clients' comfort, and little thoughtful touches along the way.",
 
@@ -6143,7 +5592,7 @@ export const blogPosts = [
             sl: [
                 "Vabimo vas v sodoben in prijeten salon, v katerem se boste prijetno počutili.",
 
-                "Mlajši in odrasli, gospe in gospodje, ki si želite spremembe ali pa ohranitev sedanjega videza, če se želite na kratko umakniti iz vrveža delovnega dne in se prepustiti negi v prijetnem salonu, ker boste lahko izkoristili čas za »1 za 2«, ko lahko ob enem obisku uredite pričesko in tudi nego nohtov. Lokacija salona je lahko dostopna, ravno prav umaknjena od radovednih pogledov ulice. Prav ob salonu vam je na voljo tudi brezplačno parkirno mesto (prosim opozorite nas na to ob rezervaciji termina). Prosimo, da svoj obisk predhodno najavite na telefonsko številko 041510780 ali preko aplikacije, dostopne na tej povezavi https://www.fresha.com/a/status-kay-ljubljana-trg-osvobodilne-fronte-13-elvwwm1d/booking?dppub=true&employeeId=1411269&menu=true&pId=450986",
+                "Mlajši in odrasli, gospe in gospodje, ki si želite spremembe ali pa ohranitev sedanjega videza, če se želite na kratko umakniti iz vrveža delovnega dne in se prepustiti negi v prijetnem salonu, ker boste lahko izkoristili čas za »1 za 2«, ko lahko ob enem obisku uredite pričesko in tudi nego nohtov. Lokacija salona je lahko dostopna, ravno prav umaknjena od radovednih pogledov ulice.",
 
                 "Odlikujejo nas natančnost, strokovna usposobljenost z rednimi izobraževanji, skrb za prijetno počutje strank v salonu ter drobne pozornosti.",
 
