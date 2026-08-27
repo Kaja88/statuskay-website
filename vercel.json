@@ -1,4 +1,24 @@
 {
+  "redirects": [
+    { "source": "/blogi", "destination": "/sl/blog", "permanent": true },
+    { "source": "/category/nasveti", "destination": "/sl/blog", "permanent": true },
+
+    { "source": "/:year/:month/:day/znaki-za-menjavo-frizerja", "destination": "/sl/blog", "permanent": true },
+    { "source": "/:year/:month/:day/kam-v-ljubljani-to-poletje-po-frizuri", "destination": "/sl/blog/kam-v-ljubljani-po-frizuri", "permanent": true },
+
+    { "source": "/:year/:month/:day/osnove-toplotnega-oblikovanja", "destination": "/sl/blog/osnove-toplotnega-oblikovanja", "permanent": true },
+    { "source": "/:year/:month/:day/prvic-pri-nas", "destination": "/sl/blog/prvic-pri-nas", "permanent": true },
+    { "source": "/:year/:month/:day/kako-ponovno-oziviti-poskodovane-kodre", "destination": "/sl/blog/kako-ponovno-oziviti-poskodovane-kodre", "permanent": true },
+    { "source": "/:year/:month/:day/preproste-priceske-za-zaposlene-profesionalce", "destination": "/sl/blog/preproste-priceske-za-zaposlene-profesionalce", "permanent": true },
+    { "source": "/:year/:month/:day/kako-ohraniti-mocne-nohte-med-obiski-salona", "destination": "/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona", "permanent": true },
+    { "source": "/:year/:month/:day/blondorplex", "destination": "/sl/blog/blondorplex", "permanent": true },
+    { "source": "/:year/:month/:day/kako-izbrati-masko-za-lase", "destination": "/sl/blog/kako-izbrati-masko-za-lase", "permanent": true },
+    { "source": "/:year/:month/:day/5-trikov-za-zdrave-in-sijoce-lase", "destination": "/sl/blog/5-trikov-za-zdrave-in-sijoce-lase", "permanent": true },
+    { "source": "/:year/:month/:day/kako-podaljsati-obstojnost-fen-frizure", "destination": "/sl/blog/kako-podaljsati-obstojnost-fen-frizure", "permanent": true },
+    { "source": "/:year/:month/:day/pomladni-trendi-2025", "destination": "/sl/blog/pomladni-trendi-2025", "permanent": true },
+    { "source": "/:year/:month/:day/bozicni-lasje", "destination": "/sl/blog/bozicni-lasje", "permanent": true },
+    { "source": "/:year/:month/:day/suhi-sampon", "destination": "/sl/blog/suhi-sampon", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
