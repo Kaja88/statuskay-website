@@ -1,0 +1,22 @@
+# STATUS KAY
+
+> STATUS KAY is a hair and nail salon in the center of Ljubljana, Slovenia, right by the main train and bus station. Services include haircuts, balayage, blonding, colour correction, blow-dry styling, and nail care. The site is bilingual (Slovenian and English), with paths prefixed `/sl/` and `/en/`.
+
+## Pages
+
+- [Home (EN)](https://www.statuskay.com/en): Salon overview and highlights.
+- [Home (SL)](https://www.statuskay.com/sl): Pregled salona v slovenščini.
+- [Services (EN)](https://www.statuskay.com/en/services): Full list of hair and nail services.
+- [Storitve (SL)](https://www.statuskay.com/sl/storitve): Seznam storitev za lase in nohte.
+- [About (EN)](https://www.statuskay.com/en/about): Salon story and team.
+- [O nas (SL)](https://www.statuskay.com/sl/o-nas): Zgodba salona in ekipa.
+- [Blog (EN)](https://www.statuskay.com/en/blog): Hair and nail care articles.
+- [Blog (SL)](https://www.statuskay.com/sl/blog): Članki o negi las in nohtov.
+- [How to Get Here (EN)](https://www.statuskay.com/en/directions): Directions and transit info.
+- [Kako do nas (SL)](https://www.statuskay.com/sl/kako-do-nas): Navodila za pot do salona.
+- [Contact (EN)](https://www.statuskay.com/en/contact): Contact form and salon details.
+- [Kontakt (SL)](https://www.statuskay.com/sl/kontakt): Kontaktni obrazec in podatki salona.
+
+## Booking
+
+- [Book an appointment](https://www.fresha.com/book-now/y9qzt5m0/all-offer?share=true&pId=450986): Appointments are booked through Fresha, not on this site directly.
