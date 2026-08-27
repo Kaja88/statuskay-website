@@ -51,6 +51,10 @@ function BlogPost() {
         );
     }
 
+    const relatedPost = post.relatedSlug
+        ? getPostBySlug(lang, post.relatedSlug[lang])
+        : null;
+
     return (
 
         <>
@@ -65,9 +69,33 @@ function BlogPost() {
 
                 <div className="container-small blog-post__content">
 
+                    {post.image && (
+                        <img
+                            src={post.image.src}
+                            alt={post.image.alt[lang]}
+                            className="blog-post__image"
+                            loading="lazy"
+                        />
+                    )}
+
                     {post.body[lang].map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
                     ))}
+
+                    {relatedPost && (
+
+                        <Link
+                            to={`${buildPath(lang, "blog")}/${relatedPost.slug[lang]}`}
+                            className="blog-post__related"
+                        >
+
+                            <span className="blog-post__related-label">{t("blogRelatedTitle")}</span>
+
+                            <span className="blog-post__related-title">{relatedPost.title[lang]}</span>
+
+                        </Link>
+
+                    )}
 
                     {post.faq && (
 
