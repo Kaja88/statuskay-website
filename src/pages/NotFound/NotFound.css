@@ -22,6 +22,20 @@
   margin-bottom: var(--space-8);
 }
 
+.not-found__image {
+  display: block;
+
+  width: 100%;
+
+  max-width: 560px;
+
+  height: auto;
+
+  border-radius: var(--radius-md);
+
+  margin: 0 auto var(--space-8);
+}
+
 .not-found h1 {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
 

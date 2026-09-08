@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { defaultLanguage } from "../../config/languages";
 import { buildPath } from "../../config/routes";
 
+import daisy from "../../assets/not-found/daisy.jpg";
+
 import "./NotFound.css";
 
 function NotFound() {
@@ -31,6 +33,12 @@ function NotFound() {
                 <p className="not-found__logo">STATUS KAY</p>
 
                 <h1>{t("notFoundTitle")}</h1>
+
+                <img
+                    src={daisy}
+                    alt="Daisy"
+                    className="not-found__image"
+                />
 
                 <p>{t("notFoundText")}</p>
 
