@@ -57,10 +57,34 @@ export const transportInfo = {
         }
     },
 
+    // Main intercity stations — shown first in the public transport column.
+    stations: [
+        {
+            name: {
+                en: "Main Train Station",
+                sl: "Glavna železniška postaja"
+            },
+            detail: {
+                en: "Across the street",
+                sl: "Čez cesto"
+            }
+        },
+        {
+            name: {
+                en: "Main Bus Station",
+                sl: "Glavna avtobusna postaja"
+            },
+            detail: {
+                en: "100 m walk",
+                sl: "100 m hoje"
+            }
+        }
+    ],
+
     bus: [
         {
             stop: "Kolodvor",
-            lines: "2, 9, 12, 25"
+            lines: "2, 9, 25"
         },
         {
             stop: "Bavarski dvor",

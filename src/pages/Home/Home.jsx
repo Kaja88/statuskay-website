@@ -57,12 +57,23 @@ function Home() {
                         STATUS KAY
                     </h1>
 
-                    <a
-                        href="#about"
-                        className="button"
-                    >
-                        {t("discoverMore")}
-                    </a>
+                    <div className="hero__actions">
+
+                        <Link
+                            to={buildPath(lang, "booking")}
+                            className="button hero__button-outline"
+                        >
+                            {t("bookNow")}
+                        </Link>
+
+                        <a
+                            href="#about"
+                            className="button hero__button-outline"
+                        >
+                            {t("discoverMore")}
+                        </a>
+
+                    </div>
 
                 </div>
 

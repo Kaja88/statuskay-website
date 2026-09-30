@@ -377,6 +377,32 @@ section {
   margin-bottom: var(--space-8);
 }
 
+.hero__actions {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: var(--space-4);
+}
+
+/* The regular .button-outline has dark text, which disappears on the dark
+   hero video — this variant keeps the outline style but in white. */
+.hero__button-outline {
+  background: transparent;
+
+  border-color: var(--white);
+
+  color: var(--white);
+}
+
+.hero__button-outline:hover {
+  background: var(--white);
+
+  color: var(--text-heading);
+}
+
 .hero__subtitle {
   margin-bottom: var(--space-4);
 

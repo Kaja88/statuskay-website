@@ -186,6 +186,15 @@ function Directions() {
 
                             <ul>
 
+                                {transportInfo.stations.map((item) => (
+
+                                    <li key={item.name.en}>
+                                        <span className="transport__name">{item.name[lang]}</span>
+                                        <span className="transport__detail">{item.detail[lang]}</span>
+                                    </li>
+
+                                ))}
+
                                 {transportInfo.bus.map((item) => (
 
                                     <li key={item.stop}>
@@ -193,7 +202,7 @@ function Directions() {
                                             {item.stop}
                                             {item.detail && ` — ${item.detail[lang]}`}
                                         </span>
-                                        <span className="transport__detail">{item.lines}</span>
+                                        <span className="transport__detail">LPP {item.lines}</span>
                                     </li>
 
                                 ))}

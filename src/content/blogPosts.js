@@ -151,7 +151,7 @@ export const blogPosts = [
                 },
                 {
                     q: "Where is STATUS KAY located relative to the city centre?",
-                    a: "The studio is right by Ljubljana's main train and bus station, in the capital of Slovenia, within easy walking distance of Prešeren Square and the old town."
+                    a: "The studio is in Ljubljana, the capital of Slovenia — across the street from the main train station and 100 m from the main bus station, within easy walking distance of Prešeren Square and the old town."
                 }
             ],
 
@@ -170,7 +170,7 @@ export const blogPosts = [
                 },
                 {
                     q: "Kje se nahaja STATUS KAY glede na center mesta?",
-                    a: "Studio je tik ob glavni železniški in avtobusni postaji Ljubljana, glavnem mestu Slovenije, na enostavni peš razdalji od Prešernovega trga in starega mestnega jedra."
+                    a: "Studio je v Ljubljani, glavnem mestu Slovenije — nasproti glavne železniške postaje in 100 m od glavne avtobusne postaje, na enostavni peš razdalji od Prešernovega trga in starega mestnega jedra."
                 }
             ]
 
@@ -621,8 +621,8 @@ export const blogPosts = [
         },
 
         excerpt: {
-            en: "Status Kay is located right in the heart of Ljubljana, just steps from the train and bus station. Discover how easy it is to reach us, wherever you're coming from.",
-            sl: "Status Kay se nahaja v samem središču Ljubljane, le nekaj korakov od železniške in avtobusne postaje. Odkrij, kako enostavno je priti do nas, ne glede na to, od kod prihajaš."
+            en: "Status Kay is located right in the heart of Ljubljana, across the street from the main train station and 100 m from the main bus station. Discover how easy it is to reach us, wherever you're coming from.",
+            sl: "Status Kay se nahaja v samem središču Ljubljane, nasproti glavne železniške postaje in 100 m od glavne avtobusne postaje. Odkrij, kako enostavno je priti do nas, ne glede na to, od kod prihajaš."
         },
 
         body: {
@@ -630,11 +630,11 @@ export const blogPosts = [
             en: [
                 "When choosing a hairdresser, a convenient location matters almost as much as great results. The more accessible the salon, the easier it is to keep up with a fresh, polished, healthy look. That's exactly why Status Kay is located right in the heart of Ljubljana.",
 
-                "You'll find us at Trg Osvobodilne fronte 13, just a few steps from Ljubljana's main train and bus station. Whether you're coming from work, from home, or from another part of the city, getting to us is quick and easy.",
+                "You'll find us at Trg Osvobodilne fronte 13, across the street from Ljubljana's main train station and just 100 m from the main bus station. Whether you're coming from work, from home, or from another part of the city, getting to us is quick and easy.",
 
                 "One of the biggest advantages of our location is excellent public transport connections. If you arrive in Ljubljana by train or bus, you're practically already here. Just a short walk separates you from the salon.",
 
-                "For anyone using city transport, the Kolodvor stop is also nearby, served by LPP bus lines 2, 9, 12D, 25, and 27. That means you can easily reach the salon from various parts of Ljubljana.",
+                "For anyone using city transport, the Kolodvor stop is also nearby, served by LPP bus lines 2, 9, and 25. That means you can easily reach the salon from various parts of Ljubljana.",
 
                 "Since we're located in the city center, many clients easily combine their visit with other errands. Some stop by on their lunch break, others before meeting friends, and many use their appointment as a nice moment for themselves in the middle of a busy day.",
 
@@ -652,11 +652,11 @@ export const blogPosts = [
             sl: [
                 "Ko izbirate frizerja, je priročna lokacija skoraj tako pomembna kot odlični rezultati. Bolj kot je salon dostopen, lažje je redno skrbeti za svež, urejen in zdrav videz las. Prav zato se Status Kay nahaja na odlični lokaciji v samem središču Ljubljane.",
 
-                "Najdete nas na naslovu Trg Osvobodilne fronte 13, le nekaj korakov od glavne železniške in avtobusne postaje Ljubljana. Ne glede na to, ali prihajate iz službe, od doma ali iz drugega dela mesta, je pot do nas hitra in enostavna.",
+                "Najdete nas na naslovu Trg Osvobodilne fronte 13, nasproti glavne železniške postaje Ljubljana in le 100 m od glavne avtobusne postaje. Ne glede na to, ali prihajate iz službe, od doma ali iz drugega dela mesta, je pot do nas hitra in enostavna.",
 
                 "Ena največjih prednosti naše lokacije je odlična povezanost z javnim prometom. Če v Ljubljano prispete z vlakom ali avtobusom, ste skoraj že pri nas. Do salona vas loči le kratek sprehod.",
 
-                "Za vse, ki uporabljate mestni promet, je v bližini tudi postaja Kolodvor, kjer ustavljajo avtobusi LPP na linijah 2, 9, 12D, 25 in 27. To pomeni, da lahko do salona enostavno pridete iz različnih delov Ljubljane.",
+                "Za vse, ki uporabljate mestni promet, je v bližini tudi postaja Kolodvor, kjer ustavljajo avtobusi LPP na linijah 2, 9 in 25. To pomeni, da lahko do salona enostavno pridete iz različnih delov Ljubljane.",
 
                 "Ker se nahajamo v centru mesta, številne stranke svoj obisk pri nas zlahka združijo z drugimi opravki. Nekateri se oglasijo med odmorom za kosilo, drugi pred srečanjem s prijatelji, mnogi pa svoj termin izkoristijo kot prijeten trenutek zase sredi napornega dne.",
 
@@ -676,12 +676,12 @@ export const blogPosts = [
             en: [
                 {
                     q: "Where exactly is Status Kay located?",
-                    a: "You'll find us at Trg Osvobodilne fronte 13, just a few steps from Ljubljana's main train and bus station."
+                    a: "You'll find us at Trg Osvobodilne fronte 13, across the street from Ljubljana's main train station and 100 m from the main bus station."
                 },
 
                 {
                     q: "How do I get to the salon by bus?",
-                    a: "The Kolodvor stop is nearby, served by LPP lines 2, 9, 12D, 25, and 27, and from there it's just a short walk to us."
+                    a: "The Kolodvor stop is nearby, served by LPP lines 2, 9, and 25, and from there it's just a short walk to us."
                 },
 
                 {
@@ -693,12 +693,12 @@ export const blogPosts = [
             sl: [
                 {
                     q: "Kje točno se nahaja salon Status Kay?",
-                    a: "Najdete nas na naslovu Trg Osvobodilne fronte 13, le nekaj korakov od glavne železniške in avtobusne postaje v Ljubljani."
+                    a: "Najdete nas na naslovu Trg Osvobodilne fronte 13, nasproti glavne železniške postaje v Ljubljani in 100 m od glavne avtobusne postaje."
                 },
 
                 {
                     q: "Kako pridem do salona z avtobusom?",
-                    a: "V bližini je postaja Kolodvor, kjer ustavljajo linije LPP 2, 9, 12D, 25 in 27, od tam pa je do nas le kratek sprehod."
+                    a: "V bližini je postaja Kolodvor, kjer ustavljajo linije LPP 2, 9 in 25, od tam pa je do nas le kratek sprehod."
                 },
 
                 {
