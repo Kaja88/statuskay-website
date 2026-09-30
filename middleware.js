@@ -3,7 +3,18 @@
 // there. Anything reaching this file is a dead WordPress-era permalink —
 // serve a real 410 instead of letting the SPA fall through to a 200 + noindex
 // "Page Not Found" screen, so Google drops it from the index for good.
-export default function middleware() {
+
+// The date check lives here rather than in the matcher: regex groups in the
+// matcher pattern made Vercel reject the whole deployment.
+const deadDateUrl = /^\/\d{4}\/\d{2}\/\d{2}\//;
+
+export default function middleware(request) {
+    const { pathname } = new URL(request.url);
+
+    // Not a WordPress date URL — return nothing so the request continues
+    // to the site as normal.
+    if (!deadDateUrl.test(pathname)) return;
+
     return new Response("Gone", {
         status: 410,
         headers: {
@@ -15,5 +26,5 @@ export default function middleware() {
 }
 
 export const config = {
-    matcher: "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug*",
+    matcher: "/:year/:month/:day/:slug*",
 };
