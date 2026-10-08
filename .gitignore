@@ -30,3 +30,6 @@ photo-pool/*
 !photo-pool/used/
 photo-pool/used/*
 !photo-pool/used/.gitkeep
+
+# Copies of blog images for the RSS feed, recreated by scripts/generate-rss.mjs
+public/blog-images
