@@ -5,6 +5,9 @@
 // loaded bundle instead of staying inside the lazy-loaded Blog/BlogPost
 // route chunks.
 export const blogSlugs = [
+    { en: "ljubljana-in-october", sl: "jesen-v-ljubljani" },
+    { en: "girl-with-the-golden-scissors", sl: "deklica-z-zlatimi-skarjami" },
+    { en: "autumn-hair-loss", sl: "jesensko-izpadanje-las" },
     { en: "hot-mama-summer-haircut-with-a-newborn", sl: "hot-mama-summer-frizura-z-dojenckom" },
     { en: "where-to-go-in-ljubljana-after-your-haircut", sl: "kam-v-ljubljani-po-frizuri" },
     { en: "faq", sl: "pogosta-vprasanja" },

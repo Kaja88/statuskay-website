@@ -1,4 +1,377 @@
+import { isPublished } from "./publishing.js";
+
+import autumnHairLossBlog from "../assets/blog/autumn-hair-loss.jpg";
+import goldenScissorsBlog from "../assets/blog/girl-with-the-golden-scissors.jpg";
+import ljubljanaInOctoberBlog from "../assets/blog/ljubljana-in-october.jpg";
+
+const instagramUrl = "https://www.instagram.com/statuskay";
+const tiktokUrl = "https://www.tiktok.com/@statuskay";
+
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "autumn-hair-loss",
+            sl: "jesensko-izpadanje-las"
+        },
+
+        category: "haircuts",
+
+        publishAt: "2026-10-23",
+
+        image: {
+            src: autumnHairLossBlog,
+            alt: {
+                en: "Long brown hair seen from behind, with dry, sun-faded ends after summer",
+                sl: "Dolgi rjavi lasje od zadaj, s suhimi, od sonca zbledelimi konicami po poletju"
+            }
+        },
+
+        relatedSlug: {
+            en: "how-to-speed-up-hair-growth",
+            sl: "kako-pospesiti-rast-las"
+        },
+
+        date: {
+            en: "October 23, 2026",
+            sl: "23. oktober 2026"
+        },
+
+        title: {
+            en: "Autumn Hair Loss: Why It Happens And What Helps",
+            sl: "Jesensko Izpadanje Las: Zakaj Se Zgodi In Kaj Pomaga"
+        },
+
+        excerpt: {
+            en: "More hair in your brush this autumn? Seasonal shedding is common and usually temporary. Here's why it happens and how to support your hair through it.",
+            sl: "Več las na krtači to jesen? Sezonsko izpadanje las je pogosto in običajno začasno. Preberite, zakaj se zgodi in kako lasem pomagate čez to obdobje."
+        },
+
+        body: {
+
+            en: [
+                "Every autumn, the same worried question comes up in the salon chair: why am I suddenly losing so much hair? If you've been noticing more strands in your brush, on your pillow or in the shower drain, you're not imagining it — and in most cases, it's nothing to panic about.",
+                "Hair grows in cycles. At any given moment, most of your hair is actively growing, while a smaller share is in a resting phase before it falls out naturally. Many people find that more hairs enter that resting phase over the summer, which means they shed a few months later — right around September and October. Losing somewhere between 50 and 100 hairs a day is considered normal, and seasonal shedding usually settles down on its own within a few weeks.",
+                "Summer itself doesn't help either. Sun, salt water, chlorine and heat styling leave the lengths dry and brittle, so hair breaks more easily when you brush it. Part of what looks like hair loss in autumn is actually breakage — and that's the part you can do the most about.",
+                "A few simple habits make a real difference. Brush gently, starting from the ends and working up, and avoid tight ponytails that pull at the roots. Turn the heat on your straightener or curling iron down a notch, and use a nourishing mask once a week. A short scalp massage while you wash your hair is a pleasant way to support circulation, and a balanced diet with enough protein and iron matters more for your hair than any single product.",
+                "Autumn is also the perfect time for a trim. Taking off the dry, split ends left over from summer stops the breakage from travelling further up the strand, so your hair looks fuller and healthier straight away. If you're not sure how much to take off, we'll look at your hair together and suggest what makes sense.",
+                "One important note: if the shedding lasts longer than two or three months, if you notice bald patches, or if it comes with other symptoms like fatigue, it's worth checking in with your doctor or a dermatologist. Seasonal shedding is common, but it shouldn't be the only explanation you consider."
+            ],
+
+            sl: [
+                "Vsako jesen se v frizerskem stolu pojavi isto zaskrbljeno vprašanje: zakaj mi nenadoma izpada toliko las? Če opažate več las na krtači, na blazini ali v odtoku pri tušu, si tega ne domišljate — in v večini primerov ni razloga za paniko.",
+                "Lasje rastejo v ciklih. Večina las je v vsakem trenutku v fazi rasti, manjši del pa v fazi mirovanja, preden naravno izpade. Pri veliko ljudeh gre čez poletje v fazo mirovanja več las kot sicer, zato izpadejo nekaj mesecev kasneje — ravno septembra in oktobra. Izguba približno 50 do 100 las na dan velja za normalno, sezonsko izpadanje pa se običajno umiri samo od sebe v nekaj tednih.",
+                "Tudi poletje samo ne pomaga. Sonce, morska voda, klor in toplotno oblikovanje izsušijo dolžine, zato se lasje pri česanju lažje lomijo. Del tega, kar jeseni izgleda kot izpadanje, je v resnici lomljenje las — in prav tu lahko naredite največ.",
+                "Nekaj preprostih navad naredi veliko razliko. Lase razčesujte nežno, od konic navzgor, in se izogibajte tesnim čopom, ki vlečejo pri koreninah. Temperaturo likalnika ali kodralnika znižajte za stopnjo in enkrat na teden uporabite hranilno masko. Kratka masaža lasišča med umivanjem je prijeten način za spodbujanje prekrvavitve, uravnotežena prehrana z dovolj beljakovin in železa pa je za lase pomembnejša od katerega koli izdelka.",
+                "Jesen je tudi idealen čas za striženje konic. Ko odstranimo suhe, razcepljene konice, ki so ostale od poletja, se lomljenje ne širi naprej po dolžini, lasje pa so takoj videti polnejši in bolj zdravi. Če niste prepričani, koliko bi bilo dobro odstraniti, si bomo lase ogledali skupaj in predlagali, kar je smiselno.",
+                "Pomembna opomba: če izpadanje traja dlje kot dva ali tri mesece, če opazite plešaste predele ali če ga spremljajo drugi znaki, kot je utrujenost, se je vredno posvetovati z zdravnikom ali dermatologom. Sezonsko izpadanje je pogosto, a ne bi smelo biti edina razlaga, ki jo upoštevate."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Is it normal to lose more hair in autumn?",
+                    a: "Yes. Many people shed more hair in September and October, because more hairs enter the resting phase during summer and fall out a few months later. It's usually temporary and settles within a few weeks."
+                },
+                {
+                    q: "How many hairs a day is normal to lose?",
+                    a: "Losing roughly 50 to 100 hairs a day is considered normal. During seasonal shedding it can feel like more, especially after washing or brushing."
+                },
+                {
+                    q: "Does a haircut help with autumn hair loss?",
+                    a: "A haircut doesn't change how much hair falls out from the root, but trimming dry, split ends left from summer reduces breakage, so hair looks fuller and healthier."
+                },
+                {
+                    q: "When should I see a doctor about hair loss?",
+                    a: "If shedding lasts longer than two or three months, if you notice bald patches, or if it comes with other symptoms such as fatigue, it's worth seeing a doctor or dermatologist."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Ali je normalno, da jeseni izpade več las?",
+                    a: "Da. Pri veliko ljudeh septembra in oktobra izpade več las, ker gre čez poletje več las v fazo mirovanja in izpadejo nekaj mesecev kasneje. Običajno je to začasno in se umiri v nekaj tednih."
+                },
+                {
+                    q: "Koliko las na dan je normalno, da izpade?",
+                    a: "Izguba približno 50 do 100 las na dan velja za normalno. Med sezonskim izpadanjem se lahko zdi več, predvsem po umivanju ali česanju."
+                },
+                {
+                    q: "Ali striženje pomaga pri jesenskem izpadanju las?",
+                    a: "Striženje ne vpliva na to, koliko las izpade iz korenine, a z odstranitvijo suhih, razcepljenih konic po poletju zmanjšamo lomljenje, zato so lasje videti polnejši in bolj zdravi."
+                },
+                {
+                    q: "Kdaj naj zaradi izpadanja las obiščem zdravnika?",
+                    a: "Če izpadanje traja dlje kot dva ali tri mesece, če opazite plešaste predele ali če ga spremljajo drugi znaki, kot je utrujenost, se je vredno posvetovati z zdravnikom ali dermatologom."
+                }
+            ]
+
+        }
+
+    },
+
+    {
+        slug: {
+            en: "girl-with-the-golden-scissors",
+            sl: "deklica-z-zlatimi-skarjami"
+        },
+
+        category: "about",
+
+        publishAt: "2026-10-16",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: goldenScissorsBlog,
+            alt: {
+                en: "Hairdressing chair and mirror in a cruise ship salon, with a panoramic window overlooking the sea, palm trees and a city skyline",
+                sl: "Frizerski stol in ogledalo v salonu na ladji za križarjenja, s panoramskim oknom s pogledom na morje, palme in mesto"
+            }
+        },
+
+        relatedSlug: {
+            en: "about-status-kay-salon",
+            sl: "o-status-kay-salonu"
+        },
+
+        date: {
+            en: "October 16, 2026",
+            sl: "16. oktober 2026"
+        },
+
+        title: {
+            en: "The Girl with the Golden Scissors: A Ljubljana Hairstylist's Journey Around the World",
+            sl: "Deklica z zlatimi škarjami: zgodba frizerke iz Ljubljane, ki je s škarjami prepotovala svet"
+        },
+
+        excerpt: {
+            en: "Fourteen years ago I left home with my scissors to work on cruise ships. Today, at my Ljubljana salon on Trg OF, every cut carries that story.",
+            sl: "Pred 14 leti sem s škarjami odšla na ladje. Danes v Ljubljani, na Trgu OF, strižem drugače: mirno, natančno in z zgodbo za vsako frizuro."
+        },
+
+        body: {
+
+            en: [
+                "## A suitcase, a pair of scissors, and a goodbye",
+                "About fourteen years ago, I packed a suitcase, tucked my scissors inside, and set off into the world. Not on holiday, but to work on cruise ships, where the day starts early, ends late, and the salon is a few square metres somewhere in the middle of the ocean.",
+                "At twenty, all I could see was that I could travel and do what I love doing. A dream job!",
+                "## How I became “the girl with the golden scissors”",
+                "On a ship, names change quickly. Guests and crew called me Kaja, Kadža, Kaha, Kay, each in their own way, depending on language and accent. But one name stuck more than the others: the girl with the golden scissors.",
+                "It was never really about the scissors. It was about people leaving my chair feeling different from how they sat down. When you meet people from every corner of the world every day, with different hair, habits, and expectations, you learn to listen fast. Not just to what a client asks for, but to what they don't quite say.",
+                "## What life between ports teaches you",
+                "I saw places I otherwise probably never would have. But behind every postcard view was everything you don't see: the challenges, the endless trainings, the flights, the goodbyes, the tiredness, and the days when home felt very far away.",
+                "Those days shaped me as a stylist. I learned to work precisely even on rough seas. I learned that a good hairstyle isn't a fast one, it's a considered one. And I learned that a client's trust is something you earn again at every appointment. There's truly no room for mistakes out there and no second chances. If the guests aren't happy, you're not there for long.",
+                "Along the way I also [trained as a barber](/en/services/barbering), long before men's grooming became a trend, including hot and cold towel shaves and certified facial care for men. All of it comes with me into every appointment today.",
+                "## From the ocean to Trg OF",
+                "After years at sea, I wanted something different: home. Not another new square, another city, another church. After so many years of a completely different kind of service than we're used to in Slovenia, I wanted a space where I could give my full attention to one person at a time, with the kind of service that still isn't the norm here.",
+                "I know, it sounds strange: the whole wide world, and you choose Slovenia? Yes. And if you'd asked me before I left, I'd have said: never! Ljubljana felt too small to me, and the world out there felt huge and full of illusions. It's a little funny that only after travelling so much do you start to see how much we really have here, and how rarely we appreciate it.",
+                "That's how [StatusKay](/en/about) began, a boutique hair salon in Ljubljana at Trg OF 13, in the courtyard of the city's first hotel building. It's small and personal. It's just me, you, and your hair. And Dejzi, who will probably greet you at the door.",
+                "## Why “calm is the new luxury”",
+                `Well, if you hop over to my socials on [Instagram](${instagramUrl}) or [TikTok](${tiktokUrl}) and see the views I had from my “office,” you'll understand where my calm comes from. So my philosophy is simple: calm is the new luxury. And a good haircut definitely brings calm, plus easier styling :) Here, an appointment isn't something to squeeze between two obligations. It's time to sit down, say what you want, and trust that every move of the scissors has a purpose.`,
+                "Whether you're coming in for a haircut, colour, a fringe trim, or a men's shave, the approach is the same: I listen first, then I cut.",
+                "## The scissors are silver now",
+                "The name “the girl with the golden scissors” has stayed with me, even though today I'm mostly a woman who knows what she does and why she does it. My scissors have turned silver, but they'll always be golden, because of the people who sat in my chair and trusted me.",
+                "If it matters to you how you feel when you walk out of a hair salon, I'd be glad to welcome you, whether you've been with me since the very beginning or you're coming in for the first time.",
+                `You'll find snapshots from my life at sea on [Instagram](${instagramUrl}) and [TikTok](${tiktokUrl}).`
+            ],
+
+            sl: [
+                "## Kovček, škarje in slovo",
+                "Pred približno štirinajstimi leti sem spakirala kovček, vanj položila škarje in odšla v svet. Ne na počitnice, ampak na delo, na ladje za križarjenja, kjer se dan začne zgodaj, konča pozno in kjer je salon le nekaj kvadratnih metrov sredi oceana.",
+                "Pri dvajsetih letih sem videla samo eno: da lahko potujem in delam to, kar delam. Sanjska služba!",
+                "## Kako sem postala »deklica z zlatimi škarjami«",
+                "Na ladji se imena hitro spremenijo. Gostje in posadka so me klicali Kaja, Kadža, Kaha, Kay, vsak po svoje, odvisno od jezika in naglasa. Eno ime pa se je prijelo bolj kot ostala: deklica z zlatimi škarjami.",
+                "Ni šlo za škarje same. Šlo je za to, da so ljudje odšli iz mojega stola in se počutili drugače, kot ko so sedli vanj. Na ladji, kjer vsak dan srečaš ljudi z vseh koncev sveta, z različnimi lasmi, navadami in pričakovanji, se hitro naučiš poslušati. Ne samo, kaj si stranka želi, ampak tudi tisto, česar ne pove na glas.",
+                "## Kaj te nauči življenje med pristanišči",
+                "Videla sem kraje, ki jih sicer verjetno nikoli ne bi. A za vsako lepo razglednico je bilo tudi veliko tistega, česar se ne vidi: izzivi, nešteto izobraževanj, leti, slovesa, utrujenost in dnevi, ko je dom zelo daleč.",
+                "Prav ti dnevi so me oblikovali kot frizerko. Naučila sem se delati natančno tudi takrat, ko je okoli mene razburkano morje. Naučila sem se, da dobra frizura ni hitra frizura, ampak premišljena. In naučila sem se, da je zaupanje stranke nekaj, kar si prisluži z vsakim obiskom znova. Tam res ni prostora za napake in ni drugih priložnosti. Če gostje niso zadovoljni, kar hitro nisi več tam.",
+                "Med potjo sem pridobila tudi [brivsko znanje](/sl/storitve/moski-frizer), še preden je moška nega postala trend: britje s toplimi in hladnimi brisačami ter certificirano nego obraza za moške. Vse to danes nosim s sabo v vsak termin.",
+                "## Iz oceana na Trg OF",
+                "Po letih na morju sem si zaželela nečesa drugega: doma. Ne novega trga, drugega mesta in še ene cerkve. Po toliko letih popolnoma drugačne storitve, kot jo poznamo Slovenci, sem si zaželela prostora, kjer se lahko posvetim eni osebi naenkrat, z dobro storitvijo, ki pri nas še ni stalnica.",
+                "Vem, to je kar čudno razumeti: širni svet, ti pa se odločiš za Slovenijo? Ja. In če bi me to vprašali, preden sem šla, bi rekla: jaz pa že nikoli! Ljubljana je bila zame premajhna, tujina pa velika in polna iluzij. Kar malo smešno je, da šele ko veliko prepotuješ, znaš videti, koliko stvari zares imamo, pa jih ne znamo ceniti.",
+                "Tako je nastal [StatusKay](/sl/o-nas), butični frizerski salon v Ljubljani, na Trgu OF 13, na dvorišču stavbe prvega ljubljanskega hotela. Salon je majhen in oseben. Tu sem samo jaz, ti in tvoji lasje. In Dejzi, ki te bo verjetno pričakala pri vratih.",
+                "## Zakaj »calm is the new luxury«",
+                `No ja, če skočiš na moja omrežja, na [Instagram](${instagramUrl}) ali [TikTok](${tiktokUrl}), in pogledaš, kakšne razglede iz pisarne sem imela, boš razumela, kje je vir moje mirnosti. Zato je moja filozofija preprosta: mir je novo razkošje. In dobra frizura definitivno prinese mir, pa tudi lažje urejanje :) Pri meni termin ni nekaj, kar je treba odkljukati med dvema obveznostma. Je čas, ko se lahko usedeš, poveš, kaj želiš, in zaupaš, da ima vsak gib škarij svoj namen.`,
+                "Ne glede na to, ali prideš na striženje, barvanje, urejanje frfruja ali na moško britje, je pristop enak: najprej poslušam, potem strižem.",
+                "## Škarje so danes srebrne",
+                "Ime »deklica z zlatimi škarjami« me spremlja še danes, čeprav sem danes predvsem ženska, ki ve, kaj zna, in zakaj to počne. Škarje so se sicer spremenile v srebrne, a zlate bodo vedno ostale, zaradi ljudi, ki so sedeli v mojem stolu in mi zaupali.",
+                "Če ti ni vseeno, kako se počutiš, ko odideš iz frizerskega salona, te z veseljem sprejmem, pa naj bo to, da si z mano že od začetka, ali pa prihajaš prvič.",
+                `Utrinke z ladje pa najdeš na mojem [Instagramu](${instagramUrl}) in [TikToku](${tiktokUrl}).`
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Who is the hairstylist at STATUS KAY in Ljubljana?",
+                    a: "STATUS KAY is run by Kaja, a hairstylist and barber who spent years working in salons on cruise ships before opening her own boutique salon in Ljubljana."
+                },
+                {
+                    q: "Where is the STATUS KAY salon?",
+                    a: "The salon is at Trg OF 13 in central Ljubljana, in the courtyard of the building that housed the city's first hotel, a short walk from the main train and bus stations."
+                },
+                {
+                    q: "Does STATUS KAY offer men's shaves?",
+                    a: "Yes. Alongside women's haircuts and colour, the salon offers men's grooming, including traditional shaves with hot and cold towels and facial care for men."
+                },
+                {
+                    q: "How do I book an appointment at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose your service and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kdo je frizerka v salonu STATUS KAY v Ljubljani?",
+                    a: "Salon STATUS KAY vodi Kaja, frizerka in brivka, ki je več let delala v salonih na ladjah za križarjenja, preden je v Ljubljani odprla svoj butični salon."
+                },
+                {
+                    q: "Kje se nahaja salon STATUS KAY?",
+                    a: "Salon je na Trgu OF 13 v središču Ljubljane, na dvorišču stavbe prvega ljubljanskega hotela, le nekaj korakov od glavne železniške in avtobusne postaje."
+                },
+                {
+                    q: "Ali STATUS KAY ponuja moško britje?",
+                    a: "Da. Poleg ženskega striženja in barvanja salon ponuja tudi moško nego, vključno s klasičnim britjem s toplimi in hladnimi brisačami ter nego obraza za moške."
+                },
+                {
+                    q: "Kako rezerviram termin v salonu STATUS KAY?",
+                    a: "Termin rezerviraš prek spleta v aplikaciji Fresha, kjer izbereš storitev in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
+
+    {
+        slug: {
+            en: "ljubljana-in-october",
+            sl: "jesen-v-ljubljani"
+        },
+
+        category: "about",
+
+        publishAt: "2026-10-09",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: ljubljanaInOctoberBlog,
+            alt: {
+                en: "Illustration of a blonde woman in a light coat walking a Yorkshire terrier along a leafy park path in autumn",
+                sl: "Ilustracija svetlolase ženske v svetlem plašču, ki se z jorkširskim terierjem sprehaja po jesenski poti v parku"
+            }
+        },
+
+        relatedSlug: {
+            en: "where-to-go-in-ljubljana-after-your-haircut",
+            sl: "kam-v-ljubljani-po-frizuri"
+        },
+
+        date: {
+            en: "October 9, 2026",
+            sl: "9. oktober 2026"
+        },
+
+        title: {
+            en: "Ljubljana in October: An Autumn Guide to a City That Slows Down",
+            sl: "Jesen v Ljubljani: kako preživeti oktober v mestu, ki se upočasni"
+        },
+
+        excerpt: {
+            en: "Ljubljana in October means golden Tivoli Park, roasted chestnuts, galleries and theatre. A calm autumn guide to the city – with time for yourself.",
+            sl: "Jesen v Ljubljani je čas za Tivoli, kostanj, galerije in gledališče. Oktobrski vodič po mestu – in kako vanj vpleteš trenutek zase."
+        },
+
+        body: {
+
+            en: [
+                "October is when Ljubljana changes its rhythm. The summer crowds thin out, the mornings turn crisp, and fog sometimes lingers over the Ljubljanica until late morning. Chestnut sellers appear on street corners, and café life slowly moves from terraces to behind the glass. If there is ever a time to experience the city without rushing, this is it.",
+                "From the salon on Trg OF, I notice this shift every year. People arrive calmer, with more time and more questions about what they want for the months ahead. So here are a few places and habits I love most when the city turns autumnal.",
+                "## Tivoli and Rožnik in Gold",
+                "The city park is at its best in October. The avenue along Jakopič Promenade turns gold and red, leaves gather along the paths, and the light falls low and soft. If you have a free morning, keep walking up to Rožnik hill. The climb is gentle, and on a cool, sunny day the view from the top is worth every step. It's a walk you measure not in distance, but in how quiet your head feels by the end.",
+                "## Markets, Chestnuts and Open Kitchen Fridays",
+                "In autumn, the Central Market designed by Plečnik offers what's easy to overlook in summer: apples, pumpkins, walnuts and, of course, chestnuts. A Saturday morning among the stalls is a small ritual that makes the city feel like home. On Fridays, Pogačar Square still fills with the smells of the Open Kitchen food market – this year's Ljubljana season closes with Fridays on 16, 23 and 30 October. After that, a paper cone of hot chestnuts on a riverside walk is a perfectly good autumn feast.",
+                "## Galleries, Design and Culture",
+                "As the days get shorter, life moves indoors. Center Rog and Cankarjev dom run a varied programme of exhibitions, design events and workshops, while the National Gallery and the Museum of Modern Art are reliable choices for a rainy afternoon. Autumn also opens the theatre and concert season, and the second half of this October has a few evenings worth writing down.",
+                "The SNG Opera and Ballet opens its season with Prokofiev's Cinderella, a contemporary retelling about a young woman finding herself amid glamour and social pressure – on stage from 8 October. On 18 October, composer and cellist Peter Gregson plays Kino Šiška as part of Cellofest, his calm, cinematic music a perfect fit for an autumn evening. The same night, 18 October, the Cleveland Orchestra – one of the finest in the world – performs at Cankarjev dom. The Ljubljana City Theatre (MGL) premieres Ivan Cankar's Romantic Souls on 20 October, and on 29 October the Slovenian National Theatre Drama brings back its acclaimed production of The Doctor – this season on its temporary stage on Litostrojska Street. Programmes change quickly, so it pays to look ahead.",
+                "## Coffee by the River and the View from the Castle",
+                "When the afternoon cools down, nothing beats a warm cup at one of the riverside cafés, looking out over the Triple Bridge or the Cobblers' Bridge. This is where you see the city's autumn pulse best – slower, but no less alive. If you want to go higher, take the funicular or walk up to Ljubljana Castle. You can browse the exhibitions, stop for a glass of wine, or simply watch the fog lift over the rooftops. In October, Ljubljana from above is often at its most photogenic.",
+                "## Autumn as a Fresh Start",
+                "A change of season isn't only something that happens outside. For many people, October is the moment when hair needs a new rhythm after summer sun and sea – [a refreshed shape](/en/services/haircuts), [a softer colour tone](/en/services/toning), or simply clean ends that will carry you through winter. The salon is at Trg OF 13, in the courtyard of Ljubljana's first hotel building, just a few minutes' walk from the train station. If you're already planning an autumn day in the city, you can begin or end it with an hour that's yours alone – unhurried and uncrowded.",
+                "Calm is the new luxury – and in Ljubljana's autumn, that's especially true."
+            ],
+
+            sl: [
+                "Oktober je mesec, ko Ljubljana zadiha drugače. Poletni turisti se razredčijo, jutra postanejo hladnejša in megla se včasih zadrži nad Ljubljanico do poznega dopoldneva. Na vogalih se pojavijo prodajalci pečenega kostanja, kavarne pa iz zunanjih vrtov počasi preselijo življenje za steklo. Če kdaj, je to čas, ko se mesto da doživeti brez naglice.",
+                "V salonu na Trgu OF to spremembo opazim vsako leto. Ljudje pridejo bolj umirjeni, z več časa in z več vprašanji o tem, kaj si želijo za prihajajoče mesece. Zato sem zbrala nekaj mest in navad, ki jih imam sama najraje, ko se Ljubljana obarva jesensko.",
+                "## Tivoli in Rožnik v zlatih odtenkih",
+                "Mestni park je oktobra najlepši. Drevored na Jakopičevem sprehajališču se obarva v zlato in rdeče, listje se nabira ob poteh, svetloba pa pada nizko in mehko. Če imaš prost dopoldan, nadaljuj pot na Rožnik. Vzpon ni zahteven, na vrhu pa te čaka razgled, ki na hladen, sončen dan poplača vsak korak. To je sprehod, ki ga ne meriš v korakih, ampak v tem, koliko se ti glava med hojo izprazni.",
+                "## Tržnica, kostanj in petkova Odprta kuhna",
+                "Plečnikova tržnica jeseni ponuja tisto, kar poleti zlahka spregledamo: jabolka, buče, orehe in seveda kostanj. Sobotni dopoldan med stojnicami je majhen ritual, ki mestu da občutek domačnosti. Ob petkih na Pogačarjevem trgu še diši po Odprti kuhni – letošnja sezona v Ljubljani se izteče s petki 16., 23. in 30. oktobra. Potem pa je kornet vročega kostanja na sprehodu ob reki povsem zadostna jesenska pojedina.",
+                "## Galerije, oblikovanje in kultura",
+                "Ko se dnevi skrajšajo, se življenje preseli v notranje prostore. Center Rog in Cankarjev dom imata pester program razstav, oblikovalskih dogodkov in delavnic, Narodna galerija in Moderna galerija pa sta zanesljiva izbira za deževno popoldne. Jesen je tudi začetek gledališke in koncertne sezone, in letos je v drugi polovici oktobra nekaj večerov, ki si jih je vredno zapisati.",
+                "V Operi se oktobra začne nova sezona z baletom Pepelka na glasbo Prokofjeva, sodobno pravljico o mladem dekletu, ki med bleščavo in pritiski išče sebe – na sporedu je od 8. oktobra. V Kinu Šiška bo 18. oktobra na festivalu Cellofest nastopil Peter Gregson, čigar umirjena, skoraj filmska glasba je kot nalašč za jesenski večer. Istega dne, 18. oktobra, v Cankarjevem domu gostuje Clevelandski orkester, eden najboljših na svetu. MGL 20. oktobra premierno uprizori Cankarjeve Romantične duše, Drama pa 29. oktobra na spored vrača odmevno Zdravnico – letos na začasnem odru na Litostrojski cesti. Program se hitro spreminja, zato si ga je vredno ogledati vnaprej.",
+                "## Kava ob Ljubljanici in pogled z gradu",
+                "Ko se popoldan ohladi, ni lepšega kot topla skodelica v eni od kavarn ob reki, s pogledom na Tromostovje ali Čevljarski most. Tu se najbolje vidi, kako mesto jeseni utripa – počasneje, a nič manj živo. Če te vleče višje, se z vzpenjačo ali peš povzpni na Ljubljanski grad. Ogledaš si lahko razstave, se ustaviš ob kozarcu vina ali pa preprosto opazuješ, kako se megla dviguje nad strehami. Ljubljana od zgoraj je oktobra pogosto najbolj fotogenična.",
+                "## Jesen kot čas za nov začetek",
+                "Sprememba letnega časa ni samo sprememba v naravi. Za marsikoga je oktober trenutek, ko po poletju, soncu in morju lasje potrebujejo nov ritem – [osvežitev oblike](/sl/storitve/strizenje-las), [mehkejši ton barve](/sl/storitve/toniranje) ali preprosto urejen konec, ki zdrži do zime. Salon je na Trgu OF 13, v dvorišču prve ljubljanske hotelske stavbe, le nekaj minut od železniške postaje. Če že načrtuješ jesenski dan v mestu, ga lahko začneš ali zaključiš z uro, ki je namenjena samo tebi, brez hitenja in brez gneče.",
+                "Calm is the new luxury – in jeseni v Ljubljani to velja še posebej."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "What is there to do in Ljubljana in October?",
+                    a: "October in Ljubljana is ideal for autumn walks in Tivoli Park and up Rožnik hill, browsing the Central Market, roasted chestnuts by the river, galleries such as the National Gallery and the Museum of Modern Art, a visit to Ljubljana Castle, and the start of the theatre and concert season."
+                },
+                {
+                    q: "Where can I see autumn colours in Ljubljana?",
+                    a: "Tivoli Park, especially the tree-lined Jakopič Promenade, and the walk up to Rožnik hill are the best places to see autumn colours right in the city. Ljubljana Castle also offers a wide view over the rooftops."
+                },
+                {
+                    q: "Is there a hair salon near Ljubljana train station?",
+                    a: "Yes. STATUS KAY is at Trg OF 13, in the courtyard of Ljubljana's first hotel building, just a few minutes' walk from the train and bus stations."
+                },
+                {
+                    q: "How do I book an appointment at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose your service and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kaj početi v Ljubljani oktobra?",
+                    a: "Oktober v Ljubljani je kot nalašč za jesenske sprehode po Tivoliju in na Rožnik, obisk Plečnikove tržnice, pečen kostanj ob reki, galerije, kot sta Narodna in Moderna galerija, obisk Ljubljanskega gradu ter začetek gledališke in koncertne sezone."
+                },
+                {
+                    q: "Kje v Ljubljani so najlepše jesenske barve?",
+                    a: "Najlepše jesenske barve sredi mesta najdeš v parku Tivoli, posebej na drevoredu Jakopičevega sprehajališča, in na poti na Rožnik. Z Ljubljanskega gradu pa je lep razgled na jesenske strehe mesta."
+                },
+                {
+                    q: "Ali je v bližini ljubljanske železniške postaje frizerski salon?",
+                    a: "Da. STATUS KAY je na Trgu OF 13, v dvorišču prve ljubljanske hotelske stavbe, le nekaj minut hoje od železniške in avtobusne postaje."
+                },
+                {
+                    q: "Kako rezerviram termin v salonu STATUS KAY?",
+                    a: "Termin rezerviraš prek spleta v aplikaciji Fresha, kjer izbereš storitev in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {
@@ -5649,7 +6022,14 @@ export const blogPosts = [
 
 export function getPostBySlug(lang, slug) {
 
-    return blogPosts.find((post) => post.slug[lang] === slug);
+    return blogPosts.find((post) => post.slug[lang] === slug && isPublished(post));
+
+}
+
+// Only posts whose publishAt date has arrived (see publishing.js).
+export function getPublishedPosts() {
+
+    return blogPosts.filter(isPublished);
 
 }
 

@@ -62,6 +62,26 @@
   margin-bottom: var(--space-6);
 }
 
+.blog-post__subheading {
+  font-size: 1.6rem;
+
+  margin-top: var(--space-10);
+
+  margin-bottom: var(--space-4);
+}
+
+.blog-post__booking {
+  margin-bottom: var(--space-10);
+}
+
+.blog-post__content p a {
+  color: var(--accent);
+
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
 .blog-post__content .button {
   margin-top: var(--space-6);
 }

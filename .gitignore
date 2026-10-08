@@ -23,3 +23,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Kaja's raw photo library for blog images (only resized copies in src/assets/blog go online)
+photo-pool/*
+!photo-pool/README.md
+!photo-pool/used/
+photo-pool/used/*
+!photo-pool/used/.gitkeep

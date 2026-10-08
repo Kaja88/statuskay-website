@@ -21,6 +21,7 @@ Use this whenever Kaja asks to add a new blog post (`/blog <topic>` or just "nap
 
 Match the existing structure in [blogPosts.js](../../../src/content/blogPosts.js) exactly — every post there is `{ slug, category, image, relatedSlug, date, title, excerpt, body, faq }` (each text field split into `{ en, sl }`).
 
+- **publishAt** (optional) — `publishAt: "YYYY-MM-DD"` schedules the post: it stays hidden on the live site (blog list, post URL, sitemap) until that day in Ljubljana time, but is visible in `npm run dev` and on Vercel preview links so it can be reviewed. Leave it out to publish immediately. Always set the human-readable `date` field to the same day. Logic lives in [publishing.js](../../../src/content/publishing.js); a daily GitHub Action (`.github/workflows/scheduled-posts-rebuild.yml`) redeploys on publish days so the sitemap updates.
 - **Title** — specific and keyword-forward (what someone would actually search), not generic. Keep it under ~60 characters where possible so it doesn't get truncated in search results.
 - **Excerpt** — one or two sentences, ~120–160 characters, written as a hook (this doubles as the meta description shown in Google and in `useDocumentHead`).
 - **Body** — 4–6 short paragraphs, plain conversational language (this is what she writes in her own posts), natural keyword use — never stuff keywords or repeat the exact same phrase across paragraphs.
@@ -29,7 +30,11 @@ Match the existing structure in [blogPosts.js](../../../src/content/blogPosts.js
 
 ## 4. Get and prepare the image
 
-- If Kaja hasn't supplied a photo for this post, ask for one before continuing — don't substitute a placeholder or an unrelated stock image.
+- If Kaja supplied a photo, use it. Otherwise pick one of her own photos, in this order:
+  1. **[photo-pool/](../../../photo-pool/)** — a folder of her salon photos. View the candidates and pick the one that best fits the topic. After using it, move it to `photo-pool/used/` so it isn't reused.
+  2. **Her Instagram via Metricool** — `getBrandSettings` (brand `statuskay`), then `getAnalyticsDataByMetrics` with `IGPO01` (date), `IGPO03` (caption), `IGPO05` (image URL), `IGPO06` (post URL) over the last ~12 months. Download candidates to the scratchpad with `curl` right away (the CDN URLs expire — never hotlink them) and view them. Carousels only return the first image. Many of her posts have text overlays: prefer photos without text, or crop the text off with ffmpeg `crop=`, and check the result visually.
+  - Never use placeholder or stock images. If nothing fits, ask Kaja for a photo.
+  - Tell Kaja which photo you picked (Instagram post link or file name) so she can swap it.
 - Once you have the source file, resize/compress it the same way images were fixed earlier this project (PageSpeed flagged oversized images before): cap the longest side at **1400px** and recompress, e.g.
   ```bash
   ffmpeg -i input.jpg -vf "scale='if(gt(iw,ih),min(1400,iw),-2)':'if(gt(ih,iw),min(1400,ih),-2)'" -q:v 5 src/assets/blog/<en-slug>.jpg

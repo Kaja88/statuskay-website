@@ -6,7 +6,7 @@ import PageBanner from "../../components/PageBanner/PageBanner";
 
 import { buildPath } from "../../config/routes";
 import { blogCategories } from "../../config/blogCategories";
-import { blogPosts } from "../../content/blogPosts";
+import { getPublishedPosts } from "../../content/blogPosts";
 
 import blogVideo from "../../assets/videos/blog.mp4";
 
@@ -22,9 +22,11 @@ function Blog() {
 
     const [activeCategory, setActiveCategory] = useState(null);
 
+    const publishedPosts = getPublishedPosts();
+
     const visiblePosts = activeCategory
-        ? blogPosts.filter((post) => post.category === activeCategory)
-        : blogPosts;
+        ? publishedPosts.filter((post) => post.category === activeCategory)
+        : publishedPosts;
 
     return (
 

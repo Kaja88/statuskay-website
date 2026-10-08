@@ -8,11 +8,46 @@ import NewsletterPopup from "../../components/Newsletter/NewsletterPopup";
 import { useDocumentHead } from "../../hooks/useDocumentHead";
 import { useStructuredData } from "../../hooks/useStructuredData";
 import { buildPath } from "../../config/routes";
+import { freshaBookingUrl } from "../../config/externalLinks";
 import { getPostBySlug } from "../../content/blogPosts";
 
 import blogVideo from "../../assets/videos/blog.mp4";
 
 import "./BlogPost.css";
+
+// Body paragraphs are plain strings, with two optional bits of markup:
+// - a paragraph starting with "## " becomes a subheading
+// - [label](url) inside a paragraph becomes a link. Paths starting with "/"
+//   stay inside the site (React Router), anything else opens in a new tab.
+const linkPattern = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+
+function renderInline(text) {
+
+    const parts = [];
+
+    let lastIndex = 0;
+
+    for (const match of text.matchAll(linkPattern)) {
+
+        const [whole, label, url] = match;
+
+        parts.push(text.slice(lastIndex, match.index));
+
+        parts.push(
+            url.startsWith("/")
+                ? <Link key={match.index} to={url}>{label}</Link>
+                : <a key={match.index} href={url} target="_blank" rel="noopener noreferrer">{label}</a>
+        );
+
+        lastIndex = match.index + whole.length;
+
+    }
+
+    parts.push(text.slice(lastIndex));
+
+    return parts;
+
+}
 
 function BlogPost() {
 
@@ -79,8 +114,27 @@ function BlogPost() {
                     )}
 
                     {post.body[lang].map((paragraph, index) => (
-                        <p key={index}>{paragraph}</p>
+                        paragraph.startsWith("## ")
+                            ? <h2 key={index} className="blog-post__subheading">{paragraph.slice(3)}</h2>
+                            : <p key={index}>{renderInline(paragraph)}</p>
                     ))}
+
+                    {post.bookingButton && (
+
+                        <div className="blog-post__booking">
+
+                            <a
+                                href={freshaBookingUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="button"
+                            >
+                                {t("blogBookingCta")}
+                            </a>
+
+                        </div>
+
+                    )}
 
                     {relatedPost && (
 

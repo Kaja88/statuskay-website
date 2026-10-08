@@ -1,11 +1,17 @@
 import { writeFileSync } from "node:fs";
+import { register } from "node:module";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
 import { routes, buildPath } from "../src/config/routes.js";
 import { serviceRoutes, buildServicePath } from "../src/config/serviceRoutes.js";
-import { blogPosts } from "../src/content/blogPosts.js";
 import { supportedLanguages, defaultLanguage } from "../src/config/languages.js";
+
+// blogPosts.js imports images, which plain Node can't load (see
+// asset-stub-hooks.mjs). The hooks must be registered before blogPosts.js is
+// loaded, which is why it's a dynamic import() instead of an import above.
+register("./asset-stub-hooks.mjs", import.meta.url);
+const { getPublishedPosts } = await import("../src/content/blogPosts.js");
 
 const SITE_URL = "https://statuskay.com";
 
@@ -30,7 +36,7 @@ Object.keys(serviceRoutes).forEach((key) => {
 
 });
 
-blogPosts.forEach((post) => {
+getPublishedPosts().forEach((post) => {
 
     entries.push(
         Object.fromEntries(
