@@ -12,7 +12,7 @@ import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
-const SITE = "https://statuskay.com";
+const SITE = "https://www.statuskay.com";
 const BOOKING = "https://www.fresha.com/book-now/y9qzt5m0/all-offer?share=true&pId=450986";
 
 const emails = [

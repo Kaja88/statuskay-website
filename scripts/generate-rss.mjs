@@ -17,7 +17,7 @@ import { buildPath } from "../src/config/routes.js";
 register("./asset-stub-hooks.mjs", import.meta.url);
 const { getPublishedPosts } = await import("../src/content/blogPosts.js");
 
-const SITE_URL = "https://statuskay.com";
+const SITE_URL = "https://www.statuskay.com";
 const MAX_ITEMS = 20;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));

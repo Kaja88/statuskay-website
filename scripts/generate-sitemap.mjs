@@ -13,7 +13,7 @@ import { supportedLanguages, defaultLanguage } from "../src/config/languages.js"
 register("./asset-stub-hooks.mjs", import.meta.url);
 const { getPublishedPosts } = await import("../src/content/blogPosts.js");
 
-const SITE_URL = "https://statuskay.com";
+const SITE_URL = "https://www.statuskay.com";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outFile = resolve(__dirname, "../public/sitemap.xml");

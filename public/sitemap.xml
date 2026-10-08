@@ -1,831 +1,831 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://statuskay.com/en</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en" />
+    <loc>https://www.statuskay.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en" />
+    <loc>https://www.statuskay.com/sl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/about" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/o-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/about" />
+    <loc>https://www.statuskay.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/about" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/o-nas</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/about" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/o-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/about" />
+    <loc>https://www.statuskay.com/sl/o-nas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/about" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services" />
+    <loc>https://www.statuskay.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services" />
+    <loc>https://www.statuskay.com/sl/storitve</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog" />
+    <loc>https://www.statuskay.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog" />
+    <loc>https://www.statuskay.com/sl/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/directions</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/directions" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/kako-do-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/directions" />
+    <loc>https://www.statuskay.com/en/directions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/directions" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/kako-do-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/directions" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/kako-do-nas</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/directions" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/kako-do-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/directions" />
+    <loc>https://www.statuskay.com/sl/kako-do-nas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/directions" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/kako-do-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/directions" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/contact</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/contact" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/kontakt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/contact" />
+    <loc>https://www.statuskay.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/contact" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/contact" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/kontakt" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/contact" />
+    <loc>https://www.statuskay.com/sl/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/contact" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/book</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/book" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/rezervacija" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/book" />
+    <loc>https://www.statuskay.com/en/book</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/book" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/rezervacija" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/book" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/rezervacija</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/book" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/rezervacija" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/book" />
+    <loc>https://www.statuskay.com/sl/rezervacija</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/book" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/rezervacija" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/book" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/privacy-policy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-zasebnosti" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/privacy-policy" />
+    <loc>https://www.statuskay.com/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/politika-zasebnosti" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/privacy-policy" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/politika-zasebnosti</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/privacy-policy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-zasebnosti" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/privacy-policy" />
+    <loc>https://www.statuskay.com/sl/politika-zasebnosti</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/politika-zasebnosti" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/privacy-policy" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/booking-policy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/booking-policy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-rezervacij" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/booking-policy" />
+    <loc>https://www.statuskay.com/en/booking-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/booking-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/politika-rezervacij" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/booking-policy" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/politika-rezervacij</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/booking-policy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/politika-rezervacij" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/booking-policy" />
+    <loc>https://www.statuskay.com/sl/politika-rezervacij</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/booking-policy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/politika-rezervacij" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/booking-policy" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/balayage</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/balayage" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/balayage" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/balayage" />
+    <loc>https://www.statuskay.com/en/services/balayage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/balayage" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/balayage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/balayage" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/balayage</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/balayage" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/balayage" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/balayage" />
+    <loc>https://www.statuskay.com/sl/storitve/balayage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/balayage" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/balayage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/balayage" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/blonding</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/blonding" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/blondiranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/blonding" />
+    <loc>https://www.statuskay.com/en/services/blonding</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/blonding" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/blondiranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/blonding" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/blondiranje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/blonding" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/blondiranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/blonding" />
+    <loc>https://www.statuskay.com/sl/storitve/blondiranje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/blonding" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/blondiranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/blonding" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/haircuts</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/haircuts" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/strizenje-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/haircuts" />
+    <loc>https://www.statuskay.com/en/services/haircuts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/haircuts" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/strizenje-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/haircuts" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/strizenje-las</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/haircuts" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/strizenje-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/haircuts" />
+    <loc>https://www.statuskay.com/sl/storitve/strizenje-las</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/haircuts" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/strizenje-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/haircuts" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/styling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/styling" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/styling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/styling" />
+    <loc>https://www.statuskay.com/en/services/styling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/styling" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/styling" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/styling" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/styling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/styling" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/styling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/styling" />
+    <loc>https://www.statuskay.com/sl/storitve/styling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/styling" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/styling" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/styling" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/color-correction</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/color-correction" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/korekcija-barve" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/color-correction" />
+    <loc>https://www.statuskay.com/en/services/color-correction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/color-correction" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/korekcija-barve" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/color-correction" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/korekcija-barve</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/color-correction" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/korekcija-barve" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/color-correction" />
+    <loc>https://www.statuskay.com/sl/storitve/korekcija-barve</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/color-correction" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/korekcija-barve" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/color-correction" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/nails</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/nails" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/manikura" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/nails" />
+    <loc>https://www.statuskay.com/en/services/nails</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/nails" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/manikura" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/nails" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/manikura</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/nails" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/manikura" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/nails" />
+    <loc>https://www.statuskay.com/sl/storitve/manikura</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/nails" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/manikura" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/nails" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/highlights</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/pramena" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/highlights" />
+    <loc>https://www.statuskay.com/en/services/highlights</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/pramena" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/pramena</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/pramena" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/highlights" />
+    <loc>https://www.statuskay.com/sl/storitve/pramena</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/pramena" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/barbering</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/barbering" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/moski-frizer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/barbering" />
+    <loc>https://www.statuskay.com/en/services/barbering</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/barbering" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/moski-frizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/barbering" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/moski-frizer</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/barbering" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/moski-frizer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/barbering" />
+    <loc>https://www.statuskay.com/sl/storitve/moski-frizer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/barbering" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/moski-frizer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/barbering" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/services/toning</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/toning" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/toniranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/toning" />
+    <loc>https://www.statuskay.com/en/services/toning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/toning" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/toniranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/toning" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/storitve/toniranje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/services/toning" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/storitve/toniranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/services/toning" />
+    <loc>https://www.statuskay.com/sl/storitve/toniranje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/services/toning" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/storitve/toniranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/toning" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
+    <loc>https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
+    <loc>https://www.statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
+    <loc>https://www.statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
+    <loc>https://www.statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kam-v-ljubljani-po-frizuri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/where-to-go-in-ljubljana-after-your-haircut" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/faq</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/faq" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pogosta-vprasanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/faq" />
+    <loc>https://www.statuskay.com/en/blog/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/faq" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pogosta-vprasanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/faq" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/pogosta-vprasanja</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/faq" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pogosta-vprasanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/faq" />
+    <loc>https://www.statuskay.com/sl/blog/pogosta-vprasanja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/faq" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pogosta-vprasanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/faq" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-your-hair-smells-bad</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-your-hair-smells-bad" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-your-hair-smells-bad" />
+    <loc>https://www.statuskay.com/en/blog/why-your-hair-smells-bad</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-your-hair-smells-bad" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-your-hair-smells-bad" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-your-hair-smells-bad" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-your-hair-smells-bad" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-your-hair-smells-bad" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-lasje-neprijetno-disijo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-your-hair-smells-bad" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-make-your-blowout-last-longer</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
+    <loc>https://www.statuskay.com/en/blog/how-to-make-your-blowout-last-longer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
+    <loc>https://www.statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-podaljsati-obstojnost-fen-frizure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-make-your-blowout-last-longer" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-speed-up-hair-growth</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-speed-up-hair-growth" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-pospesiti-rast-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-speed-up-hair-growth" />
+    <loc>https://www.statuskay.com/en/blog/how-to-speed-up-hair-growth</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-speed-up-hair-growth" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-pospesiti-rast-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-speed-up-hair-growth" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-pospesiti-rast-las</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-speed-up-hair-growth" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-pospesiti-rast-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-speed-up-hair-growth" />
+    <loc>https://www.statuskay.com/sl/blog/kako-pospesiti-rast-las</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-speed-up-hair-growth" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-pospesiti-rast-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-speed-up-hair-growth" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-get-to-our-salon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-get-to-our-salon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-do-nasega-salona" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-get-to-our-salon" />
+    <loc>https://www.statuskay.com/en/blog/how-to-get-to-our-salon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-get-to-our-salon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-do-nasega-salona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-get-to-our-salon" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-do-nasega-salona</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-get-to-our-salon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-do-nasega-salona" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-get-to-our-salon" />
+    <loc>https://www.statuskay.com/sl/blog/kako-do-nasega-salona</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-get-to-our-salon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-do-nasega-salona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-get-to-our-salon" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/spring-hairstyles-for-busy-working-women</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
+    <loc>https://www.statuskay.com/en/blog/spring-hairstyles-for-busy-working-women</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
+    <loc>https://www.statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pomladne-frizure-za-zaposlene-zenske" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/spring-hairstyles-for-busy-working-women" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
+    <loc>https://www.statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-nikoli-ne-smes-puliti-laka-dol-iz-nohta" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-you-should-never-peel-polish-off-your-nails" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
+    <loc>https://www.statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
+    <loc>https://www.statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-ohraniti-mocne-nohte-med-obiski-salona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-keep-your-nails-strong-between-salon-visits" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/the-most-common-hair-care-mistakes</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
+    <loc>https://www.statuskay.com/en/blog/the-most-common-hair-care-mistakes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
+    <loc>https://www.statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/najpogostejse-napake-pri-negi-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/the-most-common-hair-care-mistakes" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-your-hair-affects-your-confidence</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
+    <loc>https://www.statuskay.com/en/blog/how-your-hair-affects-your-confidence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
+    <loc>https://www.statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/tvoji-lasje-vplivajo-na-samozavest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-your-hair-affects-your-confidence" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
+    <loc>https://www.statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
+    <loc>https://www.statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kaj-vprasati-stilista-preden-zacne" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/what-to-ask-your-stylist-before-they-start" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/restore-your-tired-hair</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/restore-your-tired-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/obnovi-utrujene-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/restore-your-tired-hair" />
+    <loc>https://www.statuskay.com/en/blog/restore-your-tired-hair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/restore-your-tired-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/obnovi-utrujene-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/restore-your-tired-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/obnovi-utrujene-lase</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/restore-your-tired-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/obnovi-utrujene-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/restore-your-tired-hair" />
+    <loc>https://www.statuskay.com/sl/blog/obnovi-utrujene-lase</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/restore-your-tired-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/obnovi-utrujene-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/restore-your-tired-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/new-year-new-hair</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/new-year-new-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/novo-leto-novi-lasje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/new-year-new-hair" />
+    <loc>https://www.statuskay.com/en/blog/new-year-new-hair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/new-year-new-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/novo-leto-novi-lasje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/new-year-new-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/novo-leto-novi-lasje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/new-year-new-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/novo-leto-novi-lasje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/new-year-new-hair" />
+    <loc>https://www.statuskay.com/sl/blog/novo-leto-novi-lasje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/new-year-new-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/novo-leto-novi-lasje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/new-year-new-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-hair-color-fades-too-fast</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-hair-color-fades-too-fast" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-hair-color-fades-too-fast" />
+    <loc>https://www.statuskay.com/en/blog/why-hair-color-fades-too-fast</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-hair-color-fades-too-fast" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-hair-color-fades-too-fast" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-hair-color-fades-too-fast" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-hair-color-fades-too-fast" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-hair-color-fades-too-fast" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-hair-color-fades-too-fast" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/christmas-hair</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/christmas-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/bozicni-lasje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/christmas-hair" />
+    <loc>https://www.statuskay.com/en/blog/christmas-hair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/christmas-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/bozicni-lasje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/christmas-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/bozicni-lasje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/christmas-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/bozicni-lasje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/christmas-hair" />
+    <loc>https://www.statuskay.com/sl/blog/bozicni-lasje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/christmas-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/bozicni-lasje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/christmas-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-negovati-lase-po-zabavi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
+    <loc>https://www.statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-negovati-lase-po-zabavi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-negovati-lase-po-zabavi</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-negovati-lase-po-zabavi" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
+    <loc>https://www.statuskay.com/sl/blog/kako-negovati-lase-po-zabavi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-negovati-lase-po-zabavi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-care-for-your-hair-after-a-night-out" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/holiday-hairstyles-at-status-kay</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/praznicne-frizure-v-status-kay" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
+    <loc>https://www.statuskay.com/en/blog/holiday-hairstyles-at-status-kay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/praznicne-frizure-v-status-kay" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/praznicne-frizure-v-status-kay</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/praznicne-frizure-v-status-kay" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
+    <loc>https://www.statuskay.com/sl/blog/praznicne-frizure-v-status-kay</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/praznicne-frizure-v-status-kay" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/holiday-hairstyles-at-status-kay" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
+    <loc>https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
+    <loc>https://www.statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/winter-hair-care-tips</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/winter-hair-care-tips" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/nasveti-za-zimske-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/winter-hair-care-tips" />
+    <loc>https://www.statuskay.com/en/blog/winter-hair-care-tips</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/winter-hair-care-tips" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/nasveti-za-zimske-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/winter-hair-care-tips" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/nasveti-za-zimske-lase</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/winter-hair-care-tips" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/nasveti-za-zimske-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/winter-hair-care-tips" />
+    <loc>https://www.statuskay.com/sl/blog/nasveti-za-zimske-lase</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/winter-hair-care-tips" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/nasveti-za-zimske-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/winter-hair-care-tips" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/blondorplex</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/blondorplex" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/blondorplex" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/blondorplex" />
+    <loc>https://www.statuskay.com/en/blog/blondorplex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/blondorplex" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/blondorplex" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/blondorplex" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/blondorplex</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/blondorplex" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/blondorplex" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/blondorplex" />
+    <loc>https://www.statuskay.com/sl/blog/blondorplex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/blondorplex" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/blondorplex" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/blondorplex" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/wellaplex</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/wellaplex" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/wellaplex" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/wellaplex" />
+    <loc>https://www.statuskay.com/en/blog/wellaplex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/wellaplex" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/wellaplex" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/wellaplex" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/wellaplex</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/wellaplex" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/wellaplex" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/wellaplex" />
+    <loc>https://www.statuskay.com/sl/blog/wellaplex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/wellaplex" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/wellaplex" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/wellaplex" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-revive-damaged-curls</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-revive-damaged-curls" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-revive-damaged-curls" />
+    <loc>https://www.statuskay.com/en/blog/how-to-revive-damaged-curls</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-revive-damaged-curls" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-revive-damaged-curls" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-revive-damaged-curls" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-revive-damaged-curls" />
+    <loc>https://www.statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-revive-damaged-curls" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-ponovno-oziviti-poskodovane-kodre" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-revive-damaged-curls" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-you-should-use-nail-oil-every-day</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
+    <loc>https://www.statuskay.com/en/blog/why-you-should-use-nail-oil-every-day</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-uporabljati-olje-za-nohte-vsak-dan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-you-should-use-nail-oil-every-day" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/what-is-formaldehyde</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/what-is-formaldehyde" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kaj-je-formaldehid" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/what-is-formaldehyde" />
+    <loc>https://www.statuskay.com/en/blog/what-is-formaldehyde</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/what-is-formaldehyde" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kaj-je-formaldehid" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/what-is-formaldehyde" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kaj-je-formaldehid</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/what-is-formaldehyde" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kaj-je-formaldehid" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/what-is-formaldehyde" />
+    <loc>https://www.statuskay.com/sl/blog/kaj-je-formaldehid</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/what-is-formaldehyde" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kaj-je-formaldehid" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/what-is-formaldehyde" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
+    <loc>https://www.statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-je-dobro-pustiti-nohte-da-dihajo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-its-good-to-let-your-nails-breathe" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-choose-the-right-hair-mask</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-izbrati-masko-za-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
+    <loc>https://www.statuskay.com/en/blog/how-to-choose-the-right-hair-mask</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-izbrati-masko-za-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-izbrati-masko-za-lase</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-izbrati-masko-za-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
+    <loc>https://www.statuskay.com/sl/blog/kako-izbrati-masko-za-lase</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-izbrati-masko-za-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-choose-the-right-hair-mask" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/blow-drying-with-ibiza-brushes</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/feniranje-s-krtacami-ibiza" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
+    <loc>https://www.statuskay.com/en/blog/blow-drying-with-ibiza-brushes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/feniranje-s-krtacami-ibiza" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/feniranje-s-krtacami-ibiza</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/feniranje-s-krtacami-ibiza" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
+    <loc>https://www.statuskay.com/sl/blog/feniranje-s-krtacami-ibiza</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/feniranje-s-krtacami-ibiza" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/blow-drying-with-ibiza-brushes" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/the-basics-of-heat-styling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/the-basics-of-heat-styling" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/osnove-toplotnega-oblikovanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/the-basics-of-heat-styling" />
+    <loc>https://www.statuskay.com/en/blog/the-basics-of-heat-styling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/the-basics-of-heat-styling" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/osnove-toplotnega-oblikovanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/the-basics-of-heat-styling" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/osnove-toplotnega-oblikovanja</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/the-basics-of-heat-styling" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/osnove-toplotnega-oblikovanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/the-basics-of-heat-styling" />
+    <loc>https://www.statuskay.com/sl/blog/osnove-toplotnega-oblikovanja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/the-basics-of-heat-styling" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/osnove-toplotnega-oblikovanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/the-basics-of-heat-styling" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
+    <loc>https://www.statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
+    <loc>https://www.statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/5-trikov-za-zdrave-in-sijoce-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/5-tricks-for-healthy-shiny-hair" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/simple-hairstyles-for-busy-professionals</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
+    <loc>https://www.statuskay.com/en/blog/simple-hairstyles-for-busy-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
+    <loc>https://www.statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/preproste-priceske-za-zaposlene-profesionalce" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/simple-hairstyles-for-busy-professionals" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/cutting-your-hair-by-the-moon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje-glede-na-luno" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
+    <loc>https://www.statuskay.com/en/blog/cutting-your-hair-by-the-moon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje-glede-na-luno" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/strizenje-glede-na-luno</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje-glede-na-luno" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
+    <loc>https://www.statuskay.com/sl/blog/strizenje-glede-na-luno</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje-glede-na-luno" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/cutting-your-hair-by-the-moon" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/hairstyling-before-the-machines</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hairstyling-before-the-machines" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje-pred-stroji" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hairstyling-before-the-machines" />
+    <loc>https://www.statuskay.com/en/blog/hairstyling-before-the-machines</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hairstyling-before-the-machines" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje-pred-stroji" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hairstyling-before-the-machines" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/strizenje-pred-stroji</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hairstyling-before-the-machines" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje-pred-stroji" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hairstyling-before-the-machines" />
+    <loc>https://www.statuskay.com/sl/blog/strizenje-pred-stroji</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hairstyling-before-the-machines" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje-pred-stroji" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hairstyling-before-the-machines" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-we-dont-cut-your-cuticles</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
+    <loc>https://www.statuskay.com/en/blog/why-we-dont-cut-your-cuticles</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-obnohtne-kozice-ne-rezemo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-we-dont-cut-your-cuticles" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/dry-shampoo-done-right</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/dry-shampoo-done-right" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/suhi-sampon" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/dry-shampoo-done-right" />
+    <loc>https://www.statuskay.com/en/blog/dry-shampoo-done-right</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/dry-shampoo-done-right" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/suhi-sampon" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/dry-shampoo-done-right" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/suhi-sampon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/dry-shampoo-done-right" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/suhi-sampon" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/dry-shampoo-done-right" />
+    <loc>https://www.statuskay.com/sl/blog/suhi-sampon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/dry-shampoo-done-right" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/suhi-sampon" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/dry-shampoo-done-right" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/hair-care-through-the-seasons</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hair-care-through-the-seasons" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hair-care-through-the-seasons" />
+    <loc>https://www.statuskay.com/en/blog/hair-care-through-the-seasons</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hair-care-through-the-seasons" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hair-care-through-the-seasons" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hair-care-through-the-seasons" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hair-care-through-the-seasons" />
+    <loc>https://www.statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hair-care-through-the-seasons" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/negovanje-las-v-razlicnih-sezonah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hair-care-through-the-seasons" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/first-time-visiting-us</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/first-time-visiting-us" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/prvic-pri-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/first-time-visiting-us" />
+    <loc>https://www.statuskay.com/en/blog/first-time-visiting-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/first-time-visiting-us" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/prvic-pri-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/first-time-visiting-us" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/prvic-pri-nas</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/first-time-visiting-us" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/prvic-pri-nas" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/first-time-visiting-us" />
+    <loc>https://www.statuskay.com/sl/blog/prvic-pri-nas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/first-time-visiting-us" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/prvic-pri-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/first-time-visiting-us" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-regular-haircuts-are-essential</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-regular-haircuts-are-essential" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-regular-haircuts-are-essential" />
+    <loc>https://www.statuskay.com/en/blog/why-regular-haircuts-are-essential</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-regular-haircuts-are-essential" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-regular-haircuts-are-essential" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-regular-haircuts-are-essential" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-regular-haircuts-are-essential" />
+    <loc>https://www.statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-regular-haircuts-are-essential" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/zakaj-je-redno-strizenje-nujno" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-regular-haircuts-are-essential" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
+    <loc>https://www.statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
+    <loc>https://www.statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-doma-ohraniti-popolne-lase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-maintain-salon-perfect-hair-at-home" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/balayage-or-highlights</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/balayage-or-highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/balayage-ali-pramena" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/balayage-or-highlights" />
+    <loc>https://www.statuskay.com/en/blog/balayage-or-highlights</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/balayage-or-highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/balayage-ali-pramena" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/balayage-or-highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/balayage-ali-pramena</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/balayage-or-highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/balayage-ali-pramena" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/balayage-or-highlights" />
+    <loc>https://www.statuskay.com/sl/blog/balayage-ali-pramena</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/balayage-or-highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/balayage-ali-pramena" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/balayage-or-highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/how-to-choose-the-perfect-hair-color</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
+    <loc>https://www.statuskay.com/en/blog/how-to-choose-the-perfect-hair-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
+    <loc>https://www.statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/kako-izbrati-popolno-barvo-las" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/how-to-choose-the-perfect-hair-color" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/toniranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
+    <loc>https://www.statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/toniranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/toniranje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/toniranje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
+    <loc>https://www.statuskay.com/sl/blog/toniranje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/toniranje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/why-toning-is-the-secret-to-long-lasting-color" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/two-step-hair-coloring</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/two-step-hair-coloring" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/dvostopenjsko-barvanje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/two-step-hair-coloring" />
+    <loc>https://www.statuskay.com/en/blog/two-step-hair-coloring</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/two-step-hair-coloring" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/dvostopenjsko-barvanje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/two-step-hair-coloring" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/dvostopenjsko-barvanje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/two-step-hair-coloring" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/dvostopenjsko-barvanje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/two-step-hair-coloring" />
+    <loc>https://www.statuskay.com/sl/blog/dvostopenjsko-barvanje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/two-step-hair-coloring" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/dvostopenjsko-barvanje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/two-step-hair-coloring" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/all-about-highlights</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/all-about-highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/prameni" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/all-about-highlights" />
+    <loc>https://www.statuskay.com/en/blog/all-about-highlights</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/all-about-highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/prameni" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/all-about-highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/prameni</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/all-about-highlights" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/prameni" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/all-about-highlights" />
+    <loc>https://www.statuskay.com/sl/blog/prameni</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/all-about-highlights" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/prameni" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/all-about-highlights" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/spring-hair-trends-2025</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/spring-hair-trends-2025" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pomladni-trendi-2025" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/spring-hair-trends-2025" />
+    <loc>https://www.statuskay.com/en/blog/spring-hair-trends-2025</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/spring-hair-trends-2025" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pomladni-trendi-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/spring-hair-trends-2025" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/pomladni-trendi-2025</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/spring-hair-trends-2025" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/pomladni-trendi-2025" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/spring-hair-trends-2025" />
+    <loc>https://www.statuskay.com/sl/blog/pomladni-trendi-2025</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/spring-hair-trends-2025" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/pomladni-trendi-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/spring-hair-trends-2025" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/meet-daisy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/meet-daisy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/spoznajte-daisy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/meet-daisy" />
+    <loc>https://www.statuskay.com/en/blog/meet-daisy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/meet-daisy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/spoznajte-daisy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/meet-daisy" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/spoznajte-daisy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/meet-daisy" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/spoznajte-daisy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/meet-daisy" />
+    <loc>https://www.statuskay.com/sl/blog/spoznajte-daisy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/meet-daisy" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/spoznajte-daisy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/meet-daisy" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/tourists-and-expats-welcome</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/tourists-and-expats-welcome" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/turisti-in-tujci-dobrodosli" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/tourists-and-expats-welcome" />
+    <loc>https://www.statuskay.com/en/blog/tourists-and-expats-welcome</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/tourists-and-expats-welcome" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/turisti-in-tujci-dobrodosli" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/tourists-and-expats-welcome" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/turisti-in-tujci-dobrodosli</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/tourists-and-expats-welcome" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/turisti-in-tujci-dobrodosli" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/tourists-and-expats-welcome" />
+    <loc>https://www.statuskay.com/sl/blog/turisti-in-tujci-dobrodosli</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/tourists-and-expats-welcome" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/turisti-in-tujci-dobrodosli" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/tourists-and-expats-welcome" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/haircut-styles</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/haircut-styles" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/haircut-styles" />
+    <loc>https://www.statuskay.com/en/blog/haircut-styles</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/haircut-styles" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/haircut-styles" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/strizenje</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/haircut-styles" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/strizenje" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/haircut-styles" />
+    <loc>https://www.statuskay.com/sl/blog/strizenje</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/haircut-styles" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/strizenje" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/haircut-styles" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/hair-coloring-techniques</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hair-coloring-techniques" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/tehnike-barvanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hair-coloring-techniques" />
+    <loc>https://www.statuskay.com/en/blog/hair-coloring-techniques</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hair-coloring-techniques" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/tehnike-barvanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hair-coloring-techniques" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/tehnike-barvanja</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/hair-coloring-techniques" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/tehnike-barvanja" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/hair-coloring-techniques" />
+    <loc>https://www.statuskay.com/sl/blog/tehnike-barvanja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hair-coloring-techniques" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/tehnike-barvanja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/hair-coloring-techniques" />
   </url>
   <url>
-    <loc>https://statuskay.com/en/blog/about-status-kay-salon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/about-status-kay-salon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/o-status-kay-salonu" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/about-status-kay-salon" />
+    <loc>https://www.statuskay.com/en/blog/about-status-kay-salon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/about-status-kay-salon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/o-status-kay-salonu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/about-status-kay-salon" />
   </url>
   <url>
-    <loc>https://statuskay.com/sl/blog/o-status-kay-salonu</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://statuskay.com/en/blog/about-status-kay-salon" />
-    <xhtml:link rel="alternate" hreflang="sl" href="https://statuskay.com/sl/blog/o-status-kay-salonu" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://statuskay.com/en/blog/about-status-kay-salon" />
+    <loc>https://www.statuskay.com/sl/blog/o-status-kay-salonu</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/about-status-kay-salon" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/o-status-kay-salonu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/about-status-kay-salon" />
   </url>
 </urlset>

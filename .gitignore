@@ -33,3 +33,6 @@ photo-pool/used/*
 
 # Copies of blog images for the RSS feed, recreated by scripts/generate-rss.mjs
 public/blog-images
+
+# MailerLite import bundles, regenerated from newsletter/*.html
+newsletter/*.zip
