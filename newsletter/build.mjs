@@ -148,7 +148,8 @@ function render(email) {
 <body style="margin:0;padding:0;background:${C.page};">
 
 <!-- Preheader: the grey preview line next to the subject in the inbox. Hidden in the email itself. -->
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;">${email.preheader}</div>
+<!-- The invisible spacer characters after it stop Gmail from continuing the preview with "STATUS KAY" and the image description. -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;">${email.preheader}${"&#847;&zwnj;&nbsp;".repeat(90)}</div>
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${C.page};">
 <tr><td align="center" style="padding:32px 12px;">
