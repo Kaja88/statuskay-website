@@ -34,6 +34,48 @@
   outline-offset: 2px;
 }
 
+/* Full width, so it always sits on its own line between the email field
+   and the button, in every layout (page, blog block, popup). */
+.newsletter-form__consent {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: var(--space-2);
+
+  width: 100%;
+
+  font-size: 0.85rem;
+
+  line-height: 1.5;
+
+  text-align: left;
+
+  color: var(--text);
+
+  cursor: pointer;
+}
+
+.newsletter-form__consent input {
+  flex-shrink: 0;
+
+  width: 16px;
+
+  height: 16px;
+
+  margin-top: 3px;
+
+  accent-color: var(--accent);
+}
+
+.newsletter-form__consent a {
+  color: var(--accent);
+
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
 .newsletter-form button:disabled {
   opacity: 0.6;
 
