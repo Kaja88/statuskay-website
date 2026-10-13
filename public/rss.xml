@@ -7,6 +7,15 @@
     <description>Nasveti za lase, nohte in življenje v Ljubljani iz butičnega frizerskega salona STATUS KAY.</description>
     <language>sl-SI</language>
     <item>
+      <title>Jesen v Ljubljani: kako preživeti oktober v mestu, ki se upočasni</title>
+      <link>https://www.statuskay.com/sl/blog/jesen-v-ljubljani</link>
+      <guid isPermaLink="true">https://www.statuskay.com/sl/blog/jesen-v-ljubljani</guid>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 GMT</pubDate>
+      <description>Jesen v Ljubljani je čas za Tivoli, kostanj, galerije in gledališče. Oktobrski vodič po mestu – in kako vanj vpleteš trenutek zase.</description>
+      <content:encoded><![CDATA[<p><img src="https://www.statuskay.com/blog-images/ljubljana-in-october.jpg" alt="Ilustracija svetlolase ženske v svetlem plašču, ki se z jorkširskim terierjem sprehaja po jesenski poti v parku" width="600" /></p><p>Oktober je mesec, ko Ljubljana zadiha drugače. Poletni turisti se razredčijo, jutra postanejo hladnejša in megla se včasih zadrži nad Ljubljanico do poznega dopoldneva. Na vogalih se pojavijo prodajalci pečenega kostanja, kavarne pa iz zunanjih vrtov počasi preselijo življenje za steklo. Če kdaj, je to čas, ko se mesto da doživeti brez naglice.</p>]]></content:encoded>
+      <media:content url="https://www.statuskay.com/blog-images/ljubljana-in-october.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pogosta vprašanja</title>
       <link>https://www.statuskay.com/sl/blog/pogosta-vprasanja</link>
       <guid isPermaLink="true">https://www.statuskay.com/sl/blog/pogosta-vprasanja</guid>
@@ -157,14 +166,6 @@
       <pubDate>Mon, 08 Dec 2025 04:00:00 GMT</pubDate>
       <description>December v Ljubljani prinaša praznično vzdušje in željo, da letos res izgledaš odlično. Odkrij trende za praznike in zakaj Status Kay naredi razliko.</description>
       <content:encoded><![CDATA[<p>Ljubljana ima pozimi svoj poseben čar.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Kako popraviti poškodovane lase zaradi likanja</title>
-      <link>https://www.statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja</link>
-      <guid isPermaLink="true">https://www.statuskay.com/sl/blog/kako-popraviti-poskodovane-lase-zaradi-likanja</guid>
-      <pubDate>Mon, 24 Nov 2025 04:00:00 GMT</pubDate>
-      <description>Suhi, krhki lasje po prepogostem likanju? Spoznaj, kako prava obnova deluje od znotraj navzven in kaj lahko narediš doma.</description>
-      <content:encoded><![CDATA[<p>Če so tvoji lasje suhi, hrapavi ali pa se lomijo že med česanjem, gre najverjetneje za toplotno poškodbo. Likanje iz las vleče vlago, dviguje povrhnjico in oslabi notranjo strukturo. Sčasoma to vodi do naelektrenosti, lomljenja, puste barve in razcepljenih konic, ki se kar ne nehajo širiti.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

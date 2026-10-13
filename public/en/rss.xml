@@ -7,6 +7,15 @@
     <description>Hair, nail and Ljubljana tips from STATUS KAY, a boutique hair salon in Ljubljana.</description>
     <language>en</language>
     <item>
+      <title>Ljubljana in October: An Autumn Guide to a City That Slows Down</title>
+      <link>https://www.statuskay.com/en/blog/ljubljana-in-october</link>
+      <guid isPermaLink="true">https://www.statuskay.com/en/blog/ljubljana-in-october</guid>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 GMT</pubDate>
+      <description>Ljubljana in October means golden Tivoli Park, roasted chestnuts, galleries and theatre. A calm autumn guide to the city – with time for yourself.</description>
+      <content:encoded><![CDATA[<p><img src="https://www.statuskay.com/blog-images/ljubljana-in-october.jpg" alt="Illustration of a blonde woman in a light coat walking a Yorkshire terrier along a leafy park path in autumn" width="600" /></p><p>October is when Ljubljana changes its rhythm. The summer crowds thin out, the mornings turn crisp, and fog sometimes lingers over the Ljubljanica until late morning. Chestnut sellers appear on street corners, and café life slowly moves from terraces to behind the glass. If there is ever a time to experience the city without rushing, this is it.</p>]]></content:encoded>
+      <media:content url="https://www.statuskay.com/blog-images/ljubljana-in-october.jpg" medium="image" />
+    </item>
+    <item>
       <title>Frequently Asked Questions</title>
       <link>https://www.statuskay.com/en/blog/faq</link>
       <guid isPermaLink="true">https://www.statuskay.com/en/blog/faq</guid>
@@ -157,14 +166,6 @@
       <pubDate>Mon, 08 Dec 2025 04:00:00 GMT</pubDate>
       <description>December in Ljubljana brings festive energy and the urge to finally look your best. Discover this season's holiday trends and why Status Kay makes the difference.</description>
       <content:encoded><![CDATA[<p>Ljubljana has its own special charm in winter.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>How to Repair Hair Damaged by Straightening</title>
-      <link>https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening</link>
-      <guid isPermaLink="true">https://www.statuskay.com/en/blog/how-to-repair-hair-damaged-by-straightening</guid>
-      <pubDate>Mon, 24 Nov 2025 04:00:00 GMT</pubDate>
-      <description>Dry, brittle hair from too much flat-ironing? Learn how real repair works from the inside out, and what you can do at home.</description>
-      <content:encoded><![CDATA[<p>If your hair is dry, rough, or breaking just from combing it, you're most likely dealing with heat damage. Flat-ironing pulls moisture out of the hair, lifts the cuticle, and weakens the inner structure. Over time this leads to static, breakage, dull color, and split ends that just keep creeping further up the strand.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

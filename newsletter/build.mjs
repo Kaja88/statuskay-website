@@ -88,6 +88,30 @@ const emails = [
             ],
             link: `${SITE}/en/blog/autumn-hair-loss`
         }
+    },
+    {
+        file: "2026-10-30-fen-frizura-doma.html",
+        preheader: "Štirje koraki do gladkih, sijočih las – in kratek video, kjer ti pokažem, kako.",
+        image: "fen-frizura-doma.jpg",
+        imageAlt: "Gladki, sijoči rjavi lasje po feniranju",
+        sl: {
+            eyebrow: "Nov blog · Video nasvet",
+            title: "Fen frizura doma: kako jo narediš kot v salonu",
+            paragraphs: [
+                "Za gladko fen frizuro ne potrebuješ profesionalnih rok, ampak pravi vrstni red korakov in malo potrpežljivosti.",
+                "V blogu sem zbrala štiri korake, ki jih uporabljamo v salonu, od sušenja do 80 % do hladnega zraka na koncu. Tokrat prvič s kratkim video nasvetom, kjer ti pokažem, kako to izgleda v praksi."
+            ],
+            link: `${SITE}/sl/blog/fen-frizura-doma`
+        },
+        en: {
+            eyebrow: "New on the blog · Video tip",
+            title: "How to Blow-Dry Your Hair at Home Like a Pro",
+            paragraphs: [
+                "You don't need professional hands for a smooth blow-dry, just the right order of steps and a little patience.",
+                "In the blog I share the four steps we use in the salon, from drying to 80 % to the final blast of cool air. And for the first time, there's a short video tip showing you how it looks in practice."
+            ],
+            link: `${SITE}/en/blog/how-to-blow-dry-hair-at-home`
+        }
     }
 ];
 

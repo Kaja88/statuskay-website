@@ -3,11 +3,127 @@ import { isPublished } from "./publishing.js";
 import autumnHairLossBlog from "../assets/blog/autumn-hair-loss.jpg";
 import goldenScissorsBlog from "../assets/blog/girl-with-the-golden-scissors.jpg";
 import ljubljanaInOctoberBlog from "../assets/blog/ljubljana-in-october.jpg";
+import blowDryAtHomeBlog from "../assets/blog/blow-dry-at-home.jpg";
 
 const instagramUrl = "https://www.instagram.com/statuskay";
 const tiktokUrl = "https://www.tiktok.com/@statuskay";
 
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "how-to-blow-dry-hair-at-home",
+            sl: "fen-frizura-doma"
+        },
+
+        category: "haircuts",
+
+        publishAt: "2026-10-30",
+
+        // YouTube Short with the video tip, shown after the text.
+        video: { youtube: "fzMIsQs0ln0", vertical: true },
+
+        image: {
+            src: blowDryAtHomeBlog,
+            alt: {
+                en: "Long brown hair from behind, blow-dried sleek, straight and glossy in the salon",
+                sl: "Dolgi rjavi lasje od zadaj, v salonu fenirani povsem gladko, ravno in s sijajem"
+            }
+        },
+
+        relatedSlug: {
+            en: "how-to-make-your-blowout-last-longer",
+            sl: "kako-podaljsati-obstojnost-fen-frizure"
+        },
+
+        date: {
+            en: "October 30, 2026",
+            sl: "30. oktober 2026"
+        },
+
+        title: {
+            en: "How To Blow-Dry Your Hair At Home Like A Pro",
+            sl: "Fen frizura doma: kako jo narediš kot v salonu"
+        },
+
+        excerpt: {
+            en: "Want a salon-smooth blow-dry without leaving the house? Here's the step-by-step routine we use in the salon, adapted for your bathroom mirror.",
+            sl: "Si želiš gladko fen frizuro kot iz salona, ne da bi zapustila dom? Tukaj je postopek, ki ga uporabljamo v salonu, prilagojen za tvoje ogledalo."
+        },
+
+        body: {
+
+            en: [
+                "A good blow-dry can make a regular Tuesday feel like a special occasion. The good news: you don't need professional hands to get close to a salon result at home. You need the right order of steps, a bit of patience and two or three tools you probably already own.",
+                "## 1. Start with towel-dried, protected hair",
+                "Never blow-dry soaking wet hair — it takes forever and means more heat on your lengths. Gently squeeze the water out with a towel (no rubbing, it roughens the cuticle), then apply a heat protectant through the lengths and ends. If you want extra lift, add a little volumising mousse at the roots.",
+                "## 2. Rough-dry to about 80 %",
+                "Before you pick up a brush, dry your hair with your fingers and the dryer until it's around 80 % dry. Lift the roots with your fingers and point the airflow from the roots towards the ends. This step does most of the work and saves you a lot of time with the brush.",
+                "## 3. Work in sections with a round brush",
+                "Clip your hair into sections — two at the back, one on each side and the top. Take a strand no wider than your brush, place the brush under the roots and follow it slowly down with the dryer, always pointing the nozzle down the hair shaft. That's what gives you smoothness and shine. At the ends, turn the brush inwards or outwards, depending on the shape you want. A natural-bristle brush makes a big difference here — we wrote more about it in our post on [blow-drying with Ibiza brushes](/en/blog/blow-drying-with-ibiza-brushes).",
+                "## 4. Finish with a blast of cool air",
+                "When a section is dry, keep the brush in place for a few seconds and switch the dryer to cool. Hair sets its shape as it cools, so this one small step is what makes the volume last. Finish with a drop of oil on the ends or a light hairspray, and let your hair cool completely before you touch it.",
+                "Don't worry if it doesn't look perfect the first time — blow-drying is a skill, and your hands learn it with every try. If you'd like to see it step by step, watch the short video tip below. And if you want to see exactly which brush and technique suit your hair, just ask during your next visit — we're always happy to show you."
+            ],
+
+            sl: [
+                "Dobra fen frizura lahko čisto navaden torek spremeni v poseben dan. In dobra novica: za rezultat, ki je zelo blizu salonskemu, ne potrebuješ profesionalnih rok. Potrebuješ pravi vrstni red korakov, malo potrpežljivosti in dva ali tri pripomočke, ki jih verjetno že imaš doma.",
+                "## 1. Začni z osušenimi in zaščitenimi lasmi",
+                "Nikoli ne feniraj čisto mokrih las – traja predolgo, lasje pa so dlje izpostavljeni vročini. Vodo nežno iztisni z brisačo (brez drgnjenja, ker to razpre povrhnjico las), nato po dolžinah in konicah nanesi zaščito pred toploto. Če si želiš več volumna, dodaj pri koreninah še malo pene za volumen.",
+                "## 2. Najprej lase posuši približno 80-odstotno",
+                "Preden vzameš krtačo v roke, lase posuši s prsti in fenom, dokler niso suhi približno 80-odstotno. S prsti dvigni korenine, zrak pa usmerjaj od korenin proti konicam. Ta korak opravi večino dela in ti prihrani veliko časa s krtačo.",
+                "## 3. Feniraj po pramenih z okroglo krtačo",
+                "Lase razdeli na dele in jih spni s sponkami – dva zadaj, enega na vsaki strani in enega na vrhu. Vzemi pramen, ki ni širši od krtače, krtačo postavi pod korenine in jo počasi vodi navzdol, fen pa naj sledi krtači, vedno usmerjen v smeri rasti las. Prav to da lasem gladkost in sijaj. Pri konicah krtačo obrni navznoter ali navzven, odvisno od oblike, ki jo želiš. Krtača z naravnimi ščetinami tu naredi veliko razliko – več o tem si lahko prebereš v članku o [feniranju s krtačami Ibiza](/sl/blog/feniranje-s-krtacami-ibiza).",
+                "## 4. Zaključi s hladnim zrakom",
+                "Ko je pramen suh, pusti krtačo še nekaj sekund na mestu in fen preklopi na hladen zrak. Lasje obliko \"zaklenejo\", ko se ohladijo, zato je prav ta majhen korak tisti, zaradi katerega volumen zdrži. Na koncu na konice nanesi kapljico olja ali rahel lak in pusti, da se lasje popolnoma ohladijo, preden se jih dotikaš.",
+                "Ne skrbi, če prvič ne bo popolno – feniranje je spretnost, ki se je roke naučijo z vsakim poskusom. Če bi rada videla postopek korak za korakom, si oglej kratek video nasvet spodaj. Če pa te zanima, katera krtača in tehnika sta najboljši ravno za tvoje lase, nas vprašaj ob naslednjem obisku – z veseljem ti pokažemo."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Should I blow-dry my hair wet or damp?",
+                    a: "Damp. Towel-dry your hair first and rough-dry it with your fingers to about 80 % before using a round brush. Blow-drying soaking wet hair takes much longer and exposes your hair to more heat."
+                },
+                {
+                    q: "Which brush is best for blow-drying at home?",
+                    a: "A round brush sized to your hair length: smaller for short hair and more curl, larger for long hair and smooth volume. Natural-bristle brushes smooth the hair with less heat and add shine."
+                },
+                {
+                    q: "Do I really need a heat protectant?",
+                    a: "Yes. A heat protectant reduces damage from the dryer's heat and helps keep your ends from becoming dry and brittle, especially if you blow-dry several times a week."
+                },
+                {
+                    q: "How do I make my blow-dry last longer?",
+                    a: "Finish every section with cool air, let your hair cool completely before touching it, avoid running your fingers through it, and use dry shampoo from day two. Sleeping on a silk or satin pillowcase also helps."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Ali naj feniram mokre ali vlažne lase?",
+                    a: "Vlažne. Lase najprej osuši z brisačo in jih s prsti in fenom posuši približno 80-odstotno, šele nato uporabi okroglo krtačo. Feniranje čisto mokrih las traja veliko dlje, lasje pa so dlje izpostavljeni vročini."
+                },
+                {
+                    q: "Katera krtača je najboljša za feniranje doma?",
+                    a: "Okrogla krtača, prilagojena dolžini las: manjša za krajše lase in več kodrov, večja za dolge lase in gladek volumen. Krtače z naravnimi ščetinami lase zgladijo z manj toplote in jim dajo sijaj."
+                },
+                {
+                    q: "Ali res potrebujem zaščito pred toploto?",
+                    a: "Da. Zaščita pred toploto zmanjša poškodbe zaradi vročega zraka in pomaga, da konice ne postanejo suhe in krhke, še posebej če feniraš večkrat na teden."
+                },
+                {
+                    q: "Kako naj fen frizura zdrži dlje?",
+                    a: "Vsak pramen zaključi s hladnim zrakom, pusti, da se lasje popolnoma ohladijo, preden se jih dotikaš, ne hodi s prsti skozi lase in od drugega dne naprej uporabljaj suhi šampon. Pomaga tudi svilena ali satenasta prevleka za vzglavnik."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {

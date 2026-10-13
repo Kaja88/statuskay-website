@@ -217,6 +217,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/services/toning" />
   </url>
   <url>
+    <loc>https://www.statuskay.com/en/blog/ljubljana-in-october</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/ljubljana-in-october" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/jesen-v-ljubljani" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/ljubljana-in-october" />
+  </url>
+  <url>
+    <loc>https://www.statuskay.com/sl/blog/jesen-v-ljubljani</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/ljubljana-in-october" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/jesen-v-ljubljani" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/blog/ljubljana-in-october" />
+  </url>
+  <url>
     <loc>https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/blog/hot-mama-summer-haircut-with-a-newborn" />
     <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/blog/hot-mama-summer-frizura-z-dojenckom" />

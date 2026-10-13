@@ -4,6 +4,7 @@ import { Link, Navigate, useOutletContext, useParams } from "react-router-dom";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import NewsletterBlock from "../../components/Newsletter/NewsletterBlock";
 import NewsletterPopup from "../../components/Newsletter/NewsletterPopup";
+import VideoEmbed from "../../components/VideoEmbed/VideoEmbed";
 
 import { useDocumentHead } from "../../hooks/useDocumentHead";
 import { useStructuredData } from "../../hooks/useStructuredData";
@@ -104,7 +105,9 @@ function BlogPost() {
 
                 <div className="container-small blog-post__content">
 
-                    {post.image && (
+                    {/* Posts with a video show only the video. The image is still
+                        kept in the data, because the RSS feed and newsletter use it. */}
+                    {post.image && !post.video && (
                         <img
                             src={post.image.src}
                             alt={post.image.alt[lang]}
@@ -118,6 +121,14 @@ function BlogPost() {
                             ? <h2 key={index} className="blog-post__subheading">{paragraph.slice(3)}</h2>
                             : <p key={index}>{renderInline(paragraph)}</p>
                     ))}
+
+                    {post.video && (
+                        <VideoEmbed
+                            id={post.video.youtube}
+                            title={post.video.title?.[lang] ?? post.title[lang]}
+                            vertical={post.video.vertical}
+                        />
+                    )}
 
                     {post.bookingButton && (
 
