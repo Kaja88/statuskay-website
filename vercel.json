@@ -2,6 +2,8 @@
   "trailingSlash": false,
 
   "redirects": [
+    { "source": "/subscribe", "destination": "/en/subscribe", "permanent": false },
+    { "source": "/narocise", "destination": "/sl/narocise", "permanent": false },
     { "source": "/blogi", "destination": "/sl/blog", "permanent": true },
     { "source": "/category/nasveti", "destination": "/sl/blog", "permanent": true },
 

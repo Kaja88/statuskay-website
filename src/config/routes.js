@@ -140,6 +140,26 @@ export const routes = {
 
     },
 
+    subscribe: {
+
+        label: {
+
+            en: "Blog Newsletter",
+
+            sl: "Naročnina na blog"
+
+        },
+
+        path: {
+
+            en: "subscribe",
+
+            sl: "narocise"
+
+        }
+
+    },
+
     privacy: {
 
         label: {

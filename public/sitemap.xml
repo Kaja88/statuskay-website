@@ -85,6 +85,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/book" />
   </url>
   <url>
+    <loc>https://www.statuskay.com/en/subscribe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/subscribe" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/narocise" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/subscribe" />
+  </url>
+  <url>
+    <loc>https://www.statuskay.com/sl/narocise</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/subscribe" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/narocise" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.statuskay.com/en/subscribe" />
+  </url>
+  <url>
     <loc>https://www.statuskay.com/en/privacy-policy</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.statuskay.com/en/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="sl" href="https://www.statuskay.com/sl/politika-zasebnosti" />

@@ -27,7 +27,8 @@ const staticMetaKeys = {
     directions: { title: "directionsTitle", description: "directionsIntro" },
     contact: { title: "contactPageTitle", description: "contactPageIntro" },
     booking: { title: "bookingPageTitle", description: "bookingIntro" },
-    privacy: { title: "privacyPageTitle", description: null }
+    privacy: { title: "privacyPageTitle", description: null },
+    subscribe: { title: "subscribePageTitle", description: "subscribeIntro" }
 };
 
 function resolveRoute(lang, pathname) {

@@ -22,6 +22,7 @@ const Contact = lazy(() => import("./pages/Contact/Contact"));
 const Booking = lazy(() => import("./pages/Booking/Booking"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy/PrivacyPolicy"));
 const BookingPolicy = lazy(() => import("./pages/BookingPolicy/BookingPolicy"));
+const Subscribe = lazy(() => import("./pages/Subscribe/Subscribe"));
 
 function ScrollToTop() {
 
@@ -113,6 +114,11 @@ function App() {
                         <Route
                             path={routes.bookingPolicy.path[lang]}
                             element={<BookingPolicy />}
+                        />
+
+                        <Route
+                            path={routes.subscribe.path[lang]}
+                            element={<Subscribe />}
                         />
 
                     </Route>

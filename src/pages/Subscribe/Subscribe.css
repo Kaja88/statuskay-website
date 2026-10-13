@@ -1,0 +1,38 @@
+.subscribe__content {
+  max-width: 640px;
+
+  padding-block: var(--space-16);
+}
+
+.subscribe__points {
+  list-style: none;
+
+  margin-bottom: var(--space-8);
+}
+
+.subscribe__points li {
+  position: relative;
+
+  padding-left: var(--space-8);
+
+  margin-bottom: var(--space-4);
+
+  font-size: 1.1rem;
+}
+
+/* Small gold dash in front of each point instead of a default bullet. */
+.subscribe__points li::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0.75em;
+
+  width: 16px;
+
+  height: 1px;
+
+  background: var(--accent);
+}

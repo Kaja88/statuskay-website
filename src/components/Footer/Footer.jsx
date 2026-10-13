@@ -94,6 +94,12 @@ function Footer({ lang }) {
                             </NavLink>
                         </li>
 
+                        <li>
+                            <NavLink to={buildPath(lang, "subscribe")}>
+                                {routes.subscribe.label[lang]}
+                            </NavLink>
+                        </li>
+
                     </ul>
 
                 </div>
