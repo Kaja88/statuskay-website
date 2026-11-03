@@ -152,7 +152,7 @@ function Layout({ lang }) {
 
         <>
 
-            <Navbar lang={lang} />
+            <Navbar lang={lang} alternates={alternates} />
 
             <main>
 

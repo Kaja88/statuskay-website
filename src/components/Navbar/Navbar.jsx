@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
-import { routes, buildPath, getRouteKeyFromSlug } from "../../config/routes";
+import { routes, buildPath } from "../../config/routes";
 import { supportedLanguages } from "../../config/languages";
 
 import "./Navbar.css";
 
 const navKeys = ["about", "services", "blog", "directions", "contact"];
 
-function Navbar({ lang }) {
+function Navbar({ lang, alternates }) {
 
     const navigate = useNavigate();
 
@@ -55,11 +55,7 @@ function Navbar({ lang }) {
 
         if (targetLang === lang) return;
 
-        const slug = location.pathname.split("/")[2] || "";
-
-        const currentKey = getRouteKeyFromSlug(lang, slug);
-
-        navigate(buildPath(targetLang, currentKey));
+        navigate(alternates[targetLang]);
 
     };
 
