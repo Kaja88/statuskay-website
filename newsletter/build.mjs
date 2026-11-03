@@ -112,6 +112,30 @@ const emails = [
             ],
             link: `${SITE}/en/blog/how-to-blow-dry-hair-at-home`
         }
+    },
+    {
+        file: "2026-11-06-kam-v-ljubljani-novembra.html",
+        preheader: "November Gourmet, Doktor Živago, Zimski Panč in sprehod po PST-ju med jesenskim listjem.",
+        image: "kam-v-ljubljani-novembra.jpg",
+        imageAlt: "Topli karamelno rjavi lasje ob oknu salona, zunaj jesensko drevo",
+        sl: {
+            eyebrow: "Nov blog · Ljubljana",
+            title: "Ljubljana novembra ima več iskric, kot misliš",
+            paragraphs: [
+                "November v Ljubljani ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha, dokler mesto ponovno ne oživi.",
+                "V blogu sem zbrala, kaj me ta mesec zvabi izpod odeje: od November Gourmet Ljubljana in baleta Doktor Živago do Zimskega Panča in sprehoda po PST-ju, ko je jesensko listje povsod."
+            ],
+            link: `${SITE}/sl/blog/kam-v-ljubljani-novembra`
+        },
+        en: {
+            eyebrow: "New on the blog · Ljubljana",
+            title: "Ljubljana in November has more sparkle than you'd think",
+            paragraphs: [
+                "November in Ljubljana isn't just a grey pause before December – it's a month of good food, ballet, and laughter, before the city comes back to life.",
+                "In the blog I share what gets me out from under the blanket this month: from November Gourmet Ljubljana and the Doctor Zhivago ballet to Zimski Panč and a walk along the PST path, with autumn leaves everywhere."
+            ],
+            link: `${SITE}/en/blog/ljubljana-in-november`
+        }
     }
 ];
 

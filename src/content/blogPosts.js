@@ -4,11 +4,135 @@ import autumnHairLossBlog from "../assets/blog/autumn-hair-loss.jpg";
 import goldenScissorsBlog from "../assets/blog/girl-with-the-golden-scissors.jpg";
 import ljubljanaInOctoberBlog from "../assets/blog/ljubljana-in-october.jpg";
 import blowDryAtHomeBlog from "../assets/blog/blow-dry-at-home.jpg";
+import ljubljanaInNovemberBlog from "../assets/blog/ljubljana-in-november.jpg";
 
 const instagramUrl = "https://www.instagram.com/statuskay";
 const tiktokUrl = "https://www.tiktok.com/@statuskay";
 
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "ljubljana-in-november",
+            sl: "kam-v-ljubljani-novembra"
+        },
+
+        category: "about",
+
+        publishAt: "2026-11-06",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: ljubljanaInNovemberBlog,
+            alt: {
+                en: "Woman from behind with warm caramel-brown layered hair at the salon window, an autumn tree outside",
+                sl: "Ženska od zadaj s toplimi karamelno rjavimi stopničastimi lasmi ob oknu salona, zunaj jesensko drevo"
+            }
+        },
+
+        relatedSlug: {
+            en: "ljubljana-in-october",
+            sl: "jesen-v-ljubljani"
+        },
+
+        date: {
+            en: "November 6, 2026",
+            sl: "6. november 2026"
+        },
+
+        title: {
+            en: "Ljubljana in November has more sparkle than you'd think",
+            sl: "Ljubljana novembra ima več iskric, kot misliš"
+        },
+
+        excerpt: {
+            en: "Where to go in Ljubljana in November? It isn't just a grey pause before December – it's a month of good food, ballet, and laughter.",
+            sl: "Kam v Ljubljani novembra? November ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha."
+        },
+
+        body: {
+
+            en: [
+                "November in Ljubljana isn't just a grey pause before December – it's a month of good food, ballet, and laughter, before the city comes back to life.",
+                "The days are getting greyer, but that's exactly what makes those cozy days so good – the ones made for hiding under a blanket with a good book and tea. The city is the same, minus the crowds – which is exactly why, quietly, this is my favorite time of year to actually go out.",
+                "I always remember how lovely a walk among the trees along the PST path is this time of year, with autumn leaves everywhere – and if you catch a bit of sun, even better.",
+                "## A whole month of good food: November Gourmet Ljubljana",
+                "Throughout the month, restaurants, wine bars, and hotels across the city run special menus, tastings, and workshops as part of November Gourmet Ljubljana. There's no single date to remember – it's more of an open invitation to turn any weeknight into something a bit special, without needing a particular reason. A good way to break up all those cozy evenings you'd otherwise spend just staying in.",
+                "## Doctor Zhivago: a ballet you can still catch",
+                "Late in the month (21, 23, 24 and 25 November) the SNG Opera and Ballet Ljubljana is staging Doctor Zhivago – a dramatic ballet that was so well received last time around that it's back on stage. Worth grabbing one of the remaining seats now, since they're often no longer available once the repertoire shifts into holiday mode in December.",
+                "## Zimski Panč: laughter as the cure for the greyest days",
+                "As it gets greyer outside, Kino Šiška brings its winter edition of the Panč stand-up festival every year – Zimski Panč. The schedule gets published as it goes, so it's worth checking what's on this week if an evening of laughter sounds better than a night in – because sometimes that little bit of laughter is exactly what makes the day better.",
+                "## And don't forget a little self-care",
+                "There are days when you wrap yourself in a blanket with a warm tea, and the coziest tracksuit is genuinely the top choice – nothing wrong with that. A good hairstyle looks good even in a tracksuit, even on the days you're not going anywhere. Take care of your [nails](/en/services/nails), [hair](/en/services/haircuts), and skin so they handle the effects of the cold more easily – and so do you.",
+                "## Why now, and not in December?",
+                "Because December will once again be full of obligations, gatherings, and lights. Until then, it's time to recharge your own batteries.",
+                "Ljubljana in November is quiet, but look even a little and it has more sparkle than you'd expect."
+            ],
+
+            sl: [
+                "November v Ljubljani ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha, dokler mesto ponovno ne oživi.",
+                "Dnevi postajajo bolj turobni, vseeno pa lahko imamo tiste cozy dneve, ko se je super skriti pod odejo z dobro knjigo in čajem. Mesto je enako, samo brez gužve – in ravno zato je to, čisto po tiho, moj najljubši čas za izhode.",
+                "Vedno se spomnim, kako je lep sprehod med krošnjami PST-ja, ko je jesensko listje povsod, če pa ujameš malo sončka, je to še toliko bolje.",
+                "## Cel mesec dobre hrane: November Gourmet Ljubljana",
+                "Skozi cel mesec restavracije, vinoteke in hoteli po mestu pripravljajo posebne menije, degustacije in delavnice v sklopu November Gourmet Ljubljana. Ni enega samega datuma, ki bi si ga morala zapisati – je bolj povabilo, da si katerikoli večer v tednu spremeniš v nekaj posebnega, brez da bi za to potrebovala poseben razlog. Idealno, da malce razbiješ vse te cozy večere, ko bi sicer ostala doma.",
+                "## Doktor Živago: balet, ki ga še lahko ujameš",
+                "Konec meseca (21., 23., 24. in 25. 11.) v SNG Opera in balet Ljubljana igrajo Doktorja Živaga – dramski balet, ki je bil lani pri gledalcih tako dobro sprejet, da so ga vrnili na oder. Dobro je zdaj izkoristiti še prosta mesta, saj jih decembra, ko se repertoar preseli v božično razpoloženje, pogosto ni več na voljo.",
+                "## Zimski Panč: smeh kot zdravilo za bolj turobne dni",
+                "Ko zunaj postaja vedno bolj sivo, Kino Šiška vsako zimo prinese svojo izdajo stand up festivala Panč – Zimski Panč. Urnik se objavlja sproti, zato je vredno preveriti, kaj je na voljo ta teden, če te večer smeha mika bolj kot večer doma – ker včasih rabiš prav tisto malo smeha, da dan postane boljši.",
+                "## In ne pozabi na malo skrbi zase",
+                "So dnevi, ko se s toplim čajem zaviješ v odejo, in topla trenirka je takrat res top zadeva – nič ni narobe s tem. Dobra frizura dobro izgleda tudi v trenirki, tudi takrat, ko nikamor ne greš. Poskrbi za [nohte](/sl/storitve/manikura), [lase](/sl/storitve/strizenje-las) in kožo, da bodo lažje prenašali posledice mraza – in enako velja zate.",
+                "## Zakaj zdaj in ne decembra?",
+                "Ker bo december spet poln obveznosti, druženj in lučk. In do takrat je čas, da napolniš baterije sebi.",
+                "November v Ljubljani deluje tiho, a ima, če ga malo poiščeš, presenetljivo veliko iskric."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "What is there to do in Ljubljana in November?",
+                    a: "November in Ljubljana is good for the November Gourmet Ljubljana food programme, ballet at the SNG Opera and Ballet, stand-up comedy at Kino Šiška, and autumn walks along the PST path."
+                },
+                {
+                    q: "What is November Gourmet Ljubljana?",
+                    a: "It's a month-long food programme in which restaurants, wine bars and hotels across Ljubljana offer special menus, tastings and workshops throughout November."
+                },
+                {
+                    q: "When is the Doctor Zhivago ballet on in Ljubljana?",
+                    a: "The SNG Opera and Ballet Ljubljana is staging Doctor Zhivago on 21, 23, 24 and 25 November 2026."
+                },
+                {
+                    q: "How do I book an appointment at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose your service and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kam v Ljubljani novembra?",
+                    a: "November v Ljubljani je kot nalašč za kulinarični program November Gourmet Ljubljana, balet v SNG Opera in balet, stand up v Kinu Šiška in jesenske sprehode po PST-ju."
+                },
+                {
+                    q: "Kaj je November Gourmet Ljubljana?",
+                    a: "To je mesec dni dolg kulinarični program, v katerem restavracije, vinoteke in hoteli po Ljubljani ves november pripravljajo posebne menije, degustacije in delavnice."
+                },
+                {
+                    q: "Kdaj je v Ljubljani na sporedu balet Doktor Živago?",
+                    a: "SNG Opera in balet Ljubljana ga igra 21., 23., 24. in 25. novembra 2026."
+                },
+                {
+                    q: "Kako se naročim v STATUS KAY?",
+                    a: "Termin si rezerviraš na spletu prek sistema Fresha, kjer izbereš storitev in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {
