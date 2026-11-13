@@ -256,6 +256,30 @@ const emails = [
             ],
             link: `${SITE}/en/blog/haircut-like-a-house-precision-cutting`
         }
+    },
+    {
+        file: "2026-12-04-ljubljana-december-lucke-koncerti.html",
+        preheader: "Praznični sejmi, koncerti na Križankah, grajski sejem in silvestrovo – december v Ljubljani traja dlje, kot misliš.",
+        image: "ljubljana-december-lucke-koncerti.jpg",
+        imageAlt: "Blond lasje v salonu, okrašenem za božič, z jelko v ozadju",
+        sl: {
+            eyebrow: "Nov blog · Ljubljana",
+            title: "Ljubljana decembra: lučke, koncerti in vzdušje, ki ga ne gre zamuditi",
+            paragraphs: [
+                "Lučke že gorijo, a december v Ljubljani traja skoraj do sredine januarja – priložnosti je še veliko.",
+                "V blogu sem zbrala praznične sejme, božične koncerte na Križankah in v Mestni hiši, grajski sejem z jaslicami in silvestrovanje na prostem."
+            ],
+            link: `${SITE}/sl/blog/ljubljana-december-lucke-koncerti`
+        },
+        en: {
+            eyebrow: "New on the blog · Ljubljana",
+            title: "December in Ljubljana: lights, concerts, and the atmosphere worth catching",
+            paragraphs: [
+                "The lights are already on, but festive December in Ljubljana runs almost to mid-January – there's plenty left to catch.",
+                "In the blog I've gathered the festive markets, Christmas concerts at Križanke and City Hall, the castle market and nativity scenes, and New Year's Eve outdoors."
+            ],
+            link: `${SITE}/en/blog/ljubljana-in-december`
+        }
     }
 ];
 

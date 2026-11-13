@@ -10,11 +10,135 @@ import nailCareWinterBlog from "../assets/blog/nail-care-in-winter.jpg";
 import thinnerHairBlog from "../assets/blog/thinner-hair-after-autumn-shedding.jpg";
 import passionBlog from "../assets/blog/passion-for-hairdressing.jpg";
 import haircutHouseBlog from "../assets/blog/haircut-like-a-house.jpg";
+import ljubljanaInDecemberBlog from "../assets/blog/ljubljana-in-december.jpg";
 
 const instagramUrl = "https://www.instagram.com/statuskay";
 const tiktokUrl = "https://www.tiktok.com/@statuskay";
 
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "ljubljana-in-december",
+            sl: "ljubljana-december-lucke-koncerti"
+        },
+
+        category: "about",
+
+        publishAt: "2026-12-04",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: ljubljanaInDecemberBlog,
+            alt: {
+                en: "Long, sleek blonde hair from behind in the salon, decorated for Christmas with garlands and a lit Christmas tree",
+                sl: "Dolgi, gladki blond lasje od zadaj v salonu, okrašenem za božič z girlandami in osvetljeno jelko"
+            }
+        },
+
+        relatedSlug: {
+            en: "ljubljana-in-november",
+            sl: "kam-v-ljubljani-novembra"
+        },
+
+        date: {
+            en: "December 4, 2026",
+            sl: "4. december 2026"
+        },
+
+        title: {
+            en: "December in Ljubljana: lights, concerts, and the atmosphere worth catching",
+            sl: "Ljubljana decembra: lučke, koncerti in vzdušje, ki ga ne gre zamuditi"
+        },
+
+        excerpt: {
+            en: "December in Ljubljana isn't just one night of switching on the lights – the markets, concerts, and walks run almost to mid-January. What's worth catching.",
+            sl: "Ljubljana decembra ni le en večer prižiga lučk – praznični sejmi, koncerti in sprehodi trajajo skoraj do sredine januarja. Kaj ne gre zamuditi."
+        },
+
+        body: {
+
+            en: [
+                "The lights at Prešernov trg have been lit since 27 November – and that's no reason to feel like you've missed out, because festive December in Ljubljana runs almost to the middle of January. The markets, concerts, and walks are spread across that whole stretch, so there's still plenty left to catch even if you missed the first week.",
+                "## A walk under the lights that lasts longer than you'd think",
+                "This year's festive markets run from 27 November to 3 January, spread across Breg, Cankarjevo nabrežje, Prešernov trg, Kongresni trg, Stritarjeva street, and Pogačarjev trg – so it's not one single spot, it's a whole route through the old town. That's exactly why the walk is loveliest on a quiet weeknight rather than necessarily a weekend, when the crowds are thickest – the lights are the same, there are just fewer people under them.",
+                "## Concerts worth catching",
+                "The Ljubljana Festival's Christmas concerts run at Križanke from 23 November to 17 December – if you prefer a concert hall to the street, that's your slot. Between 14 and 16 December, children's choirs perform at the Ljubljana City Hall (Mestna hiša), a pleasant, lesser-known alternative for anyone after something more intimate than a big stage. If you're staying in town on Christmas Eve itself, there's a short Christmas concert at Mestni trg at 5pm – brief, but just right before dinner.",
+                "## For those who'd rather skip the crowds",
+                "The Ljubljana Castle Christmas market runs from 27 November to 6 January – a bit longer than the markets down in town – offering the same atmosphere with a view, without the thickest crowds right below the castle. Inside the Castle Chapel, a wooden nativity scene exhibition runs through 2 February, a nice, quiet stop if you're already up at the castle for the view anyway.",
+                "## New Year's Eve, if you're staying in town",
+                "On the last night of the year, the celebrations spread across Mestni trg, Kongresni trg, Trg francoske revolucije, and Pogačarjev trg, from 9pm until half past two in the morning. At midnight on 1 January, fireworks follow over Ljubljana Castle – brief, but a good reason not to hide at home for that one moment at least.",
+                "December brings the crowds not just for shopping, but at the hairdresser too – so if you'd like to look put-together for all these walks, book your [haircut](/en/services/haircuts) or color appointment a little earlier than usual, not the week before the holidays."
+            ],
+
+            sl: [
+                "Lučke na Prešernovem trgu so prižgane že od 27. novembra – in to ni razlog, da bi čutila, da si kaj zamudila, ker december v Ljubljani traja skoraj do sredine januarja. Sejmi, koncerti in sprehodi so razporejeni čez ves ta čas, zato je priložnosti še veliko, tudi če prvega tedna nisi ujela.",
+                "## Sprehod pod lučkami, ki traja dlje, kot si mislimo",
+                "Praznični sejmi letos tečejo od 27. novembra do 3. januarja, razpredeni čez Breg, Cankarjevo nabrežje, Prešernov trg, Kongresni trg, Stritarjevo ulico in Pogačarjev trg – torej ni ene same lokacije, ampak cela pot skozi staro mestno jedro. Ravno zato je sprehod najlepši na kakšen tihi delovni večer, ne nujno konec tedna, ko je gneča največja – lučke so iste, le ljudi je manj.",
+                "## Koncerti, ki jih ne gre zamuditi",
+                "Božični koncerti Festivala Ljubljana potekajo na Križankah od 23. novembra do 17. decembra – če imaš raje dvorano kot ulico, je to tvoj termin. Med 14. in 16. decembrom v Mestni hiši nastopajo otroški pevski zborčki, kar je prijetna, manj znana alternativa za tiste, ki iščejo nekaj bolj domačega od velikega odra. Če ostaneš v mestu na sam božični večer, je ob 17. uri na Mestnem trgu božični koncert – kratek, a ravno pravšen pred večerjo.",
+                "## Za tiste, ki gredo mimo gneče",
+                "Grajski praznični sejem na Ljubljanskem gradu teče od 27. novembra do 6. januarja – malce dlje kot sejmi spodaj v mestu – in ponuja isto vzdušje z razgledom, brez najgostejše gneče pod gradom. V Grajski kapeli so do 2. februarja razstavljene lesene jaslice, kar je lep, tih postanek, če si že tako ali tako na gradu zaradi razgleda.",
+                "## Silvestrovanje, če ostaneš v mestu",
+                "Zadnji večer v letu je dogajanje razpredeno čez Mestni trg, Kongresni trg, Trg francoske revolucije in Pogačarjev trg, od 21. ure naprej do pol tretje zjutraj. Ob polnoči 1. januarja sledi ognjemet nad Ljubljanskim gradom – kratek, a je razlog, da se vsaj za ta trenutek ne skriješ doma.",
+                "Decembra je gneča ne le pri nakupih, ampak tudi pri frizerju – zato, če želiš na vse te sprehode priti urejena, si termin za [striženje](/sl/storitve/strizenje-las) ali barvo rezerviraj malo prej kot sicer, ne šele teden pred prazniki."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "When are the Christmas markets in Ljubljana in 2026?",
+                    a: "The festive markets in Ljubljana's old town run from 27 November 2026 to 3 January 2027, along Breg, Cankarjevo nabrežje, Prešernov trg, Kongresni trg, Stritarjeva street and Pogačarjev trg. The Ljubljana Castle Christmas market runs until 6 January."
+                },
+                {
+                    q: "When do the Christmas lights go on in Ljubljana?",
+                    a: "The festive lights were switched on at Prešernov trg on 27 November 2026 and stay on throughout the holiday season."
+                },
+                {
+                    q: "Where are the Christmas concerts in Ljubljana in December?",
+                    a: "The Ljubljana Festival's Christmas concerts are at Križanke from 23 November to 17 December, children's choirs perform at the City Hall from 14 to 16 December, and there's a Christmas Eve concert at Mestni trg at 5pm on 24 December."
+                },
+                {
+                    q: "What's on in Ljubljana on New Year's Eve?",
+                    a: "Outdoor celebrations run from 9pm on 31 December until 2:30am across Mestni trg, Kongresni trg, Trg francoske revolucije and Pogačarjev trg, with fireworks over Ljubljana Castle at midnight."
+                },
+                {
+                    q: "When should I book a hair appointment before the holidays?",
+                    a: "December is busy at the salon too, so it's best to book a few weeks ahead rather than the week before the holidays. Appointments at STATUS KAY are booked online through Fresha."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kdaj so božični sejmi v Ljubljani leta 2026?",
+                    a: "Praznični sejmi v starem mestnem jedru so od 27. novembra 2026 do 3. januarja 2027, na Bregu, Cankarjevem nabrežju, Prešernovem trgu, Kongresnem trgu, Stritarjevi ulici in Pogačarjevem trgu. Grajski praznični sejem na Ljubljanskem gradu traja do 6. januarja."
+                },
+                {
+                    q: "Kdaj se v Ljubljani prižgejo praznične lučke?",
+                    a: "Praznične lučke so na Prešernovem trgu zasvetile 27. novembra 2026 in gorijo ves praznični čas."
+                },
+                {
+                    q: "Kje so decembra v Ljubljani božični koncerti?",
+                    a: "Božični koncerti Festivala Ljubljana so na Križankah od 23. novembra do 17. decembra, otroški pevski zbori nastopajo v Mestni hiši od 14. do 16. decembra, na božični večer, 24. decembra, pa je ob 17. uri koncert na Mestnem trgu."
+                },
+                {
+                    q: "Kaj se v Ljubljani dogaja na silvestrovo?",
+                    a: "Silvestrovanje na prostem poteka 31. decembra od 21. ure do pol treh zjutraj na Mestnem trgu, Kongresnem trgu, Trgu francoske revolucije in Pogačarjevem trgu, ob polnoči pa je ognjemet nad Ljubljanskim gradom."
+                },
+                {
+                    q: "Kdaj se naročiti k frizerju pred prazniki?",
+                    a: "Decembra je gneča tudi v salonu, zato je termin najbolje rezervirati nekaj tednov prej, ne šele teden pred prazniki. V STATUS KAY se naročiš na spletu prek sistema Fresha."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {
