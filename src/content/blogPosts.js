@@ -9,11 +9,135 @@ import colorLongevityBlog from "../assets/blog/hair-color-longevity-all-year.jpg
 import nailCareWinterBlog from "../assets/blog/nail-care-in-winter.jpg";
 import thinnerHairBlog from "../assets/blog/thinner-hair-after-autumn-shedding.jpg";
 import passionBlog from "../assets/blog/passion-for-hairdressing.jpg";
+import haircutHouseBlog from "../assets/blog/haircut-like-a-house.jpg";
 
 const instagramUrl = "https://www.instagram.com/statuskay";
 const tiktokUrl = "https://www.tiktok.com/@statuskay";
 
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "haircut-like-a-house-precision-cutting",
+            sl: "frizura-kot-hisa-tehnicno-strizenje"
+        },
+
+        category: "haircuts",
+
+        publishAt: "2026-11-20",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: haircutHouseBlog,
+            alt: {
+                en: "Illustration: a neat bob with a precise house blueprint drawn over it (good structure) next to messy hair with a crooked, broken house sketch (bad structure = chaos)",
+                sl: "Ilustracija: urejen bob z natančnim arhitekturnim načrtom hiše (dobra struktura) ob razmršenih laseh z nagnjeno, razpadajočo skico hiše (slaba struktura = kaos)"
+            }
+        },
+
+        relatedSlug: {
+            en: "why-regular-haircuts-are-essential",
+            sl: "zakaj-je-redno-strizenje-nujno"
+        },
+
+        date: {
+            en: "November 20, 2026",
+            sl: "20. november 2026"
+        },
+
+        title: {
+            en: "A haircut like a house: why a good cut builds structure first",
+            sl: "Frizura kot hiša: zakaj dobro striženje najprej zgradi strukturo"
+        },
+
+        excerpt: {
+            en: "A good cut isn't just what you see in the mirror that day – it's a structure the style holds for weeks. What precision haircutting borrows from architecture.",
+            sl: "Dobro striženje ni samo to, kar vidiš v ogledalu ta dan – je struktura, ki jo frizura obdrži še tedne. Kaj tehnično striženje las prevzame od arhitekture."
+        },
+
+        body: {
+
+            en: [
+                "When a client looks in the mirror right after a cut, she sees that day's result. What actually determines whether the style holds up over the following weeks isn't visible at first glance – much like a house, where what matters isn't the paint color, but the foundation and load-bearing walls nobody sees once the house is standing.",
+                "## Sassoon and architecture",
+                "Vidal Sassoon, the man who reshaped hairdressing in the 1960s, always named architecture as his main inspiration, especially the Bauhaus – he cited Mies van der Rohe's Seagram Building and Marcel Breuer's Whitney Museum as the kind of modern design that shaped his thinking. He described hair in geometric terms – angles, shapes, the underlying structure of the skull – and aimed to strip hairstyling down to basic forms that worked with the head's actual bone structure, the way an architect shapes a building to fit the site it stands on. His most famous result, the \"five-point cut,\" was exactly that – a style built on geometry, not on how it happened to look that day.",
+                "## Why the house comparison holds up",
+                "With a house, what matters isn't just how it's painted, but how it's designed – the foundation, the load-bearing walls, how weight is distributed. The same is true of precision haircutting: hair is divided into even working sections, then into smaller subsections, so both sides match and the shape stays consistent all the way around the head. The cutter uses reference points on the head – the occipital bone, the apex, the ridge where the side meets the top – to balance weight in a way that suits that particular head shape. The first length the cutter sets becomes a guideline every later section follows – a stationary guide gives a firm line, a traveling guide creates blended layers.",
+                "Often, nothing makes a bigger difference than the ends themselves. Straight walls in architecture aren't an accident – a straight line carries more load than a slanted or jagged one. The same goes for the ends of hair: if the cut line isn't straight, it's exactly the ends that are most prone to breaking and fraying, because they don't have a single, clean edge for the hair strand to end on.",
+                "## It's about the angle, not just the scissors",
+                "The angle at which the cutter holds a section determines the result – straight down gives one length, around 45 degrees builds weight and graduation, 90 degrees or more removes weight and creates layers. That's the real difference between technical cutting and cutting \"by eye,\" which tends to maintain an existing shape rather than build a new structure from the ground up.",
+                "## Why this matters to the client",
+                "A cut built on real structure grows out as a shape, not as a set of random lengths that gradually drift apart. That's why a technically well-cut style still looks good three or four weeks later, while a cut that only tidied up an existing shape often loses its form after a single wash. That's exactly why, with every [haircut](/en/services/haircuts), I think about structure first, and only then about how it looks in the mirror that moment – because it's the structure that keeps working for the client long after she's left the salon."
+            ],
+
+            sl: [
+                "Ko stranka pogleda v ogledalo takoj po striženju, vidi rezultat tega dne. Kar pa dejansko odloča, ali bo frizura dobro zdržala naslednje tedne, se ne vidi na prvi pogled – podobno kot pri hiši, kjer ni pomembna samo barva zidu, ampak temelji in nosilne stene, ki jih nihče ne vidi, ko hiša že stoji.",
+                "## Sassoon in arhitektura",
+                "Vidal Sassoon, mož, ki je v šestdesetih letih spremenil celotno frizerstvo, je kot svoj glavni navdih vedno navajal arhitekturo, še posebej Bauhaus – omenjal je Seagram Building arhitekta Miesa van der Roheja in Whitney Museum Marcela Breuerja kot zglede, ki so oblikovali njegov pogled na sodobno obliko. Lase je opisoval v geometrijskih izrazih – koti, oblike, podlaga v obliki lobanje – in si prizadeval frizuro skrčiti na osnovne forme, ki delajo z dejansko strukturo glave, tako kot arhitekt obliko stavbe prilagodi terenu, na katerem stoji. Njegov najbolj znan rezultat, \"five-point cut\", je bil prav to – frizura, zgrajena na geometriji, ne na trenutnem videzu.",
+                "## Zakaj je primerjava s hišo smiselna",
+                "Pri hiši ni pomembno le, kako je pobarvana, ampak kako je zasnovana – temelji, nosilne stene, razporeditev teže. Enako velja za tehnično striženje las: lase se razdeli v enakomerne delovne cone, nato v manjše podsekcije, da se obe strani ujemata in oblika ostane skladna po celotni glavi. Frizer pri tem uporablja referenčne točke na glavi – zatilnico, vrh (apex), rob, kjer se stran sreča z vrhom – da porazdeli težo tako, kot ustreza obliki glave. Prva dolžina, ki jo frizer postavi, postane vodilo, ki mu sledijo vse naslednje sekcije – nepremično vodilo daje trdo linijo, premikajoče pa ustvari prelivajoče plasti.",
+                "Pri tem pogosto največjo razliko naredijo prav konice. Ravne stene v arhitekturi niso naključje – ravna linija prenese več obremenitve kot poševna ali nazobčana. Enako velja za konice las: če linija striženja ni ravna, so ravno konice tiste, ki so najbolj dovzetne za lomljenje in cefranje, ker nimajo enotne, čiste meje, na kateri bi se lasna vlakna zaključila.",
+                "## Šteje kot, ne le škarje",
+                "Kot, pod katerim frizer dvigne pramen, odloča, kakšen bo rezultat – naravnost navzdol pomeni eno dolžino, okoli 45 stopinj zgradi težo in prelive, 90 stopinj ali več pa težo odvzame in ustvari plasti. To je razlika med tehničnim striženjem in \"striženjem na občutek\", ki bolj ohranja obstoječo obliko kot pa gradi novo strukturo od temelja navzgor.",
+                "## Zakaj je to pomembno za stranko",
+                "Frizura, zgrajena na pravi strukturi, odrašča kot celota, ne kot naključne dolžine, ki se postopoma razidejo. Zato tehnično dobro strižena frizura zdrži lepo tudi tri ali štiri tedne po striženju, medtem ko frizura, ki je bila le urejena na obstoječo obliko, pogosto izgubi formo že po enem umivanju. Ravno zato pri vsakem [striženju](/sl/storitve/strizenje-las) mislim najprej na strukturo, šele nato na to, kako bo videti ta trenutek v ogledalu – ker je prav struktura tista, ki bo stranki služila še tedne po obisku salona."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "What is precision haircutting?",
+                    a: "Precision (technical) haircutting builds a cut on structure: hair is divided into even sections, reference points on the head guide the shape, and the angle each section is held at determines the final length, weight and layers."
+                },
+                {
+                    q: "What does Vidal Sassoon have to do with architecture?",
+                    a: "Vidal Sassoon named architecture, especially the Bauhaus, as his main inspiration. He approached hair geometrically, building cuts such as the famous five-point cut around the actual structure of the head."
+                },
+                {
+                    q: "How long does a precision haircut keep its shape?",
+                    a: "A cut built on real structure grows out as a shape, so it usually still looks good three to four weeks later, while a cut that only tidies an existing shape can lose its form after a single wash."
+                },
+                {
+                    q: "Why do straight-cut ends matter?",
+                    a: "A clean, straight cut line gives every strand the same clean edge to end on, so the ends are less prone to breaking and fraying than with an uneven line."
+                },
+                {
+                    q: "How do I book a haircut at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose a haircut and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kaj je tehnično (precizno) striženje las?",
+                    a: "Tehnično striženje frizuro zgradi na strukturi: lase se razdeli v enakomerne sekcije, referenčne točke na glavi vodijo obliko, kot, pod katerim se dvigne pramen, pa določi končno dolžino, težo in plasti."
+                },
+                {
+                    q: "Kakšna je povezava med Vidalom Sassoonom in arhitekturo?",
+                    a: "Vidal Sassoon je za svoj glavni navdih navajal arhitekturo, še posebej Bauhaus. K lasem je pristopal geometrijsko in frizure, kot je znameniti five-point cut, gradil na dejanski strukturi glave."
+                },
+                {
+                    q: "Kako dolgo tehnično strižena frizura obdrži obliko?",
+                    a: "Frizura, zgrajena na pravi strukturi, odrašča kot celota, zato je običajno lepa še tri do štiri tedne po striženju, medtem ko frizura, ki je le urejena na obstoječo obliko, lahko izgubi formo že po enem umivanju."
+                },
+                {
+                    q: "Zakaj so ravno postriženi konci pomembni?",
+                    a: "Čista, ravna linija striženja da vsakemu lasu enak, čist zaključek, zato so konice manj dovzetne za lomljenje in cefranje kot pri neenakomerni liniji."
+                },
+                {
+                    q: "Kako se naročim na striženje v STATUS KAY?",
+                    a: "Termin si rezerviraš na spletu prek sistema Fresha, kjer izbereš striženje in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {
@@ -23,7 +147,7 @@ export const blogPosts = [
 
         category: "about",
 
-        publishAt: "2026-12-11",
+        publishAt: "2026-12-18",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -37,13 +161,13 @@ export const blogPosts = [
         },
 
         relatedSlug: {
-            en: "about-status-kay-salon",
-            sl: "o-status-kay-salonu"
+            en: "haircut-like-a-house-precision-cutting",
+            sl: "frizura-kot-hisa-tehnicno-strizenje"
         },
 
         date: {
-            en: "December 11, 2026",
-            sl: "11. december 2026"
+            en: "December 18, 2026",
+            sl: "18. december 2026"
         },
 
         title: {
@@ -134,7 +258,7 @@ export const blogPosts = [
 
         category: "haircuts",
 
-        publishAt: "2026-12-04",
+        publishAt: "2026-12-11",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -153,8 +277,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "December 4, 2026",
-            sl: "4. december 2026"
+            en: "December 11, 2026",
+            sl: "11. december 2026"
         },
 
         title: {
@@ -255,7 +379,7 @@ export const blogPosts = [
 
         category: "nails",
 
-        publishAt: "2026-11-27",
+        publishAt: "2026-12-04",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -274,8 +398,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "November 27, 2026",
-            sl: "27. november 2026"
+            en: "December 4, 2026",
+            sl: "4. december 2026"
         },
 
         title: {
@@ -382,7 +506,7 @@ export const blogPosts = [
 
         category: "haircuts",
 
-        publishAt: "2026-11-20",
+        publishAt: "2026-11-27",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -401,8 +525,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "November 20, 2026",
-            sl: "20. november 2026"
+            en: "November 27, 2026",
+            sl: "27. november 2026"
         },
 
         title: {

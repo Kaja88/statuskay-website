@@ -138,7 +138,7 @@ const emails = [
         }
     },
     {
-        file: "2026-11-20-obstojnost-barve-las-cez-vse-leto.html",
+        file: "2026-11-27-obstojnost-barve-las-cez-vse-leto.html",
         preheader: "Ne le sonce – tudi suh zrak iz radiatorjev barvi las jemlje sijaj. Kaj pomaga čez vse leto.",
         image: "obstojnost-barve-las-cez-vse-leto.jpg",
         imageAlt: "Sveže pobarvani bakreno rdeči lasje, feniran stopničast bob",
@@ -162,7 +162,7 @@ const emails = [
         }
     },
     {
-        file: "2026-11-27-nega-nohtov-pozimi.html",
+        file: "2026-12-04-nega-nohtov-pozimi.html",
         preheader: "Suha, natrgana kožica okoli nohtov? Kaj dejansko pomaga in kateri lak zdrži hladne mesece.",
         image: "nega-nohtov-pozimi.jpg",
         imageAlt: "Negovane roke s klasično French manikuro",
@@ -186,7 +186,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-04-manj-gosti-lasje-watermans-sampon.html",
+        file: "2026-12-11-manj-gosti-lasje-watermans-sampon.html",
         preheader: "Izpadanje je mimo, gostota pa še ni nazaj? Zakaj je to normalno in kaj lasišču pomaga vmes.",
         image: "manj-gosti-lasje-watermans-sampon.jpg",
         imageAlt: "Šampon Watermans Grow Me z rožmarinom in kavnimi zrni",
@@ -210,7 +210,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-11-strast-do-frizerstva.html",
+        file: "2026-12-18-strast-do-frizerstva.html",
         preheader: "Zakaj je frizerstvo zame še vedno strast – in zakaj sem kot mercedes.",
         image: "strast-do-frizerstva.jpg",
         imageAlt: "Frizerske škarje med striženjem kratkih las",
@@ -231,6 +231,30 @@ const emails = [
                 "In the blog I share where the passion actually shows up, why I joke that I'm like a Mercedes, and why STATUS KAY stays a boutique salon."
             ],
             link: `${SITE}/en/blog/passion-for-hairdressing`
+        }
+    },
+    {
+        file: "2026-11-20-frizura-kot-hisa-tehnicno-strizenje.html",
+        preheader: "Kaj ima striženje las skupnega z arhitekturo – in zakaj dobra frizura zdrži tedne, ne le en dan.",
+        image: "frizura-kot-hisa-tehnicno-strizenje.jpg",
+        imageAlt: "Ilustracija: dobra struktura frizure kot natančen arhitekturni načrt, slaba struktura kot kaos",
+        sl: {
+            eyebrow: "Nov blog · Striženje",
+            title: "Frizura kot hiša: zakaj dobro striženje najprej zgradi strukturo",
+            paragraphs: [
+                "Kar vidiš v ogledalu takoj po striženju, je le rezultat tega dne. Kar odloča, ali bo frizura lepa še tedne, se ne vidi – tako kot temelji hiše.",
+                "V blogu pišem, kaj je Vidal Sassoon prevzel od arhitekture, kako tehnično striženje gradi strukturo in zakaj so ravne konice tako pomembne."
+            ],
+            link: `${SITE}/sl/blog/frizura-kot-hisa-tehnicno-strizenje`
+        },
+        en: {
+            eyebrow: "New on the blog · Haircuts",
+            title: "A haircut like a house: why a good cut builds structure first",
+            paragraphs: [
+                "What you see in the mirror right after a cut is just that day's result. What decides whether it still looks good weeks later is invisible – like a house's foundation.",
+                "In the blog I share what Vidal Sassoon took from architecture, how precision cutting builds structure, and why straight ends matter so much."
+            ],
+            link: `${SITE}/en/blog/haircut-like-a-house-precision-cutting`
         }
     }
 ];
