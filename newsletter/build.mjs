@@ -210,7 +210,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-25-strast-do-frizerstva.html",
+        file: "2026-12-23-strast-do-frizerstva.html",
         preheader: "Zakaj je frizerstvo zame še vedno strast – in zakaj sem kot mercedes.",
         image: "strast-do-frizerstva.jpg",
         imageAlt: "Frizerske škarje med striženjem kratkih las",

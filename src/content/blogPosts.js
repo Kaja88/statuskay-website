@@ -147,7 +147,7 @@ export const blogPosts = [
 
         category: "about",
 
-        publishAt: "2026-12-25",
+        publishAt: "2026-12-23",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -166,8 +166,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "December 25, 2026",
-            sl: "25. december 2026"
+            en: "December 23, 2026",
+            sl: "23. december 2026"
         },
 
         title: {
