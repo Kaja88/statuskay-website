@@ -147,7 +147,7 @@ export const blogPosts = [
 
         category: "about",
 
-        publishAt: "2026-12-18",
+        publishAt: "2026-12-25",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -166,8 +166,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "December 18, 2026",
-            sl: "18. december 2026"
+            en: "December 25, 2026",
+            sl: "25. december 2026"
         },
 
         title: {
@@ -258,7 +258,7 @@ export const blogPosts = [
 
         category: "haircuts",
 
-        publishAt: "2026-12-11",
+        publishAt: "2026-11-27",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -277,8 +277,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "December 11, 2026",
-            sl: "11. december 2026"
+            en: "November 27, 2026",
+            sl: "27. november 2026"
         },
 
         title: {
@@ -379,7 +379,7 @@ export const blogPosts = [
 
         category: "nails",
 
-        publishAt: "2026-12-04",
+        publishAt: "2026-12-18",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -398,8 +398,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "December 4, 2026",
-            sl: "4. december 2026"
+            en: "December 18, 2026",
+            sl: "18. december 2026"
         },
 
         title: {
@@ -506,7 +506,7 @@ export const blogPosts = [
 
         category: "haircuts",
 
-        publishAt: "2026-11-27",
+        publishAt: "2026-12-11",
 
         // Shows a "Naroči se" / "Book Now" Fresha button after the text.
         bookingButton: true,
@@ -525,8 +525,8 @@ export const blogPosts = [
         },
 
         date: {
-            en: "November 27, 2026",
-            sl: "27. november 2026"
+            en: "December 11, 2026",
+            sl: "11. december 2026"
         },
 
         title: {

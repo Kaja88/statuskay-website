@@ -138,7 +138,7 @@ const emails = [
         }
     },
     {
-        file: "2026-11-27-obstojnost-barve-las-cez-vse-leto.html",
+        file: "2026-12-11-obstojnost-barve-las-cez-vse-leto.html",
         preheader: "Ne le sonce – tudi suh zrak iz radiatorjev barvi las jemlje sijaj. Kaj pomaga čez vse leto.",
         image: "obstojnost-barve-las-cez-vse-leto.jpg",
         imageAlt: "Sveže pobarvani bakreno rdeči lasje, feniran stopničast bob",
@@ -162,7 +162,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-04-nega-nohtov-pozimi.html",
+        file: "2026-12-18-nega-nohtov-pozimi.html",
         preheader: "Suha, natrgana kožica okoli nohtov? Kaj dejansko pomaga in kateri lak zdrži hladne mesece.",
         image: "nega-nohtov-pozimi.jpg",
         imageAlt: "Negovane roke s klasično French manikuro",
@@ -186,7 +186,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-11-manj-gosti-lasje-watermans-sampon.html",
+        file: "2026-11-27-manj-gosti-lasje-watermans-sampon.html",
         preheader: "Izpadanje je mimo, gostota pa še ni nazaj? Zakaj je to normalno in kaj lasišču pomaga vmes.",
         image: "manj-gosti-lasje-watermans-sampon.jpg",
         imageAlt: "Šampon Watermans Grow Me z rožmarinom in kavnimi zrni",
@@ -210,7 +210,7 @@ const emails = [
         }
     },
     {
-        file: "2026-12-18-strast-do-frizerstva.html",
+        file: "2026-12-25-strast-do-frizerstva.html",
         preheader: "Zakaj je frizerstvo zame še vedno strast – in zakaj sem kot mercedes.",
         image: "strast-do-frizerstva.jpg",
         imageAlt: "Frizerske škarje med striženjem kratkih las",
