@@ -123,7 +123,7 @@ const emails = [
             title: "Ljubljana novembra ima več iskric, kot misliš",
             paragraphs: [
                 "November v Ljubljani ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha, dokler mesto ponovno ne oživi.",
-                "V blogu sem zbrala, kaj me ta mesec zvabi izpod odeje: od November Gourmet Ljubljana in baleta Doktor Živago do Zimskega Panča in sprehoda po PST-ju, ko je jesensko listje povsod."
+                "V blogu sem zbrala, kaj te bo ta mesec spravilo izpod odeje: od November Gourmet Ljubljana in baleta Doktor Živago do Zimskega Panča in sprehoda po PST-ju, ko je jesensko listje povsod."
             ],
             link: `${SITE}/sl/blog/kam-v-ljubljani-novembra`
         },
@@ -132,9 +132,105 @@ const emails = [
             title: "Ljubljana in November has more sparkle than you'd think",
             paragraphs: [
                 "November in Ljubljana isn't just a grey pause before December – it's a month of good food, ballet, and laughter, before the city comes back to life.",
-                "In the blog I share what gets me out from under the blanket this month: from November Gourmet Ljubljana and the Doctor Zhivago ballet to Zimski Panč and a walk along the PST path, with autumn leaves everywhere."
+                "In the blog I share what will get you out from under the blanket this month: from November Gourmet Ljubljana and the Doctor Zhivago ballet to Zimski Panč and a walk along the PST path, with autumn leaves everywhere."
             ],
             link: `${SITE}/en/blog/ljubljana-in-november`
+        }
+    },
+    {
+        file: "2026-11-20-obstojnost-barve-las-cez-vse-leto.html",
+        preheader: "Ne le sonce – tudi suh zrak iz radiatorjev barvi las jemlje sijaj. Kaj pomaga čez vse leto.",
+        image: "obstojnost-barve-las-cez-vse-leto.jpg",
+        imageAlt: "Sveže pobarvani bakreno rdeči lasje, feniran stopničast bob",
+        sl: {
+            eyebrow: "Nov blog · Barva las",
+            title: "Obstojnost barve las ni le poletna skrb",
+            paragraphs: [
+                "Barvane lase večina ščiti pred poletjem – pred soncem, klorom in morjem. A za barvo to poskrbi le polovico leta.",
+                "V blogu pišem, zakaj ji pozimi enako škoduje suh zrak iz radiatorjev (in vroča voda), ter kaj dejansko pomaga, da barva zdrži skozi vse leto."
+            ],
+            link: `${SITE}/sl/blog/obstojnost-barve-las-cez-vse-leto`
+        },
+        en: {
+            eyebrow: "New on the blog · Hair color",
+            title: "Color longevity isn't just a summer concern",
+            paragraphs: [
+                "Most people protect colored hair before summer – from sun, chlorine, and the sea. But that only covers half the year.",
+                "In the blog I explain why dry air from radiators (and hot showers) does just as much damage in winter, and what actually helps color last all year round."
+            ],
+            link: `${SITE}/en/blog/hair-color-longevity-all-year`
+        }
+    },
+    {
+        file: "2026-11-27-nega-nohtov-pozimi.html",
+        preheader: "Suha, natrgana kožica okoli nohtov? Kaj dejansko pomaga in kateri lak zdrži hladne mesece.",
+        image: "nega-nohtov-pozimi.jpg",
+        imageAlt: "Negovane roke s klasično French manikuro",
+        sl: {
+            eyebrow: "Nov blog · Nohti",
+            title: "Nega nohtov pozimi",
+            paragraphs: [
+                "Pozimi pri nohtih najprej opazimo kožico okoli njih – postane suha, se trga in včasih celo rahlo boli.",
+                "V blogu pišem, zakaj kožica pozimi trpi prva, kaj ji dejansko pomaga (od olja do rokavic) in zakaj gel lak v hladnih mesecih pogosto zdrži dlje."
+            ],
+            link: `${SITE}/sl/blog/nega-nohtov-pozimi`
+        },
+        en: {
+            eyebrow: "New on the blog · Nails",
+            title: "Nail care in winter",
+            paragraphs: [
+                "In winter, the first thing you notice isn't the nails – it's the skin around them getting dry, cracking, and sometimes even hurting.",
+                "In the blog I explain why that skin suffers first, what actually helps (from cuticle oil to gloves), and why gel polish often lasts longer in the colder months."
+            ],
+            link: `${SITE}/en/blog/nail-care-in-winter`
+        }
+    },
+    {
+        file: "2026-12-04-manj-gosti-lasje-watermans-sampon.html",
+        preheader: "Izpadanje je mimo, gostota pa še ni nazaj? Zakaj je to normalno in kaj lasišču pomaga vmes.",
+        image: "manj-gosti-lasje-watermans-sampon.jpg",
+        imageAlt: "Šampon Watermans Grow Me z rožmarinom in kavnimi zrni",
+        sl: {
+            eyebrow: "Nov blog · Nega las",
+            title: "Jesensko izpadanje se je končalo – zakaj so lasje še vedno manj gosti?",
+            paragraphs: [
+                "Jesensko izpadanje je mimo, krtača ni več polna las – a lasje so še vedno manj gosti, kot so bili.",
+                "V blogu pišem, zakaj gostota ne pride nazaj takoj in zakaj si v tem vmesnem obdobju pomagam s šamponom Watermans Grow Me."
+            ],
+            link: `${SITE}/sl/blog/manj-gosti-lasje-watermans-sampon`
+        },
+        en: {
+            eyebrow: "New on the blog · Hair care",
+            title: "Autumn shedding has stopped – so why does hair still look thinner?",
+            paragraphs: [
+                "The autumn shed is over and the brush isn't full of hair anymore – but hair still looks thinner than it used to.",
+                "In the blog I explain why density doesn't bounce back right away, and why I reach for Watermans Grow Me shampoo during that in-between stretch."
+            ],
+            link: `${SITE}/en/blog/thinner-hair-after-autumn-shedding`
+        }
+    },
+    {
+        file: "2026-12-11-strast-do-frizerstva.html",
+        preheader: "Zakaj je frizerstvo zame še vedno strast – in zakaj sem kot mercedes.",
+        image: "strast-do-frizerstva.jpg",
+        imageAlt: "Frizerske škarje med striženjem kratkih las",
+        sl: {
+            eyebrow: "Nov blog · O meni",
+            title: "Zakaj mi frizerstvo pomeni več kot poklic",
+            paragraphs: [
+                "Ljudje me včasih vprašajo, ali je po toliko letih striženja in barvanja las vse skupaj že samo rutina.",
+                "V blogu pišem, kje se moja strast dejansko pokaže, zakaj se šalim, da sem kot mercedes, in zakaj STATUS KAY ostaja butičen salon."
+            ],
+            link: `${SITE}/sl/blog/strast-do-frizerstva`
+        },
+        en: {
+            eyebrow: "New on the blog · About me",
+            title: "Why hairdressing means more to me than just a job",
+            paragraphs: [
+                "People sometimes ask whether, after this many years of cutting and coloring hair, it's all just routine by now.",
+                "In the blog I share where the passion actually shows up, why I joke that I'm like a Mercedes, and why STATUS KAY stays a boutique salon."
+            ],
+            link: `${SITE}/en/blog/passion-for-hairdressing`
         }
     }
 ];

@@ -7,6 +7,15 @@
     <description>Nasveti za lase, nohte in življenje v Ljubljani iz butičnega frizerskega salona STATUS KAY.</description>
     <language>sl-SI</language>
     <item>
+      <title>Ljubljana novembra ima več iskric, kot misliš</title>
+      <link>https://www.statuskay.com/sl/blog/kam-v-ljubljani-novembra</link>
+      <guid isPermaLink="true">https://www.statuskay.com/sl/blog/kam-v-ljubljani-novembra</guid>
+      <pubDate>Fri, 06 Nov 2026 04:00:00 GMT</pubDate>
+      <description>Kam v Ljubljani novembra? November ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha.</description>
+      <content:encoded><![CDATA[<p><img src="https://www.statuskay.com/blog-images/ljubljana-in-november.jpg" alt="Ženska od zadaj s toplimi karamelno rjavimi stopničastimi lasmi ob oknu salona, zunaj jesensko drevo" width="600" /></p><p>November v Ljubljani ni samo siv premor pred decembrom – je mesec dobre hrane, baleta in smeha, dokler mesto ponovno ne oživi.</p>]]></content:encoded>
+      <media:content url="https://www.statuskay.com/blog-images/ljubljana-in-november.jpg" medium="image" />
+    </item>
+    <item>
       <title>Fen frizura doma: kako jo narediš kot v salonu</title>
       <link>https://www.statuskay.com/sl/blog/fen-frizura-doma</link>
       <guid isPermaLink="true">https://www.statuskay.com/sl/blog/fen-frizura-doma</guid>
@@ -161,14 +170,6 @@
       <pubDate>Mon, 05 Jan 2026 04:00:00 GMT</pubDate>
       <description>Januar je čas za reset. Odkrij, zakaj je nova frizura več kot le sprememba videza in kako v Status Kay pristopimo k vsaki preobrazbi.</description>
       <content:encoded><![CDATA[<p>Januar je. Stojiš pred ogledalom in gledaš, kako so tvoji lasje utrujeni in suhi. Kot bi obtičali v prejšnjem letu. In misel se ti prikrade v glavo, tudi če je še ne izgovoriš naglas.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Zakaj barva za lase prehitro zbledi</title>
-      <link>https://www.statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi</link>
-      <guid isPermaLink="true">https://www.statuskay.com/sl/blog/zakaj-barva-za-lase-prehitro-zbledi</guid>
-      <pubDate>Mon, 29 Dec 2025 04:00:00 GMT</pubDate>
-      <description>Barva bi morala zdržati vsaj 6 do 8 tednov, a pogosto zbledi prej. Odkrij najpogostejše razloge in kako v Status Kay poskrbimo, da barva obstane.</description>
-      <content:encoded><![CDATA[<p>Iz salona stopiš samozavestna. Barva je bogata, sijajna in popolna.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

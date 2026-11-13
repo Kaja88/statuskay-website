@@ -5,11 +5,497 @@ import goldenScissorsBlog from "../assets/blog/girl-with-the-golden-scissors.jpg
 import ljubljanaInOctoberBlog from "../assets/blog/ljubljana-in-october.jpg";
 import blowDryAtHomeBlog from "../assets/blog/blow-dry-at-home.jpg";
 import ljubljanaInNovemberBlog from "../assets/blog/ljubljana-in-november.jpg";
+import colorLongevityBlog from "../assets/blog/hair-color-longevity-all-year.jpg";
+import nailCareWinterBlog from "../assets/blog/nail-care-in-winter.jpg";
+import thinnerHairBlog from "../assets/blog/thinner-hair-after-autumn-shedding.jpg";
+import passionBlog from "../assets/blog/passion-for-hairdressing.jpg";
 
 const instagramUrl = "https://www.instagram.com/statuskay";
 const tiktokUrl = "https://www.tiktok.com/@statuskay";
 
 export const blogPosts = [
+
+    {
+        slug: {
+            en: "passion-for-hairdressing",
+            sl: "strast-do-frizerstva"
+        },
+
+        category: "about",
+
+        publishAt: "2026-12-11",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: passionBlog,
+            alt: {
+                en: "Close-up of hairdressing scissors at work, shaping short hair behind the ear",
+                sl: "Bližnji posnetek frizerskih škarij med delom, oblikovanje kratkih las za ušesom"
+            }
+        },
+
+        relatedSlug: {
+            en: "about-status-kay-salon",
+            sl: "o-status-kay-salonu"
+        },
+
+        date: {
+            en: "December 11, 2026",
+            sl: "11. december 2026"
+        },
+
+        title: {
+            en: "Why hairdressing means more to me than just a job",
+            sl: "Zakaj mi frizerstvo pomeni več kot poklic"
+        },
+
+        excerpt: {
+            en: "Why cutting and coloring hair is still a genuine passion for me, not just work – and why it means the most when clients notice that themselves.",
+            sl: "Zakaj je striženje in barvanje las zame še vedno strast, ne le delo – in zakaj me najbolj razveseli, ko to opazijo stranke same."
+        },
+
+        body: {
+
+            en: [
+                "People sometimes ask whether, after this many years of cutting and coloring hair, any of it still means something to me, or whether it's all routine by now. Honestly – after this many years, what I sometimes miss is more of a challenge, not more passion. The routine isn't that the work has stopped making me happy, it's that every so often I wish for a more demanding project, one that genuinely tests me again.",
+                "## Where the passion actually shows up",
+                "For me, passion for hairdressing isn't about big gestures or dramatic transformations made for social media. I take the time for every detail and really commit to it. I respect what a client wants, even when I'd personally recommend something else – it's not my hair, after all. Sometimes, unfortunately, I also turn a client away, gently, when their hair or nails simply aren't in a state to handle a more demanding procedure – better to say so honestly than risk a result that does damage.",
+                "## The moment clients notice it themselves",
+                "My favorite moment is when a client turns her head in front of the mirror, looks at the result, and says something like \"you can tell you actually enjoy this.\" But something else makes me laugh even more – I joke that I'm like a Mercedes, that doing good work can actually get me into trouble, because a cut or color simply lasts too long. Sometimes I genuinely wonder where all my clients have gone, until I remember the simple reason – the style still looks great. I can't think of a nicer compliment to my work than that.",
+                "## Why this matters for how I work",
+                "That's exactly why I've kept STATUS KAY a [boutique salon](/en/about), not a chain or a space with several chairs running at once. If I were rushing between several clients, I'd inevitably lose some of that attention – not because I'd be less skilled, but because attention simply doesn't work when it's divided. \"Calm is the new luxury\" isn't just a line I use on social media – it's the actual reason I work the way I do.",
+                "So it matters to me when a client says she feels heard, not just taken care of. That's the part of this job that makes me see myself as an artist, a craftswoman, a sculptor of hair – not just someone who cuts hair."
+            ],
+
+            sl: [
+                "Ljudje me včasih vprašajo, ali mi po toliko letih striženja in barvanja las še vedno kaj od tega pomeni, ali je zdaj že samo rutina. Po pravici povedano – po tolikih letih mi kdaj pa kdaj zmanjka prav izzivov, ne strasti. Rutina ni v tem, da bi me delo nehalo veseliti, ampak v tem, da si včasih zaželim kakšnega zahtevnejšega projekta, ki me spet postavi na pravi preizkus.",
+                "## Kje se strast dejansko pokaže",
+                "Strast do frizerstva zame ni v velikih gestah ali dramatičnih preobrazbah, ki jih vidimo po družbenih omrežjih. Vzamem si čas za vsak detajl in se vanj resnično posvetim. Upoštevam željo stranke, tudi kadar bi sama priporočila drugače – lasje navsezadnje niso moji. Včasih, žal, tudi kakšno stranko prijazno zavrnem, kadar lasje ali nohti preprosto niso v stanju, da bi prenesli zahtevnejši postopek – bolje je povedati po pravici, kot tvegati rezultat, ki bi škodoval.",
+                "## Trenutek, ko to opazijo stranke same",
+                "Všeč mi je trenutek, ko stranka pred ogledalom obrne glavo, pogleda rezultat in reče nekaj v smislu \"vidi se, da te to veseli\". Še bolj pa me nasmeji nekaj drugega – rada se šalim, da sem kot mercedes, da me prav dobro opravljeno delo lahko spravi v težave, ker frizura ali barva preprosto zdržita predolgo. Včasih se čisto zares vprašam, kam so izginile vse moje stranke, dokler se ne spomnim, da je razlog preprost – pričeska je pač še vedno videti odlično. Lepše pohvale svojemu delu si težko zamislim.",
+                "## Zakaj je to pomembno za to, kako delam",
+                "Ravno zaradi tega sem se odločila, da STATUS KAY ostane [butičen frizerski salon](/sl/o-nas), ne veriga ali salon z več stoli hkrati. Če bi hitela med več strankami, bi del te pozornosti nujno izgubila – ne zato, da bi bila manj spretna, ampak ker pozornost preprosto ne deluje, ko je razdeljena. \"Calm is the new luxury\" ni samo slogan, ki ga uporabljam na družbenih omrežjih – je dejanski razlog, zakaj delam tako, kot delam.",
+                "Zato mi ni vseeno, kadar stranka reče, da se počuti slišano, ne le oskrbljeno. To je tisti del poklica, zaradi katerega se v svojem delu vidim bolj kot umetnica, obrtnica in kiparka las, kot le kot nekdo, ki striže lase."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "What makes STATUS KAY a boutique hair salon?",
+                    a: "STATUS KAY works with one client at a time instead of several chairs running at once, so every appointment gets full, undivided attention to detail."
+                },
+                {
+                    q: "Will my hairdresser follow what I want, even if she'd suggest something else?",
+                    a: "Yes. The client's wishes come first – a different option may be suggested, but the final choice is yours, since it's your hair."
+                },
+                {
+                    q: "Why might a salon advise against a more demanding treatment?",
+                    a: "If hair or nails aren't in a condition to handle a demanding procedure, it's safer to say so honestly and postpone it than to risk a result that causes damage."
+                },
+                {
+                    q: "How do I book an appointment at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose your service and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Kaj pomeni, da je STATUS KAY butičen frizerski salon?",
+                    a: "V STATUS KAY delam z eno stranko naenkrat, ne z več stoli hkrati, zato je vsak termin deležen polne, nerazdeljene pozornosti do detajlov."
+                },
+                {
+                    q: "Ali frizerka upošteva mojo željo, tudi če bi sama predlagala drugače?",
+                    a: "Da. Želja stranke je na prvem mestu – lahko predlagam drugo možnost, a končna odločitev je tvoja, saj gre za tvoje lase."
+                },
+                {
+                    q: "Zakaj frizerka kdaj odsvetuje zahtevnejši postopek?",
+                    a: "Če lasje ali nohti niso v stanju, da bi prenesli zahtevnejši postopek, je varneje to povedati po pravici in ga prestaviti, kot tvegati rezultat, ki bi škodoval."
+                },
+                {
+                    q: "Kako se naročim v STATUS KAY?",
+                    a: "Termin si rezerviraš na spletu prek sistema Fresha, kjer izbereš storitev in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
+
+    {
+        slug: {
+            en: "thinner-hair-after-autumn-shedding",
+            sl: "manj-gosti-lasje-watermans-sampon"
+        },
+
+        category: "haircuts",
+
+        publishAt: "2026-12-04",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: thinnerHairBlog,
+            alt: {
+                en: "Bottle of Watermans Grow Me shampoo on the edge of a bathtub, with a bunch of rosemary and coffee beans",
+                sl: "Steklenica šampona Watermans Grow Me na robu kadi, ob njej šopek rožmarina in kavna zrna"
+            }
+        },
+
+        relatedSlug: {
+            en: "how-to-speed-up-hair-growth",
+            sl: "kako-pospesiti-rast-las"
+        },
+
+        date: {
+            en: "December 4, 2026",
+            sl: "4. december 2026"
+        },
+
+        title: {
+            en: "Autumn shedding has finally stopped – so why does hair still look thinner?",
+            sl: "Jesensko izpadanje las se je končno končalo – zakaj so lasje še vedno manj gosti?"
+        },
+
+        excerpt: {
+            en: "Autumn hair shedding is over, but density hasn't bounced back yet? What actually helps the scalp, and why I keep coming back to Watermans shampoo.",
+            sl: "Jesensko izpadanje las je mimo, a gostota še ni nazaj? Kaj dejansko pomaga lasišču in zakaj sem se vrnila k šamponu Watermans."
+        },
+
+        body: {
+
+            en: [
+                "By late autumn almost every client breathes a sigh of relief – the autumn shed is finally over, the brush isn't full of hair after every wash anymore. Then comes the quieter follow-up question: \"So why does my hair still look thinner than it used to?\"",
+                "## Why density doesn't bounce back right away",
+                "[Autumn shedding](/en/blog/autumn-hair-loss) is a seasonal thing – hair follicles move into a resting phase together, so more hair shows up in the brush than usual. Once that phase ends, follicles gradually shift back into growth, but a new hair needs time to grow long enough to actually register as density again. So it's completely normal for that in-between stretch – shedding already over, density not yet back – to feel like a stall, when really the scalp is just still on its way there.",
+                "## What's in Watermans shampoo, and what it actually does",
+                "For that in-between stretch, I reach for Watermans Grow Me shampoo with regular clients. The path to fuller-looking hair can be surprisingly simple – no hour-long oil treatments, just swap your regular shampoo and leave it on for a good 3 minutes.",
+                "Caffeine energises the scalp during washing and gives it a slight tingling \"opening\" sensation. Hydrolysed lupine protein is the ingredient the manufacturer's 12-week trial found to support the scalp's microcirculation, so the follicle is better supplied. Rosemary calms the scalp and supports surface-level circulation, while biotin supports the strength and structure of each strand from within the follicle, which matters most while a hair is still young and fragile. Niacinamide keeps the scalp moisturised and calm, and argan oil conditions the strand itself and brings back some shine.",
+                "## Why I recommend this one specifically",
+                "Watermans is a cosmetic product, not a treatment for hair loss, so I'm not promising overnight miracles. What I've noticed – in myself and in clients who use it regularly, not just occasionally at a wash – is that hair feels fuller sooner during that in-between stretch than it otherwise would. The difference isn't in one wash, it's in using it consistently until the scalp catches its own rhythm back.",
+                "You can also buy Watermans shampoo with us at the salon."
+            ],
+
+            sl: [
+                "Proti koncu jeseni skoraj vsaka stranka vzdihne od olajšanja – jesensko izpadanje je končno mimo, krtača ni več polna las po vsakem umivanju. A potem pride naslednje vprašanje, malce bolj tiho: \"Zakaj so lasje še vedno manj gosti, kot so bili?\"",
+                "## Zakaj gostota ne pride nazaj takoj",
+                "[Jesensko izpadanje](/sl/blog/jesensko-izpadanje-las) je sezonska stvar – lasni mešički gredo skupaj v fazo mirovanja, zato v krtači opazimo več las kot sicer. Ko se ta faza konča, se mešički postopoma vrnejo v fazo rasti, a nov las potrebuje čas, da zraste dovolj, da ga sploh vidimo in začutimo kot gostoto. Zato je povsem normalno, da je vmesni čas – ko izpadanje že mine, gostota pa še ni nazaj – videti kot zastoj, čeprav gre pravzaprav samo za to, da je lasišče še na poti.",
+                "## Kaj je v šamponu Watermans in kaj dejansko naredi",
+                "V tem vmesnem obdobju si pri rednih strankah pomagam s šamponom Watermans Grow Me. Pot do bolj gostih las je lahko presenetljivo preprosta – brez enournega mazanja z olji, samo zamenjaš svoj običajni šampon in ga pustiš delovati dobre 3 minute.",
+                "Kofein v njem lasišče med umivanjem energizira in ga \"odpre\" – občutek je podoben rahlemu ščemenju. Hidrolizirani protein volčjega boba je sestavina, za katero proizvajalčeva 12-tedenska raziskava kaže, da podpira mikrocirkulacijo lasišča, tako da je mešiček bolje oskrbovan. Rožmarin pomirja lasišče in podpira cirkulacijo na povrhnjici, biotin pa znotraj mešička podpira strukturo in moč vsakega vlakna, kar je pomembno predvsem takrat, ko je las še mlad in občutljiv. Niacinamid skrbi za vlažno, mirno lasišče, arganovo olje pa neguje samo vlakno in mu vrne svetlost.",
+                "## Zakaj priporočam prav tega",
+                "Watermans je kozmetični izdelek, ne zdravilo za izpadanje las, zato ne obljubljam čudežev čez noč. Kar sem opazila pri sebi in pri strankah, ki ga uporabljajo redno – ne le priložnostno, kdaj pa kdaj ob umivanju – je, da se lasje v tem vmesnem obdobju počutijo bolj polni že prej, kot bi sicer. Razlika ni v enem umivanju, ampak v tem, da ga uporabljaš dosledno, dokler lasišče ne ujame svojega ritma nazaj.",
+                "Šampon Watermans lahko kupiš tudi pri nas v salonu."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Why does my hair still look thinner after autumn shedding has stopped?",
+                    a: "During autumn shedding many follicles enter a resting phase at once. When it ends they gradually return to growth, but new hairs need time to grow long enough to show as density, so a thinner-looking stretch afterwards is normal."
+                },
+                {
+                    q: "How do I use Watermans Grow Me shampoo?",
+                    a: "Use it in place of your regular shampoo and leave it on the scalp for about 3 minutes before rinsing. It works best when used consistently, not just occasionally."
+                },
+                {
+                    q: "What are the key ingredients in Watermans Grow Me shampoo?",
+                    a: "It contains caffeine, hydrolysed lupine protein, rosemary, biotin, niacinamide and argan oil, which together care for the scalp and condition the hair."
+                },
+                {
+                    q: "Is Watermans shampoo a treatment for hair loss?",
+                    a: "No. Watermans is a cosmetic product, not a medical treatment for hair loss. It supports scalp care during the period when hair is regaining density."
+                },
+                {
+                    q: "Where can I buy Watermans shampoo in Ljubljana?",
+                    a: "Watermans shampoo is available to buy at the STATUS KAY salon in central Ljubljana."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Zakaj so lasje po jesenskem izpadanju še vedno manj gosti?",
+                    a: "Med jesenskim izpadanjem gre veliko mešičkov hkrati v fazo mirovanja. Ko se ta konča, se postopoma vrnejo v fazo rasti, a novi lasje potrebujejo čas, da zrastejo dovolj, da jih opazimo kot gostoto, zato je vmesno obdobje z manj gostimi lasmi normalno."
+                },
+                {
+                    q: "Kako uporabljati šampon Watermans Grow Me?",
+                    a: "Uporabljaj ga namesto običajnega šampona in ga pred izpiranjem pusti na lasišču približno 3 minute. Najbolje deluje, če ga uporabljaš dosledno, ne le občasno."
+                },
+                {
+                    q: "Katere so glavne sestavine šampona Watermans Grow Me?",
+                    a: "Vsebuje kofein, hidrolizirani protein volčjega boba, rožmarin, biotin, niacinamid in arganovo olje, ki skupaj negujejo lasišče in lase."
+                },
+                {
+                    q: "Ali je šampon Watermans zdravilo za izpadanje las?",
+                    a: "Ne. Watermans je kozmetični izdelek, ne zdravilo za izpadanje las. Lasišču pomaga v obdobju, ko lasje znova pridobivajo gostoto."
+                },
+                {
+                    q: "Kje v Ljubljani lahko kupim šampon Watermans?",
+                    a: "Šampon Watermans lahko kupiš v salonu STATUS KAY v središču Ljubljane."
+                }
+            ]
+
+        }
+
+    },
+
+    {
+        slug: {
+            en: "nail-care-in-winter",
+            sl: "nega-nohtov-pozimi"
+        },
+
+        category: "nails",
+
+        publishAt: "2026-11-27",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: nailCareWinterBlog,
+            alt: {
+                en: "Two hands resting on a dark towel, rounded nails with a classic French manicure and neat, moisturized cuticles",
+                sl: "Dve roki na temni brisači, zaobljeni nohti s klasično French manikuro in urejeno, negovano kožico"
+            }
+        },
+
+        relatedSlug: {
+            en: "why-you-should-use-nail-oil-every-day",
+            sl: "zakaj-uporabljati-olje-za-nohte-vsak-dan"
+        },
+
+        date: {
+            en: "November 27, 2026",
+            sl: "27. november 2026"
+        },
+
+        title: {
+            en: "Nail care in winter",
+            sl: "Nega nohtov pozimi"
+        },
+
+        excerpt: {
+            en: "Cold, soap and central heating hit the skin around the nails first in winter. What actually helps, and how to pick polish for the colder months.",
+            sl: "Mraz, mila in centralno ogrevanje pozimi najprej prizadenejo kožico okoli nohtov. Kaj dejansko pomaga in kako izbrati pravi lak za hladne mesece."
+        },
+
+        body: {
+
+            en: [
+                "In winter, the first thing most people notice about their nails isn't the nails themselves – it's the skin around them getting dry, cracking, and sometimes even hurting a little. The nails themselves are often secondary, even though it's really the surrounding skin that determines how put-together a hand looks at first glance.",
+                "## Why the skin around nails suffers first",
+                "The skin on hands is among the thinnest on the body and has fewer oil glands than, say, facial skin, so it dries out faster when the surrounding air is dry – the same mechanism I covered for [hair in an earlier post](/en/blog/hair-color-longevity-all-year). Winter adds frequent handwashing and sanitizing on top of that, which dries skin further, and the skin around the nails shows it first simply because it's thinner than the skin on the palm.",
+                "## What actually helps",
+                "The single biggest thing that helps is cuticle oil applied every evening, not just once a week – followed by a hand cream or lotion afterward, which locks the moisture in. In the salon, I reach for OPI's cuticle oil – it's built around avocado oil, which genuinely nourishes the skin, plus tocotrienol, a strong antioxidant from the vitamin E family that helps restore lost moisture and lipids in dry cuticles. The difference between oil and cream is that oil penetrates deeper and stays on the skin longer, while cream mostly sits on the surface, so it's worth doing both, in that order.",
+                "For hand lotion or serum, I also reach for OPI – the formula leaves no greasy residue, so you can apply it during the day too, not just at night, while its antioxidants and ceramides reinforce the skin's protective barrier, which is exactly what skin needs in winter. The easiest way to actually stick with it is to keep the oil and lotion somewhere you'll really reach for them – on the nightstand, if that's the last thing you do before bed, or on your desk next to the screen, if you're at the office during the day.",
+                "When washing hands in winter, an alcohol-free soap helps – alcohol-based sanitizers are effective, but they dry out the skin around the nails faster than almost anything else this time of year. After sanitizing, it's worth applying hand cream occasionally through the day, not just before bed.",
+                "It's also worth starting with gloves earlier than you'd expect – before it actually gets properly cold. Even on just slightly colder mornings and evenings, gloves make a noticeable difference, because they protect the skin exactly when the cold hits hardest, before it even has a chance to dry out.",
+                "Picking at or biting the cuticle is especially risky in winter, since the skin is already more sensitive and inflames more easily. If you notice the cuticle tearing, it's better to wait for a [manicure](/en/services/nails) where it's removed properly, rather than dealing with it at home, which usually makes it worse.",
+                "## Choosing polish for the colder months",
+                "Hands are more exposed in winter – gloves, moisture, snow – so gel polish tends to last longer through this period than regular polish, since it doesn't react to moisture in the same way. On shades, I notice most clients drift toward more neutral, warm tones in winter, which still look put-together even after a rough day outdoors, while plenty of people treat themselves to something bolder for the holidays.",
+                "Whether it's a soft everyday shade or something more playful, one thing holds true either way – nails that are maintained regularly are less prone to breaking in winter, because the nail structure itself is less exposed to the sudden temperature swings between the cold outside and heating indoors."
+            ],
+
+            sl: [
+                "Pri nohtih pozimi najprej opazimo isto, kar opazimo pri koži na rokah – kožica okoli nohtov postane suha, se trga in včasih celo rahlo boli. Sami nohti so pri tem pogosto drugotnega pomena, čeprav je prav kožica tista, ki določa, kako urejena roka deluje na prvi pogled.",
+                "## Zakaj kožica pozimi najprej trpi",
+                "Koža na rokah je med najtanjšimi na telesu in ima manj lojnic kot na primer koža na obrazu, zato se hitreje posuši, ko je zrak okoli nas suh – enako kot pri laseh, o čemer sem [pisala že prej](/sl/blog/obstojnost-barve-las-cez-vse-leto). K temu pozimi dodamo še pogosto umivanje rok in razkuževanje, kar kožo dodatno izsuši, kožica okoli nohtov pa je prva, ki to pokaže, ker je tanjša od kože na dlani.",
+                "## Kaj dejansko pomaga",
+                "Največ naredi olje za kožico, naneseno vsak večer, ne le enkrat na teden – šele za njim pride krema ali losjon za roke, ki vlago zapre. Pri olju v salonu najraje stavim na OPI-jevo – v osnovi ima avokadovo olje, ki kožo dejansko hrani, in tokotrienol, močan antioksidant iz družine vitamina E, ki pomaga obnoviti izgubljeno vlago in lipide v suhi kožici. Razlika med oljem in kremo je v tem, da olje prodre globlje in ostane na koži dlje, krema pa deluje bolj na površini, zato ima smisel narediti oboje, v tem vrstnem redu.",
+                "Tudi pri losjonu ali serumu za roke stavim na OPI – formula je brez mastnih sledi, zato ga lahko namažete tudi med delom, ne le zvečer, hkrati pa z antioksidanti in keramidi okrepi zaščitno plast kože, kar je ravno to, kar koža pozimi potrebuje. Najlažje se tega držite, če si olje in losjon postavite nekam, kjer sta res pri roki – na nočno omarico, če je to zadnje, kar zvečer storite, ali na mizo zraven zaslona, če čez dan delate v pisarni.",
+                "Pri umivanju rok pozimi pomaga, če izberete milo brez alkohola – razkužila na alkoholni osnovi so sicer učinkovita, a kožo okoli nohtov izsušijo hitreje kot kateri koli drug dejavnik v tem obdobju. Po razkuževanju je smiselno roke kdaj pa kdaj namazati, ne le pred spanjem.",
+                "Smiselno je tudi, da z rokavicami začnete prej, kot bi pričakovali – še preden je zares hudo mrzlo. Že ob malce bolj mrzlih jutrih in večerih rokavice naredijo znatno razliko, ker kožo zaščitijo ravno takrat, ko mraz najbolj udari, še preden se ta sploh utegne posušiti.",
+                "Vlečenje kožice ali grizenje je pozimi še posebej problematično, ker je koža že tako bolj občutljiva in se zato lažje vname. Če opazite, da se kožica trga, je bolje počakati na [manikuro](/sl/storitve/manikura), kjer se jo odstrani pravilno, kot pa poseganje doma, ki poškodbo pogosto le poslabša.",
+                "## Izbira laka za hladne mesece",
+                "Pozimi je koža na rokah bolj izpostavljena – rokavice, vlaga, sneg – zato gel lak v tem obdobju pogosto zdrži dlje kot klasični lak, ker ne pride v stik z vlago na enak način. Pri odtenkih opažam, da se pozimi večina strank vrne k bolj nevtralnim, toplim tonom, ki delujejo urejeno tudi, ko je dan na prostem naporen za roke, medtem ko si za praznični čas marsikdo privošči kakšen bolj izstopajoč odtenek za posebno priložnost.",
+                "Ne glede na to, ali gre za nežen vsakdanji odtenek ali bolj igriv, pa drži eno – nohti, ki jih redno vzdržujete, so pozimi manj dovzetni za lomljenje, ker je sama struktura nohta manj izpostavljena nenadnim temperaturnim razlikam med zunanjim mrazom in notranjim ogrevanjem."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Why does the skin around my nails get dry and crack in winter?",
+                    a: "Skin on the hands is thin and has fewer oil glands, so it dries out quickly in cold, dry air and heated rooms. Frequent handwashing and sanitizing dry it out further, and the thin skin around the nails shows it first."
+                },
+                {
+                    q: "What is the best way to care for dry cuticles in winter?",
+                    a: "Apply cuticle oil every evening and follow it with a hand cream or lotion to lock the moisture in. Oil penetrates deeper, while cream works mostly on the surface, so using both in that order works best."
+                },
+                {
+                    q: "Does gel polish last longer than regular polish in winter?",
+                    a: "Usually yes. Gel polish doesn't react to moisture the way regular polish does, so it tends to hold up better through gloves, damp weather and snow."
+                },
+                {
+                    q: "Should I trim torn cuticles at home?",
+                    a: "It's better not to. In winter the skin is more sensitive and inflames easily, so torn cuticles are best removed properly during a manicure rather than picked or cut at home."
+                },
+                {
+                    q: "How do I book a manicure at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose your manicure and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Zakaj se kožica okoli nohtov pozimi suši in trga?",
+                    a: "Koža na rokah je tanka in ima manj lojnic, zato se v mrzlem, suhem zraku in ogrevanih prostorih hitro izsuši. Pogosto umivanje in razkuževanje rok jo izsušita še dodatno, kožica okoli nohtov pa to pokaže prva."
+                },
+                {
+                    q: "Kako najbolje negovati suho kožico okoli nohtov pozimi?",
+                    a: "Vsak večer nanesi olje za kožico, nato pa še kremo ali losjon za roke, ki vlago zapre. Olje prodre globlje, krema deluje bolj na površini, zato je najbolje uporabiti oboje, v tem vrstnem redu."
+                },
+                {
+                    q: "Ali gel lak pozimi zdrži dlje kot klasični lak?",
+                    a: "Običajno da. Gel lak se na vlago ne odziva tako kot klasični lak, zato bolje zdrži rokavice, vlažno vreme in sneg."
+                },
+                {
+                    q: "Ali naj natrgano kožico odstranim doma?",
+                    a: "Raje ne. Pozimi je koža bolj občutljiva in se hitreje vname, zato je natrgano kožico bolje pravilno odstraniti pri manikuri kot pa jo vleči ali striči doma."
+                },
+                {
+                    q: "Kako se naročim na manikuro v STATUS KAY?",
+                    a: "Termin si rezerviraš na spletu prek sistema Fresha, kjer izbereš manikuro in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
+
+    {
+        slug: {
+            en: "hair-color-longevity-all-year",
+            sl: "obstojnost-barve-las-cez-vse-leto"
+        },
+
+        category: "haircuts",
+
+        publishAt: "2026-11-20",
+
+        // Shows a "Naroči se" / "Book Now" Fresha button after the text.
+        bookingButton: true,
+
+        image: {
+            src: colorLongevityBlog,
+            alt: {
+                en: "Freshly colored copper-red layered bob from behind, blow-dried with soft volume at the salon",
+                sl: "Sveže pobarvan bakreno rdeč stopničast bob od zadaj, feniran z mehkim volumnom v salonu"
+            }
+        },
+
+        relatedSlug: {
+            en: "why-hair-color-fades-too-fast",
+            sl: "zakaj-barva-za-lase-prehitro-zbledi"
+        },
+
+        date: {
+            en: "November 20, 2026",
+            sl: "20. november 2026"
+        },
+
+        title: {
+            en: "Color longevity isn't just a summer concern",
+            sl: "Obstojnost barve las ni le poletna skrb"
+        },
+
+        excerpt: {
+            en: "Many people only protect colored hair in summer – but dry winter heating air does just as much damage. What affects color longevity all year.",
+            sl: "Barvo las marsikdo ščiti le poleti zaradi sonca – a pozimi ji prav toliko škoduje suh zrak iz ogrevanja. Kaj vpliva na obstojnost barve čez leto."
+        },
+
+        body: {
+
+            en: [
+                "Plenty of clients ask about protecting colored hair before summer – a UV-filter spray, a shampoo for after the sea. That's the right instinct, but it only covers half the year. The other half has its own cause, one that rarely gets mentioned because it doesn't look dangerous – dry air from radiators.",
+                "## Summer isn't the only cause",
+                "Sun genuinely breaks down pigment inside the hair, pool chlorine alters it (often into a greenish cast on blonde tones), and seawater dries hair out, which rinses pigment out faster. On top of that, summer usually means washing more often – sweat, travel, time outdoors – which wears color down further. All of that is real, and worth protecting against.",
+                "## Winter has a different mechanism at work",
+                "In winter there's barely any sun, so plenty of people quietly stop using protective products – but that's exactly when dry air from central heating pulls moisture from hair and lifts the cuticle, giving pigment an easier way out. Add in hotter showers, which most people take unconsciously in winter because they feel good on a cold day, and the cuticle opens even further. The mechanism is different from summer, but the effect on how long color lasts is the same.",
+                "## Why this is worth knowing",
+                "The mistake isn't neglecting color – it's treating protection as something you switch on for summer and off for the rest of the year. Colored hair is never fully \"safe\" – only the reason it fades changes with the season. Knowing that makes it easier to adjust care accordingly, instead of wondering every autumn why color doesn't hold up the way it did in summer.",
+                "## What actually helps, all year round",
+                "The baseline stays the same regardless of season – a quality shampoo that's gentle on hair and kind to color (it's worth skipping supermarket shampoos), a good conditioner, every so often a mask you leave on longer, and water that's as cool as you can stand. What changes is what you add on top: a UV-protective product before and after sun or sea in summer, consistent moisture for hair and scalp in winter, since dry air works on it all day rather than in one single exposure.",
+                "[Toning](/en/services/toning) or a color refresh on a roughly six-week cycle helps the same way year-round, because it catches fading before it becomes noticeable – whether the cause is the sun or the radiator."
+            ],
+
+            sl: [
+                "Veliko strank pred poletjem vpraša po zaščiti za barvane lase – pršilu z UV filtrom, šamponu po kopanju v morju. To je prav, a za barvo poskrbi le polovico leta. Druga polovica ima svoj vzrok, ki ga redkokdo pomisli omeniti, ker ne izgleda nevarno – suh zrak iz radiatorjev.",
+                "## Poletje ni edini vzrok",
+                "Sonce dejansko razbija barvni pigment v lasu, klor v bazenu ga spremeni (pri blond odtenkih pogosto v zelenkast preliv), morska voda pa lase izsuši, kar pigment izpira hitreje. K temu poleti dodamo še pogostejše umivanje – zaradi znoja, potovanj, dni na prostem – kar barvo dodatno obrablja. Vse to je resnično in vredno zaščite.",
+                "## Pozimi deluje druga sila",
+                "Pozimi sonca skorajda ni, zato se marsikdo odpočije od zaščitnih izdelkov – a prav takrat suh zrak iz centralnega ogrevanja lasu jemlje vlago in dvigne kutikulo, kar pigmentu olajša pot iz lasu. K temu pogosto dodamo še vročo vodo, ki si jo pozimi nezavedno privoščimo bolj, ker je prijetna na mrzel dan, a prav ta vročina kutikulo odpre še dodatno. Mehanizem je torej drugačen kot poleti, učinek na obstojnost barve pa enak.",
+                "## Zakaj je to vedeti pomembno",
+                "Napaka ni v tem, da bi kdo zanemarjal barvo – je v tem, da si zaščito predstavljamo kot nekaj, kar vklopimo poleti in izklopimo preostanek leta. Barva las pravzaprav nikoli ni popolnoma \"varna\" – le razlog, zakaj bledi, se skozi leto spreminja. Kdor to ve, lažje prilagodi nego, namesto da se vsako jesen znova sprašuje, zakaj barva ne zdrži tako dolgo kot poleti.",
+                "## Kaj dejansko pomaga skozi vse leto",
+                "Osnova je enaka ne glede na sezono – kakovosten šampon, ki je nežen do las in prijazen barvi (trgovinskim šamponom se je bolje izogniti), dober balzam, vsake toliko maska, ki jo pustiš na laseh dlje, in voda, ki ni prevroča, kolikor je le mogoče vzdržati. Razlika je v tem, kaj temu dodamo: poleti izdelek z UV zaščito pred in po soncu ali morju, pozimi redno vlaženje las in lasišča, ker suh zrak deluje ves dan, ne le ob enkratni izpostavljenosti.",
+                "[Toniranje](/sl/storitve/toniranje) ali osvežitev barve v približno šesttedenskih ciklih pomaga skozi vse leto enako, ker ujame bledenje, preden postane opazno – ne glede na to, ali je vzrok sonce ali radiator."
+            ]
+
+        },
+
+        faq: {
+
+            en: [
+                {
+                    q: "Why does hair color fade faster in winter?",
+                    a: "Dry air from central heating pulls moisture out of the hair and lifts the cuticle, which lets color pigment escape more easily. Hotter showers in cold weather open the cuticle even further."
+                },
+                {
+                    q: "Do I need to protect colored hair outside of summer?",
+                    a: "Yes. In summer the main causes of fading are sun, chlorine and seawater; in winter it's dry heated air and hot water. The cause changes with the season, but colored hair needs care all year."
+                },
+                {
+                    q: "What helps colored hair last longer all year round?",
+                    a: "The baseline is a quality shampoo that's gentle on hair and kind to color, a good conditioner, a mask left on longer every so often, and water that isn't too hot. Add UV protection in summer and regular moisture for hair and scalp in winter."
+                },
+                {
+                    q: "How often should I refresh or tone my hair color?",
+                    a: "Roughly every six weeks. Toning or a color refresh at that interval catches fading before it becomes noticeable, whatever the season."
+                },
+                {
+                    q: "How do I book a toning appointment at STATUS KAY?",
+                    a: "Appointments are booked online through Fresha, where you can choose the toning or color refresh service and a time that suits you."
+                }
+            ],
+
+            sl: [
+                {
+                    q: "Zakaj barva las pozimi hitreje zbledi?",
+                    a: "Suh zrak iz centralnega ogrevanja lasem jemlje vlago in dvigne kutikulo, zato barvni pigment lažje uide iz lasu. Vroča voda, ki si jo pozimi privoščimo pogosteje, kutikulo odpre še dodatno."
+                },
+                {
+                    q: "Ali moram barvane lase ščititi tudi izven poletja?",
+                    a: "Da. Poleti barvo najbolj obrabljajo sonce, klor in morska voda, pozimi pa suh zrak iz ogrevanja in vroča voda. Vzrok se skozi leto spreminja, nega barvanih las pa je potrebna ves čas."
+                },
+                {
+                    q: "Kaj pomaga, da barva las zdrži dlje čez vse leto?",
+                    a: "Osnova so kakovosten šampon, ki je nežen do las in prijazen barvi, dober balzam, vsake toliko maska, ki jo pustiš na laseh dlje, in voda, ki ni prevroča. Poleti dodaj izdelek z UV zaščito, pozimi pa redno vlaženje las in lasišča."
+                },
+                {
+                    q: "Kako pogosto je dobro osvežiti ali tonirati barvo las?",
+                    a: "Približno vsakih šest tednov. Toniranje ali osvežitev barve v tem ritmu ujame bledenje, preden postane opazno, ne glede na letni čas."
+                },
+                {
+                    q: "Kako se naročim na toniranje v STATUS KAY?",
+                    a: "Termin si rezerviraš na spletu prek sistema Fresha, kjer izbereš toniranje ali osvežitev barve in čas, ki ti ustreza."
+                }
+            ]
+
+        }
+
+    },
 
     {
         slug: {

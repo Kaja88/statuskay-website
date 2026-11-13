@@ -5,6 +5,10 @@
 // loaded bundle instead of staying inside the lazy-loaded Blog/BlogPost
 // route chunks.
 export const blogSlugs = [
+    { en: "passion-for-hairdressing", sl: "strast-do-frizerstva" },
+    { en: "thinner-hair-after-autumn-shedding", sl: "manj-gosti-lasje-watermans-sampon" },
+    { en: "nail-care-in-winter", sl: "nega-nohtov-pozimi" },
+    { en: "hair-color-longevity-all-year", sl: "obstojnost-barve-las-cez-vse-leto" },
     { en: "ljubljana-in-november", sl: "kam-v-ljubljani-novembra" },
     { en: "how-to-blow-dry-hair-at-home", sl: "fen-frizura-doma" },
     { en: "ljubljana-in-october", sl: "jesen-v-ljubljani" },
